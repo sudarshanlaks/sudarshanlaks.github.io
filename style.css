@@ -133,3 +133,12 @@ ol.steps table { margin: 0.75rem 0; }
 section .kpis { margin-top: 0.5rem; }
 .dash + .prose, .kpis + .dash { margin-top: 1.5rem; }
 @media (max-width: 40rem) { ol.steps > li { padding-left: 2.25rem; } }
+
+/* home page: project list with thumbnails */
+.hero { padding: 3rem 0 0.5rem; }
+.hero .lead { margin-bottom: 0; }
+.project .thumb { display: block; border: 1px solid var(--rule); background: var(--surface); overflow: hidden; }
+.project .thumb img { display: block; width: 100%; height: 11rem; object-fit: cover; object-position: top left; }
+.project .tools { margin: 0; }
+@media (min-width: 52rem) { .project { grid-template-columns: 17rem 1fr; gap: 0.5rem 2.25rem; } }
+.project h3 { margin-bottom: 0.5rem; }

@@ -28,28 +28,24 @@
   <div class="hero">
     <div class="wrap">
       <h1>Demand planning and supply chain analytics</h1>
-      <p class="lead">I'm a demand planning analyst in the Amsterdam area. Each project here uses a synthetic FMCG dataset and comes with the Python, Excel and dashboard files to download.</p>
+      <p class="lead">I'm a demand planning analyst in the Amsterdam area. Each project below is an FMCG case study on synthetic data, with the Python, Excel and dashboard files to download.</p>
 
-      <figure class="chart-wrap">
-        <svg id="hero-chart" viewBox="0 0 1000 380" role="img" aria-label="Line chart of monthly demand from January 2024 to September 2026. Actual demand rises from 574 thousand to 696 thousand units and runs above the consensus forecast in most months, with the largest gaps every November."></svg>
-        <noscript><p class="muted">Chart: monthly demand, actual against consensus forecast, 2024 to 2026.</p></noscript>
-        <figcaption>Monthly demand across 40 SKUs and 3 channels, actual against the planner's consensus forecast, in thousands of units. The shaded area is the forecast error. Synthetic data from the forecast accuracy project.</figcaption>
-      </figure>
     </div>
   </div>
 
   <section id="projects">
     <div class="wrap">
-      <h2>Projects</h2>
+      <h2>Portfolio projects</h2>
       <ul class="projects">
         <!-- ADD A NEW PROJECT: copy this whole <li> block, paste it below, change the text and the link. -->
         <li class="project">
-          <h3><a href="project1/">Forecast accuracy</a></h3>
+          <a class="thumb" href="project1/" tabindex="-1" aria-hidden="true"><img src="project1/dashboard_preview.png" alt="" loading="lazy"></a>
           <div>
+            <h3><a href="project1/">Forecast accuracy</a></h3>
             <p>How accurate are the statistical and planner forecasts, and does the planner's adjustment help? Measured with WAPE, bias and forecast value add across 40 SKUs and 3 channels.</p>
             <p class="result">Consensus WAPE 16.2%. Forecast value add −0.4 points.</p>
+            <p class="tools">Python, Excel, interactive dashboard. <a href="project1/">View project</a></p>
           </div>
-          <p class="tools">Python, Excel, interactive dashboard<br><a href="project1/">View project</a></p>
         </li>
       </ul>
     </div>
@@ -88,38 +84,5 @@
   <div class="wrap">All data in these projects is synthetic and uses fictional brands. No employer data is used.</div>
 </footer>
 
-<script>
-(function () {
-  // [month, actual (thousand units), consensus forecast (thousand units)] from the forecast accuracy project
-  var d = [["2024-01",573.9,576.2],["2024-02",595.7,563.7],["2024-03",595.1,579.0],["2024-04",602.6,586.7],["2024-05",608.1,586.7],["2024-06",636.4,587.3],["2024-07",614.0,591.5],["2024-08",599.3,599.6],["2024-09",596.3,603.7],["2024-10",618.9,595.4],["2024-11",686.2,618.3],["2024-12",608.3,604.2],["2025-01",616.3,613.6],["2025-02",613.8,628.7],["2025-03",632.2,628.3],["2025-04",654.8,621.2],["2025-05",641.4,630.3],["2025-06",644.8,644.9],["2025-07",662.6,646.3],["2025-08",643.5,631.9],["2025-09",643.5,631.7],["2025-10",635.6,647.4],["2025-11",713.0,682.4],["2025-12",640.4,646.4],["2026-01",644.0,648.8],["2026-02",663.2,648.7],["2026-03",706.1,667.2],["2026-04",698.0,671.2],["2026-05",693.4,673.7],["2026-06",684.4,673.7],["2026-07",685.3,690.0],["2026-08",699.5,677.9],["2026-09",695.6,682.3]];
-  var W = 1000, H = 380, L = 52, R = 92, T = 16, B = 34, YMIN = 540, YMAX = 740;
-  var n = d.length;
-  function x(i) { return L + i * (W - L - R) / (n - 1); }
-  function y(v) { return T + (YMAX - v) / (YMAX - YMIN) * (H - T - B); }
-  function pts(k) { return d.map(function (r, i) { return x(i).toFixed(1) + "," + y(r[k]).toFixed(1); }); }
-  var a = pts(1), f = pts(2);
-  var out = "";
-  [550, 600, 650, 700].forEach(function (v) {
-    out += '<line class="grid" x1="' + L + '" x2="' + (W - R) + '" y1="' + y(v) + '" y2="' + y(v) + '"/>';
-    out += '<text class="tick" x="' + (L - 8) + '" y="' + (y(v) + 4) + '" text-anchor="end">' + v + 'k</text>';
-  });
-  var mn = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-  d.forEach(function (r, i) {
-    var m = parseInt(r[0].slice(5), 10);
-    if (m === 1 || m === 7) {
-      out += '<text class="tick" x="' + x(i) + '" y="' + (H - 8) + '" text-anchor="middle">' + mn[m - 1] + " " + r[0].slice(2, 4) + '</text>';
-    }
-  });
-  out += '<polygon class="gap" points="' + f.join(" ") + " " + a.slice().reverse().join(" ") + '"/>';
-  out += '<polyline class="actual" points="' + a.join(" ") + '"/>';
-  out += '<polyline class="fc" pathLength="1" points="' + f.join(" ") + '"/>';
-  var last = n - 1;
-  out += '<text class="lbl" x="' + (x(last) + 10) + '" y="' + (y(d[last][1]) - 2) + '" fill="var(--ink)">Actual</text>';
-  out += '<text class="lbl" x="' + (x(last) + 10) + '" y="' + (y(d[last][2]) + 16) + '" fill="var(--forecast)">Forecast</text>';
-  var nov = 22;
-  out += '<text class="note" x="' + x(nov) + '" y="' + (y(d[nov][1]) - 12) + '" text-anchor="middle">November 2025: 713k actual, 682k forecast</text>';
-  document.getElementById("hero-chart").innerHTML = out;
-})();
-</script>
 </body>
 </html>
