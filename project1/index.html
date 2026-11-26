@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forecast accuracy - Sudarshan Lakshmi Narayanan</title>
+<meta name="description" content="Forecast accuracy for an FMCG portfolio: WAPE, bias and forecast value add for statistical and planner forecasts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="../">Sudarshan Lakshmi Narayanan</a>
+    <nav aria-label="Main">
+      <a href="../#projects">Projects</a>
+      <a href="../#about">About</a>
+      <a href="../#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <p class="crumb"><a href="../#projects">All projects</a></p>
+
+    <div class="page-head">
+      <h1>Forecast accuracy</h1>
+      <p class="lead">Does the planner's adjustment make the statistical forecast better or worse? An FMCG case study with synthetic data.</p>
+      <dl class="facts" style="margin-top:1.25rem">
+        <dt>Tools</dt><dd>Python (pandas), Excel, interactive dashboard built with Claude</dd>
+        <dt>Data</dt><dd>40 SKUs, 3 channels, monthly, 2023 to 2026. Synthetic, fictional brands.</dd>
+      </dl>
+    </div>
+
+    <section id="problem">
+      <h2>Problem statement</h2>
+      <p>A fictional FMCG company sells 40 products in four categories (Personal Care, Home Care, Food, Beverages) through three channels (Modern Trade, Discounters, E-commerce). Every month the demand planners produce a statistical forecast, then adjust it by hand to create the consensus forecast that goes into the S&amp;OP meeting.</p>
+      <p>Supply and finance cannot answer three questions:</p>
+      <ol class="plain">
+        <li>How accurate are the forecasts, and do they miss too high or too low?</li>
+        <li>Which categories, channels and SKUs are the biggest problem?</li>
+        <li>Is the planners' manual adjustment improving the statistical forecast, or wasting time?</li>
+      </ol>
+    </section>
+
+    <section id="approach">
+      <h2>Our approach</h2>
+      <ol class="steps">
+        <li>
+          <h3>Load the data</h3>
+          <p>Read <code>demand_monthly.csv</code> (5,400 rows: one per SKU, channel and month, April 2023 to December 2026) and the product master <code>products.csv</code>. Each row holds actual sales, the statistical forecast and the planner consensus forecast, made one month ahead.</p>
+        </li>
+        <li>
+          <h3>Clean and check</h3>
+          <p>Checked for duplicate keys, missing forecasts, negative values and SKUs missing from the product master: none found. Removed the 360 rows for October to December 2026, which have forecasts but no actual sales yet. Kept 2023 as history for the models and scored from January 2024, which leaves 3,960 rows. Joined the SKU description and ABC class from the product master.</p>
+        </li>
+        <li>
+          <h3>Create the KPIs</h3>
+          <p>Calculated the forecast error for every row, then rolled it up by category, channel, month and SKU.</p>
+          <table>
+            <thead><tr><th>KPI</th><th>Formula</th><th>Reads as</th></tr></thead>
+            <tbody>
+              <tr><td>WAPE</td><td>sum of absolute errors / sum of actual sales</td><td>Lower is better</td></tr>
+              <tr><td>Bias</td><td>sum of (forecast - actual) / sum of actual sales</td><td>Above 0 is over-forecast</td></tr>
+              <tr><td>Forecast value add</td><td>statistical WAPE - consensus WAPE</td><td>Above 0 means the adjustment helped</td></tr>
+            </tbody>
+          </table>
+          <p>WAPE is weighted by volume, so small SKUs cannot distort the result the way they do in MAPE.</p>
+        </li>
+        <li>
+          <h3>Validate in Excel</h3>
+          <p>Rebuilt every KPI in an Excel workbook with live formulas on the same data (16,367 formulas, no errors). The Excel results match the Python results exactly.</p>
+        </li>
+        <li>
+          <h3>Build the dashboard</h3>
+          <p>One page that answers the three questions: four KPI tiles, error by category and by month, bias by category, and the ten worst SKUs. Channel and category filters recalculate every number, and each chart has a table view. The data sits inside the page, so it works without a server.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="result">
+      <h2>Result</h2>
+      <dl class="kpis">
+        <div><dt>Statistical WAPE</dt><dd>15.8%</dd></div>
+        <div><dt>Consensus WAPE</dt><dd>16.2%</dd></div>
+        <div><dt>Forecast value add</dt><dd class="bad">−0.4 pts</dd></div>
+        <div><dt>Consensus bias</dt><dd>−2.2%</dd></div>
+      </dl>
+
+      <div class="dash">
+        <p><a href="forecast_accuracy_dashboard.html">Open the interactive dashboard</a>, with channel and category filters, or <a href="forecast_accuracy_dashboard.pdf">download it as a PDF</a>.</p>
+        <a href="forecast_accuracy_dashboard.html"><img src="dashboard_preview.png" alt="Forecast accuracy dashboard: four KPI tiles, error by category, error by month, consensus bias by category and the ten SKUs with the highest error." width="1280" height="1624"></a>
+      </div>
+
+      <div class="prose">
+        <h3>What the data shows</h3>
+        <ul>
+          <li>The planner adjustment adds no value overall. Consensus error is 16.2% against 15.8% for the statistical forecast, so forecast value add is −0.4 points.</li>
+          <li>Food is over-forecast by 4.9%, and the consensus is 1.5 points worse than the statistical forecast. This is where the adjustment hurts most.</li>
+          <li>Beverages are under-forecast by 8.0% and have the highest error at 20.6%, because of summer peaks. The five worst SKUs are all low-volume beverages, led by orange juice at 23.2%.</li>
+          <li>E-commerce is the hardest channel: 18.5% error and 7.7% under-forecast, with promotion and November peaks.</li>
+        </ul>
+
+        <table>
+          <caption class="muted" style="text-align:left;caption-side:bottom;padding-top:0.5rem">Consensus forecast, January 2024 to September 2026</caption>
+          <thead><tr><th>Category</th><th class="n">WAPE</th><th class="n">Bias</th><th class="n">Forecast value add</th></tr></thead>
+          <tbody>
+            <tr><td>Beverages</td><td class="n">20.6%</td><td class="n">−8.0%</td><td class="n">−0.4 pts</td></tr>
+            <tr><td>Food</td><td class="n">17.0%</td><td class="n">+4.9%</td><td class="n">−1.5 pts</td></tr>
+            <tr><td>Home Care</td><td class="n">15.0%</td><td class="n">−5.0%</td><td class="n">+0.2 pts</td></tr>
+            <tr><td>Personal Care</td><td class="n">15.9%</td><td class="n">0.0%</td><td class="n">−0.5 pts</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Recommendation</h3>
+        <p>Stop the manual adjustment on Food and Beverages unless the planner has new information, such as a promotion or a listing change. Review the Beverages seasonal profile, the largest source of under-forecasting.</p>
+      </div>
+    </section>
+
+    <section id="files">
+      <h2>Files</h2>
+      <ul class="links">
+        <li><a href="forecast_accuracy_dashboard.html">Interactive dashboard</a></li>
+        <li><a href="forecast_accuracy_dashboard.pdf">Dashboard (PDF)</a></li>
+        <li><a href="forecast_accuracy_workbook.xlsx">Excel workbook</a></li>
+        <li><a href="forecast_accuracy.py">Python script</a></li>
+        <li><a href="fact_forecast_accuracy.csv">Fact table (CSV)</a></li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">All data in this project is synthetic and uses fictional brands. No employer data is used.</div>
+</footer>
+</body>
+</html>
