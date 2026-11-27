@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forecasting models - Sudarshan Lakshmi Narayanan</title>
+<meta name="description" content="Forecasting models for an FMCG portfolio: five simple methods compared with the current statistical forecast using a rolling one-month-ahead test.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="../">Sudarshan Lakshmi Narayanan</a>
+    <nav aria-label="Main">
+      <a href="../#projects">Projects</a>
+      <a href="../#about">About</a>
+      <a href="../#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <p class="crumb"><a href="../#projects">All projects</a></p>
+
+    <div class="page-head">
+      <h1>Forecasting models</h1>
+      <p class="lead">Can a simple forecasting method beat the forecast the planners use today? An FMCG case study with synthetic data.</p>
+      <dl class="facts" style="margin-top:1.25rem">
+        <dt>Tools</dt><dd>Python (pandas), Excel, interactive dashboard built with Claude</dd>
+        <dt>Data</dt><dd>40 SKUs, 3 channels, monthly, 2023 to 2026. Synthetic, fictional brands.</dd>
+      </dl>
+    </div>
+
+    <section id="problem">
+      <h2>Problem statement</h2>
+      <p>A fictional FMCG company forecasts demand for 40 products in four categories through three channels. The planners start from a statistical forecast, which blends the recent average with the same month last year. Management wants to know whether that forecast is worth its complexity, or whether a simpler method would do as well or better.</p>
+      <p>The questions to answer:</p>
+      <ol class="plain">
+        <li>Does the current forecast beat a naive baseline that simply repeats last month's sales?</li>
+        <li>Does any simple alternative method beat the current forecast, overall or in a single category?</li>
+        <li>Which method should each category use?</li>
+      </ol>
+    </section>
+
+    <section id="approach">
+      <h2>Our approach</h2>
+      <ol class="steps">
+        <li>
+          <h3>Load the data</h3>
+          <p>Read <code>demand_monthly.csv</code> (5,400 rows: one per SKU, channel and month, April 2023 to December 2026) and the product master <code>products.csv</code>. Each row holds actual sales plus the current statistical forecast and the planner consensus forecast.</p>
+        </li>
+        <li>
+          <h3>Clean and check</h3>
+          <p>Checked for duplicate keys, missing forecasts, negative values and SKUs missing from the product master: none found. Removed the 360 rows for October to December 2026, which have no actual sales yet, leaving 5,040 rows. The test starts in January 2025, because the seasonal methods need at least 12 months of history. That gives 2,520 test rows: 120 SKU-channel series over 21 months.</p>
+        </li>
+        <li>
+          <h3>Build the forecasting methods</h3>
+          <p>Wrote five simple methods in Python. Each one forecasts a month using only the months before it, so nothing from the future leaks in. The current statistical and consensus forecasts are taken from the data for comparison.</p>
+          <table>
+            <thead><tr><th>Method</th><th>How it forecasts next month</th></tr></thead>
+            <tbody>
+              <tr><td>Naive</td><td>Same as last month</td></tr>
+              <tr><td>Seasonal naive</td><td>Same as the same month last year</td></tr>
+              <tr><td>3-month moving average</td><td>Average of the last 3 months</td></tr>
+              <tr><td>Exponential smoothing</td><td>Weighted average that favours recent months (alpha 0.3)</td></tr>
+              <tr><td>Seasonal exponential smoothing</td><td>Remove the yearly pattern, smooth, put the pattern back</td></tr>
+            </tbody>
+          </table>
+        </li>
+        <li>
+          <h3>Create the KPIs</h3>
+          <p>Calculated WAPE (total absolute error divided by total actual sales) and bias for every method, overall and by category. Forecast value add against the naive baseline is the naive WAPE minus the method's WAPE, so above zero means better than repeating last month. For each category, the best simple method is compared with the current forecast.</p>
+        </li>
+        <li>
+          <h3>Validate in Excel</h3>
+          <p>Rebuilt every WAPE and bias figure in an Excel workbook with live formulas on the same data (93 formulas, no errors). The Excel results match the Python results exactly.</p>
+        </li>
+        <li>
+          <h3>Build the dashboard</h3>
+          <p>One page that answers the three questions: four KPI tiles, error by method, a heatmap of method against category, error by month, and the best simple method per category. Channel and category filters recalculate every number.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="result">
+      <h2>Result</h2>
+      <dl class="kpis">
+        <div><dt>Naive baseline WAPE</dt><dd>19.0%</dd></div>
+        <div><dt>Current statistical WAPE</dt><dd>15.6%</dd></div>
+        <div><dt>Best simple method, overall</dt><dd>16.0%</dd></div>
+        <div><dt>Seasonal smoothing gain in Beverages</dt><dd>+2.6 pts</dd></div>
+      </dl>
+
+      <div class="dash">
+        <p><a href="forecasting_models_dashboard.html">Open the interactive dashboard</a>, with channel and category filters, or <a href="forecasting_models_dashboard.pdf">download it as a PDF</a>.</p>
+        <a href="forecasting_models_dashboard.html"><img src="dashboard_preview.png" alt="Forecasting models dashboard: four KPI tiles, error by method, a heatmap of method against category, error by month and the best simple method per category." width="1280" height="1377"></a>
+      </div>
+
+      <div class="prose">
+        <h3>What the data shows</h3>
+        <ul>
+          <li>The current statistical forecast earns its place. Its error is 15.6% against 19.0% for the naive baseline, 3.4 points better.</li>
+          <li>No simple method beats it overall. The closest is exponential smoothing at 16.0%.</li>
+          <li>Beverages are the exception. Seasonal exponential smoothing has 16.8% error against 19.4% for the current forecast, because Beverages have a strong summer pattern that the other methods miss.</li>
+          <li>In Food, Home Care and Personal Care the best simple method is within 0.5 points of the current forecast, so switching would gain little.</li>
+        </ul>
+
+        <table>
+          <caption class="muted" style="text-align:left;caption-side:bottom;padding-top:0.5rem">One-month-ahead test, January 2025 to September 2026, all categories and channels</caption>
+          <thead><tr><th>Method</th><th class="n">WAPE</th><th class="n">Bias</th><th class="n">Value add vs naive</th></tr></thead>
+          <tbody>
+            <tr><td>Current statistical forecast</td><td class="n">15.6%</td><td class="n">−3.5%</td><td class="n">+3.4 pts</td></tr>
+            <tr><td>Exponential smoothing</td><td class="n">16.0%</td><td class="n">−1.6%</td><td class="n">+2.9 pts</td></tr>
+            <tr><td>Consensus (planner adjusted)</td><td class="n">16.1%</td><td class="n">−1.6%</td><td class="n">+2.9 pts</td></tr>
+            <tr><td>Seasonal exponential smoothing</td><td class="n">16.9%</td><td class="n">−4.4%</td><td class="n">+2.0 pts</td></tr>
+            <tr><td>3-month moving average</td><td class="n">17.1%</td><td class="n">−0.9%</td><td class="n">+1.8 pts</td></tr>
+            <tr><td>Naive (last month)</td><td class="n">19.0%</td><td class="n">−0.6%</td><td class="n">0.0 pts</td></tr>
+            <tr><td>Seasonal naive</td><td class="n">19.0%</td><td class="n">−5.9%</td><td class="n">−0.1 pts</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Recommendation</h3>
+        <p>Switch Beverages to seasonal exponential smoothing and keep the current forecast for the other categories.</p>
+
+        <h3>Limitations</h3>
+        <p>The best method per category was chosen on the same 21 test months, so it should be confirmed on the next three months before it is rolled out. The test period starts in January 2025, so the current forecast shows 15.6% here against 15.8% in the <a href="../project1/">forecast accuracy project</a>, which scores from January 2024.</p>
+      </div>
+    </section>
+
+    <section id="files">
+      <h2>Files</h2>
+      <ul class="links">
+        <li><a href="forecasting_models_dashboard.html">Interactive dashboard</a></li>
+        <li><a href="forecasting_models_dashboard.pdf">Dashboard (PDF)</a></li>
+        <li><a href="forecasting_models_workbook.xlsx">Excel workbook</a></li>
+        <li><a href="forecasting_models.py">Python script</a></li>
+        <li><a href="fact_forecast_methods.csv">Fact table (CSV)</a></li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">All data in this project is synthetic and uses fictional brands. No employer data is used.</div>
+</footer>
+</body>
+</html>
