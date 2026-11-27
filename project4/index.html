@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OTIF and supplier performance - Sudarshan Lakshmi Narayanan</title>
+<meta name="description" content="OTIF and supplier delivery performance for an FMCG portfolio: on-time, in-full and overdue purchase orders across 8 suppliers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="../">Sudarshan Lakshmi Narayanan</a>
+    <nav aria-label="Main">
+      <a href="../#projects">Projects</a>
+      <a href="../#about">About</a>
+      <a href="../#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <p class="crumb"><a href="../#projects">All projects</a></p>
+
+    <div class="page-head">
+      <h1>OTIF and supplier delivery performance</h1>
+      <p class="lead">Which suppliers deliver on time and in full, and which ones keep us from the 95% target? A purchase order case study with synthetic data.</p>
+      <dl class="facts" style="margin-top:1.25rem">
+        <dt>Tools</dt><dd>Python (pandas), Excel, interactive dashboard built with Claude</dd>
+        <dt>Data</dt><dd>1,319 purchase order lines, 8 suppliers, 40 SKUs, 2024 to 2026. Synthetic, fictional suppliers.</dd>
+      </dl>
+    </div>
+
+    <section id="problem">
+      <h2>Problem statement</h2>
+      <p>A fictional FMCG company buys its products from eight suppliers. The target is that 95% of purchase order lines arrive on time and in full (OTIF). When a delivery is late or short, the demand planner has to fix the gap, so supplier reliability feeds directly into planning.</p>
+      <p>The questions to answer:</p>
+      <ol class="plain">
+        <li>What is our OTIF today, and is it improving?</li>
+        <li>Which suppliers are holding us back from the target?</li>
+        <li>Are deliveries mostly late or mostly short?</li>
+        <li>Which purchase orders are overdue right now?</li>
+      </ol>
+    </section>
+
+    <section id="approach">
+      <h2>Our approach</h2>
+      <ol class="steps">
+        <li>
+          <h3>Load the data</h3>
+          <p>Read <code>purchase_orders.csv</code> (1,319 lines in 264 purchase orders, placed from January 2024 to September 2026) and the product master <code>products.csv</code>. Each line holds the supplier, the SKU, the order date, the promised date, the received date, the ordered quantity and the received quantity.</p>
+        </li>
+        <li>
+          <h3>Clean and check</h3>
+          <p>The file contains the kind of errors a real purchase order export has, so it needed cleaning:</p>
+          <table>
+            <thead><tr><th>Problem found</th><th>Lines</th><th>What we did</th></tr></thead>
+            <tbody>
+              <tr><td>Duplicate lines</td><td class="n">10</td><td>Removed</td></tr>
+              <tr><td>Received before it was ordered</td><td class="n">5</td><td>Left out of the KPIs, listed in an exceptions file</td></tr>
+              <tr><td>Received but no quantity</td><td class="n">7</td><td>Left out of the KPIs, listed in an exceptions file</td></tr>
+              <tr><td>Not received yet</td><td class="n">70</td><td>Kept for the open order view</td></tr>
+            </tbody>
+          </table>
+          <p>No supplier or SKU was missing. That leaves 1,227 received lines for the KPIs. The errors were added on purpose when the synthetic file was created, to show the cleaning step.</p>
+        </li>
+        <li>
+          <h3>Create the KPIs</h3>
+          <p>For every received line, in Python:</p>
+          <table>
+            <thead><tr><th>KPI</th><th>How it is calculated</th></tr></thead>
+            <tbody>
+              <tr><td>On time</td><td>Received on or before the promised date</td></tr>
+              <tr><td>In full</td><td>Received quantity at least the ordered quantity</td></tr>
+              <tr><td>OTIF</td><td>On time and in full</td></tr>
+              <tr><td>Days late</td><td>Received date minus promised date, for late lines</td></tr>
+            </tbody>
+          </table>
+        </li>
+        <li>
+          <h3>Build the supplier scorecard</h3>
+          <p>Grouped the lines by supplier, by promised month and by category, compared each supplier with the 95% target, and split every missed line into late only, short only or both. Also listed the open purchase orders and how many days overdue they are at 30 September 2026.</p>
+        </li>
+        <li>
+          <h3>Validate in Excel</h3>
+          <p>Rebuilt the KPIs in an Excel workbook with live formulas on the same lines (6,587 formulas, no errors). The Excel results match the Python results for every supplier and month.</p>
+        </li>
+        <li>
+          <h3>Build the dashboard</h3>
+          <p>One page with four KPI tiles, OTIF by month against the target, OTIF by supplier, the reasons lines miss OTIF and the open purchase orders. Period, supplier and category filters recalculate every number.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="result">
+      <h2>Result</h2>
+      <dl class="kpis">
+        <div><dt>OTIF, all suppliers</dt><dd>86.2%</dd></div>
+        <div><dt>Target</dt><dd>95%</dd></div>
+        <div><dt>OTIF, Kestrel Ingredients</dt><dd>61.3%</dd></div>
+        <div><dt>Overdue open orders</dt><dd>EUR 585k</dd></div>
+      </dl>
+
+      <div class="dash">
+        <p><a href="otif_dashboard.html">Open the interactive dashboard</a>, with period, supplier and category filters, or <a href="otif_dashboard.pdf">download it as a PDF</a>.</p>
+        <a href="otif_dashboard.html"><img src="dashboard_preview.png" alt="OTIF dashboard: four KPI tiles, OTIF by month against the 95 percent target, OTIF by supplier, reasons lines miss OTIF and the open purchase orders." width="1280" height="1501"></a>
+      </div>
+
+      <div class="prose">
+        <h3>What the data shows</h3>
+        <ul>
+          <li>OTIF is 86.2% against a target of 95%, a gap of 8.8 points. On time is 91.0% and in full is 94.7%.</li>
+          <li>Lateness is the bigger problem. 62% of the lines that miss OTIF are late only, 34% are short only and 4% are both.</li>
+          <li>No supplier meets the target. The best, Vedara Labs, is at 94.3%.</li>
+          <li>Kestrel Ingredients and Purelon Chemicals place 24% of the lines but cause 51% of the misses.</li>
+          <li>OTIF is improving, from 83.8% in 2024 to 85.7% in 2025 and 89.9% in 2026, but October to December is weaker (82.9%) than the rest of the year (87.0%).</li>
+          <li>70 lines are open. 10 are overdue, worth EUR 585k, from two July orders that are 24 and 27 days past their promised dates.</li>
+        </ul>
+
+        <table>
+          <caption class="muted" style="text-align:left;caption-side:bottom;padding-top:0.5rem">Received lines, promised February 2024 to September 2026</caption>
+          <thead><tr><th>Supplier</th><th class="n">Lines</th><th class="n">On time</th><th class="n">In full</th><th class="n">OTIF</th><th class="n">Days late</th></tr></thead>
+          <tbody>
+            <tr><td>Kestrel Ingredients</td><td class="n">142</td><td class="n">69.7%</td><td class="n">88.0%</td><td class="n">61.3%</td><td class="n">7.9</td></tr>
+            <tr><td>Purelon Chemicals</td><td class="n">150</td><td class="n">86.7%</td><td class="n">90.7%</td><td class="n">78.7%</td><td class="n">5.8</td></tr>
+            <tr><td>Brightmoor Home</td><td class="n">154</td><td class="n">90.3%</td><td class="n">96.1%</td><td class="n">86.4%</td><td class="n">2.3</td></tr>
+            <tr><td>Terravale Foods</td><td class="n">152</td><td class="n">93.4%</td><td class="n">96.7%</td><td class="n">90.1%</td><td class="n">3.5</td></tr>
+            <tr><td>Nordvik Drinks</td><td class="n">155</td><td class="n">97.4%</td><td class="n">93.5%</td><td class="n">91.0%</td><td class="n">9.0</td></tr>
+            <tr><td>Lumera Cosmetics</td><td class="n">157</td><td class="n">97.5%</td><td class="n">94.9%</td><td class="n">92.4%</td><td class="n">5.0</td></tr>
+            <tr><td>Aqualia Bottling</td><td class="n">158</td><td class="n">93.7%</td><td class="n">99.4%</td><td class="n">93.0%</td><td class="n">4.5</td></tr>
+            <tr><td>Vedara Labs</td><td class="n">159</td><td class="n">96.9%</td><td class="n">97.5%</td><td class="n">94.3%</td><td class="n">2.0</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Recommendation</h3>
+        <p>Chase the two overdue July orders from Kestrel and Purelon this week. Agree an improvement plan with both suppliers and review their OTIF every month. Plan extra lead time for their orders ahead of the October to December peak.</p>
+
+        <h3>Limitations</h3>
+        <p>OTIF is measured per purchase order line and grouped by promised month, so a different rule, such as measuring per order or allowing a grace period of a day or two, would give different numbers. Each month has only about 40 lines, so single months move a lot.</p>
+      </div>
+    </section>
+
+    <section id="files">
+      <h2>Files</h2>
+      <ul class="links">
+        <li><a href="otif_dashboard.html">Interactive dashboard</a></li>
+        <li><a href="otif_dashboard.pdf">Dashboard (PDF)</a></li>
+        <li><a href="otif_workbook.xlsx">Excel workbook</a></li>
+        <li><a href="otif_analysis.py">Python script</a></li>
+        <li><a href="purchase_orders.csv">Purchase orders (input CSV)</a></li>
+        <li><a href="fact_po_lines.csv">Cleaned PO lines (CSV)</a></li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">All data in this project is synthetic and uses fictional brands. No employer data is used.</div>
+</footer>
+</body>
+</html>

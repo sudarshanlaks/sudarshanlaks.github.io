@@ -1,0 +1,1228 @@
+po_number,po_line,sku,description,category,supplier,order_date,promised_date,received_date,ordered_qty,received_qty,days_late,on_time,in_full,otif,result,promised_month,unit_cost
+PO-202401-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-01-09,2024-02-08,2024-02-06,2000,2000.0,0,1,1,1,On time and in full,2024-02,1.14
+PO-202401-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-01-09,2024-02-08,2024-02-06,2000,2000.0,0,1,1,1,On time and in full,2024-02,0.67
+PO-202401-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2024-01-09,2024-02-08,2024-02-06,2000,2000.0,0,1,1,1,On time and in full,2024-02,0.7
+PO-202401-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-01-09,2024-02-08,2024-02-06,2000,2000.0,0,1,1,1,On time and in full,2024-02,1.26
+PO-202401-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-01-09,2024-02-08,2024-02-06,4000,4000.0,0,1,1,1,On time and in full,2024-02,1.72
+PO-202401-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-01-06,2024-03-06,2024-03-05,14000,14000.0,0,1,1,1,On time and in full,2024-03,3.05
+PO-202401-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-01-06,2024-03-06,2024-03-05,36000,36000.0,0,1,1,1,On time and in full,2024-03,2.97
+PO-202401-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-01-06,2024-03-06,2024-03-05,16000,16000.0,0,1,1,1,On time and in full,2024-03,1.45
+PO-202401-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-01-06,2024-03-06,2024-03-05,23000,23000.0,0,1,1,1,On time and in full,2024-03,3.14
+PO-202401-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-01-06,2024-03-06,2024-03-05,24000,24000.0,0,1,1,1,On time and in full,2024-03,2.17
+PO-202401-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-01-08,2024-03-08,2024-03-06,25000,25000.0,0,1,1,1,On time and in full,2024-03,2.72
+PO-202401-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-01-08,2024-03-08,2024-03-06,15000,15000.0,0,1,1,1,On time and in full,2024-03,2.59
+PO-202401-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2024-01-08,2024-03-08,2024-03-06,5000,5000.0,0,1,1,1,On time and in full,2024-03,1.34
+PO-202401-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-01-08,2024-03-08,2024-03-06,4000,4000.0,0,1,1,1,On time and in full,2024-03,1.63
+PO-202401-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-01-08,2024-03-08,2024-03-06,10000,10000.0,0,1,1,1,On time and in full,2024-03,2.54
+PO-202401-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-01-03,2024-02-02,2024-02-02,26000,26000.0,0,1,1,1,On time and in full,2024-02,3.2
+PO-202401-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-01-03,2024-02-02,2024-02-02,10000,10000.0,0,1,1,1,On time and in full,2024-02,1.63
+PO-202401-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-01-03,2024-02-02,2024-02-02,26000,26000.0,0,1,1,1,On time and in full,2024-02,1.58
+PO-202401-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2024-01-03,2024-02-02,2024-02-02,10000,10000.0,0,1,1,1,On time and in full,2024-02,2.68
+PO-202401-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-01-03,2024-02-02,2024-02-02,14000,14000.0,0,1,1,1,On time and in full,2024-02,2.69
+PO-202401-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-01-10,2024-02-09,2024-02-09,2000,1658.0,0,1,0,0,Short only,2024-02,1.25
+PO-202401-NOR,2,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-01-10,2024-02-09,2024-02-09,3000,3000.0,0,1,1,1,On time and in full,2024-02,1.17
+PO-202401-NOR,3,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-01-10,2024-02-09,2024-02-09,4000,4000.0,0,1,1,1,On time and in full,2024-02,0.98
+PO-202401-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-01-05,2024-03-05,2024-03-02,35000,35000.0,0,1,1,1,On time and in full,2024-03,2.58
+PO-202401-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-01-05,2024-03-05,2024-03-02,25000,25000.0,0,1,1,1,On time and in full,2024-03,3.32
+PO-202401-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-01-05,2024-03-05,2024-03-02,23000,23000.0,0,1,1,1,On time and in full,2024-03,2.86
+PO-202401-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-01-05,2024-03-05,2024-03-02,22000,22000.0,0,1,1,1,On time and in full,2024-03,3.42
+PO-202401-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-01-05,2024-03-05,2024-03-02,52000,52000.0,0,1,1,1,On time and in full,2024-03,2.35
+PO-202401-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-01-07,2024-03-07,2024-03-07,4000,4000.0,0,1,1,1,On time and in full,2024-03,2.56
+PO-202401-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-01-07,2024-03-07,2024-03-07,17000,17000.0,0,1,1,1,On time and in full,2024-03,1.27
+PO-202401-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-01-07,2024-03-07,2024-03-07,20000,20000.0,0,1,1,1,On time and in full,2024-03,1.37
+PO-202401-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-01-07,2024-03-07,2024-03-07,8000,8000.0,0,1,1,1,On time and in full,2024-03,1.92
+PO-202401-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-01-07,2024-03-07,2024-03-07,5000,5000.0,0,1,1,1,On time and in full,2024-03,1.7
+PO-202401-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-01-04,2024-02-03,2024-02-03,12000,10199.0,0,1,0,0,Short only,2024-02,3.23
+PO-202401-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-01-04,2024-02-03,2024-02-03,20000,20000.0,0,1,1,1,On time and in full,2024-02,2.98
+PO-202401-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-01-04,2024-02-03,2024-02-03,10000,10000.0,0,1,1,1,On time and in full,2024-02,1.75
+PO-202401-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-01-04,2024-02-03,2024-02-03,30000,30000.0,0,1,1,1,On time and in full,2024-02,2.02
+PO-202401-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2024-01-04,2024-02-03,2024-02-03,22000,22000.0,0,1,1,1,On time and in full,2024-02,1.53
+PO-202402-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-02-09,2024-03-10,2024-03-07,6000,6000.0,0,1,1,1,On time and in full,2024-03,1.14
+PO-202402-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-02-09,2024-03-10,2024-03-07,6000,6000.0,0,1,1,1,On time and in full,2024-03,0.67
+PO-202402-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2024-02-09,2024-03-10,2024-03-07,2000,2000.0,0,1,1,1,On time and in full,2024-03,0.7
+PO-202402-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-02-09,2024-03-10,2024-03-07,4000,4000.0,0,1,1,1,On time and in full,2024-03,1.26
+PO-202402-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-02-09,2024-03-10,2024-03-07,8000,8000.0,0,1,1,1,On time and in full,2024-03,1.72
+PO-202402-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-02-06,2024-04-06,2024-04-05,12000,12000.0,0,1,1,1,On time and in full,2024-04,3.05
+PO-202402-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-02-06,2024-04-06,2024-04-05,44000,44000.0,0,1,1,1,On time and in full,2024-04,2.97
+PO-202402-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-02-06,2024-04-06,2024-04-05,20000,20000.0,0,1,1,1,On time and in full,2024-04,1.45
+PO-202402-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-02-06,2024-04-06,2024-04-05,23000,23000.0,0,1,1,1,On time and in full,2024-04,3.14
+PO-202402-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-02-06,2024-04-06,2024-04-05,26000,26000.0,0,1,1,1,On time and in full,2024-04,2.17
+PO-202402-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-02-08,2024-04-08,2024-04-06,20000,18496.0,0,1,0,0,Short only,2024-04,2.72
+PO-202402-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-02-08,2024-04-08,2024-04-06,10000,10000.0,0,1,1,1,On time and in full,2024-04,2.59
+PO-202402-KES,3,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-02-08,2024-04-08,2024-04-06,4000,3735.0,0,1,0,0,Short only,2024-04,1.63
+PO-202402-KES,4,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-02-08,2024-04-08,2024-04-06,10000,7104.0,0,1,0,0,Short only,2024-04,2.54
+PO-202402-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-02-03,2024-03-04,2024-03-04,32000,32000.0,0,1,1,1,On time and in full,2024-03,3.2
+PO-202402-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-02-03,2024-03-04,2024-03-04,15000,15000.0,0,1,1,1,On time and in full,2024-03,1.63
+PO-202402-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-02-03,2024-03-04,2024-03-04,24000,24000.0,0,1,1,1,On time and in full,2024-03,1.58
+PO-202402-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2024-02-03,2024-03-04,2024-03-04,10000,10000.0,0,1,1,1,On time and in full,2024-03,2.68
+PO-202402-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-02-03,2024-03-04,2024-03-04,13000,13000.0,0,1,1,1,On time and in full,2024-03,2.69
+PO-202402-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-02-10,2024-03-11,2024-03-08,2000,2000.0,0,1,1,1,On time and in full,2024-03,1.25
+PO-202402-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2024-02-10,2024-03-11,2024-03-08,7000,7000.0,0,1,1,1,On time and in full,2024-03,1.09
+PO-202402-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-02-10,2024-03-11,2024-03-08,6000,6000.0,0,1,1,1,On time and in full,2024-03,1.17
+PO-202402-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2024-02-10,2024-03-11,2024-03-08,4000,4000.0,0,1,1,1,On time and in full,2024-03,0.73
+PO-202402-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-02-10,2024-03-11,2024-03-08,6000,6000.0,0,1,1,1,On time and in full,2024-03,0.98
+PO-202402-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-02-05,2024-04-05,2024-04-03,30000,30000.0,0,1,1,1,On time and in full,2024-04,2.58
+PO-202402-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-02-05,2024-04-05,2024-04-03,25000,25000.0,0,1,1,1,On time and in full,2024-04,3.32
+PO-202402-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-02-05,2024-04-05,2024-04-03,24000,19176.0,0,1,0,0,Short only,2024-04,2.86
+PO-202402-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-02-05,2024-04-05,2024-04-03,18000,18000.0,0,1,1,1,On time and in full,2024-04,3.42
+PO-202402-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-02-05,2024-04-05,2024-04-03,56000,56000.0,0,1,1,1,On time and in full,2024-04,2.35
+PO-202402-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-02-07,2024-04-07,2024-04-04,6000,6000.0,0,1,1,1,On time and in full,2024-04,2.56
+PO-202402-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-02-07,2024-04-07,2024-04-04,14000,14000.0,0,1,1,1,On time and in full,2024-04,1.27
+PO-202402-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-02-07,2024-04-07,2024-04-04,18000,18000.0,0,1,1,1,On time and in full,2024-04,1.37
+PO-202402-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-02-07,2024-04-07,2024-04-04,8000,8000.0,0,1,1,1,On time and in full,2024-04,1.92
+PO-202402-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-02-07,2024-04-07,2024-04-04,4000,4000.0,0,1,1,1,On time and in full,2024-04,1.7
+PO-202402-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-02-04,2024-03-05,2024-03-05,12000,12000.0,0,1,1,1,On time and in full,2024-03,3.23
+PO-202402-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-02-04,2024-03-05,2024-03-05,19000,19000.0,0,1,1,1,On time and in full,2024-03,2.98
+PO-202402-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-02-04,2024-03-05,2024-03-05,20000,20000.0,0,1,1,1,On time and in full,2024-03,1.75
+PO-202402-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-02-04,2024-03-05,2024-03-05,24000,24000.0,0,1,1,1,On time and in full,2024-03,2.02
+PO-202402-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2024-02-04,2024-03-05,2024-03-05,16000,16000.0,0,1,1,1,On time and in full,2024-03,1.53
+PO-202403-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-03-09,2024-04-08,2024-04-06,8000,6724.0,0,1,0,0,Short only,2024-04,1.14
+PO-202403-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-03-09,2024-04-08,2024-04-06,8000,8000.0,0,1,1,1,On time and in full,2024-04,0.67
+PO-202403-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2024-03-09,2024-04-08,2024-04-06,6000,6000.0,0,1,1,1,On time and in full,2024-04,0.7
+PO-202403-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-03-09,2024-04-08,2024-04-06,8000,8000.0,0,1,1,1,On time and in full,2024-04,1.26
+PO-202403-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-03-09,2024-04-08,2024-04-06,12000,12000.0,0,1,1,1,On time and in full,2024-04,1.72
+PO-202403-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-03-06,2024-05-05,2024-05-02,20000,20000.0,0,1,1,1,On time and in full,2024-05,3.05
+PO-202403-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-03-06,2024-05-05,2024-05-02,32000,32000.0,0,1,1,1,On time and in full,2024-05,2.97
+PO-202403-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-03-06,2024-05-05,2024-05-02,24000,17872.0,0,1,0,0,Short only,2024-05,1.45
+PO-202403-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-03-06,2024-05-05,2024-05-02,24000,24000.0,0,1,1,1,On time and in full,2024-05,3.14
+PO-202403-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-03-06,2024-05-05,2024-05-02,26000,26000.0,0,1,1,1,On time and in full,2024-05,2.17
+PO-202403-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-03-08,2024-05-07,2024-05-12,25000,25000.0,5,0,1,0,Late only,2024-05,2.72
+PO-202403-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-03-08,2024-05-07,2024-05-12,5000,5000.0,5,0,1,0,Late only,2024-05,2.59
+PO-202403-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2024-03-08,2024-05-07,2024-05-12,5000,5000.0,5,0,1,0,Late only,2024-05,1.34
+PO-202403-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-03-08,2024-05-07,2024-05-12,4000,4000.0,5,0,1,0,Late only,2024-05,1.63
+PO-202403-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-03-08,2024-05-07,2024-05-12,10000,10000.0,5,0,1,0,Late only,2024-05,2.54
+PO-202403-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-03-03,2024-04-02,2024-04-02,24000,24000.0,0,1,1,1,On time and in full,2024-04,3.2
+PO-202403-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-03-03,2024-04-02,2024-04-02,10000,10000.0,0,1,1,1,On time and in full,2024-04,1.63
+PO-202403-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-03-03,2024-04-02,2024-04-02,20000,20000.0,0,1,1,1,On time and in full,2024-04,1.58
+PO-202403-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2024-03-03,2024-04-02,2024-04-02,5000,5000.0,0,1,1,1,On time and in full,2024-04,2.68
+PO-202403-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-03-03,2024-04-02,2024-04-02,10000,10000.0,0,1,1,1,On time and in full,2024-04,2.69
+PO-202403-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-03-10,2024-04-09,2024-04-09,4000,4000.0,0,1,1,1,On time and in full,2024-04,1.25
+PO-202403-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2024-03-10,2024-04-09,2024-04-09,7000,7000.0,0,1,1,1,On time and in full,2024-04,1.09
+PO-202403-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-03-10,2024-04-09,2024-04-09,7000,7000.0,0,1,1,1,On time and in full,2024-04,1.17
+PO-202403-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2024-03-10,2024-04-09,2024-04-09,8000,8000.0,0,1,1,1,On time and in full,2024-04,0.73
+PO-202403-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-03-10,2024-04-09,2024-04-09,8000,8000.0,0,1,1,1,On time and in full,2024-04,0.98
+PO-202403-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-03-05,2024-05-04,2024-05-12,40000,37549.0,8,0,0,0,Late and short,2024-05,2.58
+PO-202403-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-03-05,2024-05-04,2024-05-12,30000,30000.0,8,0,1,0,Late only,2024-05,3.32
+PO-202403-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-03-05,2024-05-04,2024-05-12,23000,23000.0,8,0,1,0,Late only,2024-05,2.86
+PO-202403-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-03-05,2024-05-04,2024-05-12,20000,20000.0,8,0,1,0,Late only,2024-05,3.42
+PO-202403-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-03-05,2024-05-04,2024-05-12,48000,48000.0,8,0,1,0,Late only,2024-05,2.35
+PO-202403-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-03-07,2024-05-06,2024-05-09,6000,6000.0,3,0,1,0,Late only,2024-05,2.56
+PO-202403-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-03-07,2024-05-06,2024-05-09,11000,11000.0,3,0,1,0,Late only,2024-05,1.27
+PO-202403-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-03-07,2024-05-06,2024-05-09,12000,12000.0,3,0,1,0,Late only,2024-05,1.37
+PO-202403-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-03-07,2024-05-06,2024-05-09,8000,8000.0,3,0,1,0,Late only,2024-05,1.92
+PO-202403-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-03-07,2024-05-06,2024-05-09,6000,6000.0,3,0,1,0,Late only,2024-05,1.7
+PO-202403-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-03-04,2024-04-03,2024-04-03,10000,10000.0,0,1,1,1,On time and in full,2024-04,3.23
+PO-202403-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-03-04,2024-04-03,2024-04-03,16000,16000.0,0,1,1,1,On time and in full,2024-04,2.98
+PO-202403-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-03-04,2024-04-03,2024-04-03,10000,10000.0,0,1,1,1,On time and in full,2024-04,1.75
+PO-202403-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-03-04,2024-04-03,2024-04-03,24000,24000.0,0,1,1,1,On time and in full,2024-04,2.02
+PO-202403-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2024-03-04,2024-04-03,2024-04-03,26000,26000.0,0,1,1,1,On time and in full,2024-04,1.53
+PO-202404-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-04-09,2024-05-09,2024-05-09,10000,10000.0,0,1,1,1,On time and in full,2024-05,1.14
+PO-202404-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-04-09,2024-05-09,2024-05-09,14000,14000.0,0,1,1,1,On time and in full,2024-05,0.67
+PO-202404-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2024-04-09,2024-05-09,2024-05-09,6000,6000.0,0,1,1,1,On time and in full,2024-05,0.7
+PO-202404-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-04-09,2024-05-09,2024-05-09,6000,6000.0,0,1,1,1,On time and in full,2024-05,1.26
+PO-202404-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-04-09,2024-05-09,2024-05-09,20000,20000.0,0,1,1,1,On time and in full,2024-05,1.72
+PO-202404-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-04-06,2024-06-05,2024-06-07,18000,18000.0,2,0,1,0,Late only,2024-06,3.05
+PO-202404-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-04-06,2024-06-05,2024-06-07,32000,32000.0,2,0,1,0,Late only,2024-06,2.97
+PO-202404-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-04-06,2024-06-05,2024-06-07,26000,26000.0,2,0,1,0,Late only,2024-06,1.45
+PO-202404-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-04-06,2024-06-05,2024-06-07,24000,24000.0,2,0,1,0,Late only,2024-06,3.14
+PO-202404-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-04-06,2024-06-05,2024-06-07,36000,36000.0,2,0,1,0,Late only,2024-06,2.17
+PO-202404-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-04-08,2024-06-07,2024-06-06,20000,20000.0,0,1,1,1,On time and in full,2024-06,2.72
+PO-202404-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-04-08,2024-06-07,2024-06-06,10000,10000.0,0,1,1,1,On time and in full,2024-06,2.59
+PO-202404-KES,3,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-04-08,2024-06-07,2024-06-06,2000,2000.0,0,1,1,1,On time and in full,2024-06,1.63
+PO-202404-KES,4,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-04-08,2024-06-07,2024-06-06,10000,10000.0,0,1,1,1,On time and in full,2024-06,2.54
+PO-202404-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-04-03,2024-05-03,2024-05-03,22000,22000.0,0,1,1,1,On time and in full,2024-05,3.2
+PO-202404-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-04-03,2024-05-03,2024-05-03,10000,10000.0,0,1,1,1,On time and in full,2024-05,1.63
+PO-202404-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-04-03,2024-05-03,2024-05-03,20000,20000.0,0,1,1,1,On time and in full,2024-05,1.58
+PO-202404-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2024-04-03,2024-05-03,2024-05-03,10000,10000.0,0,1,1,1,On time and in full,2024-05,2.68
+PO-202404-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-04-03,2024-05-03,2024-05-03,14000,14000.0,0,1,1,1,On time and in full,2024-05,2.69
+PO-202404-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-04-10,2024-05-10,2024-05-10,6000,6000.0,0,1,1,1,On time and in full,2024-05,1.25
+PO-202404-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2024-04-10,2024-05-10,2024-05-10,4000,4000.0,0,1,1,1,On time and in full,2024-05,1.09
+PO-202404-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-04-10,2024-05-10,2024-05-10,9000,9000.0,0,1,1,1,On time and in full,2024-05,1.17
+PO-202404-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2024-04-10,2024-05-10,2024-05-10,8000,6076.0,0,1,0,0,Short only,2024-05,0.73
+PO-202404-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-04-10,2024-05-10,2024-05-10,12000,12000.0,0,1,1,1,On time and in full,2024-05,0.98
+PO-202404-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-04-05,2024-06-04,2024-06-03,35000,35000.0,0,1,1,1,On time and in full,2024-06,2.58
+PO-202404-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-04-05,2024-06-04,2024-06-03,25000,18911.0,0,1,0,0,Short only,2024-06,3.32
+PO-202404-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-04-05,2024-06-04,2024-06-03,21000,21000.0,0,1,1,1,On time and in full,2024-06,2.86
+PO-202404-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-04-05,2024-06-04,2024-06-03,12000,12000.0,0,1,1,1,On time and in full,2024-06,3.42
+PO-202404-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-04-05,2024-06-04,2024-06-03,48000,48000.0,0,1,1,1,On time and in full,2024-06,2.35
+PO-202404-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-04-07,2024-06-06,2024-06-06,8000,8000.0,0,1,1,1,On time and in full,2024-06,2.56
+PO-202404-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-04-07,2024-06-06,2024-06-06,9000,9000.0,0,1,1,1,On time and in full,2024-06,1.27
+PO-202404-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-04-07,2024-06-06,2024-06-06,8000,8000.0,0,1,1,1,On time and in full,2024-06,1.37
+PO-202404-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-04-07,2024-06-06,2024-06-06,8000,8000.0,0,1,1,1,On time and in full,2024-06,1.92
+PO-202404-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-04-07,2024-06-06,2024-06-06,4000,4000.0,0,1,1,1,On time and in full,2024-06,1.7
+PO-202404-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-04-04,2024-05-04,2024-05-03,8000,8000.0,0,1,1,1,On time and in full,2024-05,3.23
+PO-202404-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-04-04,2024-05-04,2024-05-03,13000,13000.0,0,1,1,1,On time and in full,2024-05,2.98
+PO-202404-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-04-04,2024-05-04,2024-05-03,10000,10000.0,0,1,1,1,On time and in full,2024-05,1.75
+PO-202404-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-04-04,2024-05-04,2024-05-03,26000,26000.0,0,1,1,1,On time and in full,2024-05,2.02
+PO-202404-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2024-04-04,2024-05-04,2024-05-03,16000,16000.0,0,1,1,1,On time and in full,2024-05,1.53
+PO-202405-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-05-09,2024-06-08,2024-06-08,10000,10000.0,0,1,1,1,On time and in full,2024-06,1.14
+PO-202405-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-05-09,2024-06-08,2024-06-08,12000,12000.0,0,1,1,1,On time and in full,2024-06,0.67
+PO-202405-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2024-05-09,2024-06-08,2024-06-08,6000,6000.0,0,1,1,1,On time and in full,2024-06,0.7
+PO-202405-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-05-09,2024-06-08,2024-06-08,8000,8000.0,0,1,1,1,On time and in full,2024-06,1.26
+PO-202405-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-05-09,2024-06-08,2024-06-08,18000,18000.0,0,1,1,1,On time and in full,2024-06,1.72
+PO-202405-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-05-06,2024-07-05,2024-07-05,20000,20000.0,0,1,1,1,On time and in full,2024-07,3.05
+PO-202405-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-05-06,2024-07-05,2024-07-05,30000,30000.0,0,1,1,1,On time and in full,2024-07,2.97
+PO-202405-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-05-06,2024-07-05,2024-07-05,22000,22000.0,0,1,1,1,On time and in full,2024-07,1.45
+PO-202405-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-05-06,2024-07-05,2024-07-05,34000,34000.0,0,1,1,1,On time and in full,2024-07,3.14
+PO-202405-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-05-06,2024-07-05,2024-07-05,20000,20000.0,0,1,1,1,On time and in full,2024-07,2.17
+PO-202405-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-05-08,2024-07-07,2024-07-07,20000,20000.0,0,1,1,1,On time and in full,2024-07,2.72
+PO-202405-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-05-08,2024-07-07,2024-07-07,10000,10000.0,0,1,1,1,On time and in full,2024-07,2.59
+PO-202405-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2024-05-08,2024-07-07,2024-07-07,5000,5000.0,0,1,1,1,On time and in full,2024-07,1.34
+PO-202405-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-05-08,2024-07-07,2024-07-07,4000,4000.0,0,1,1,1,On time and in full,2024-07,1.63
+PO-202405-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-05-08,2024-07-07,2024-07-07,15000,13511.0,0,1,0,0,Short only,2024-07,2.54
+PO-202405-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-05-03,2024-06-02,2024-05-31,22000,22000.0,0,1,1,1,On time and in full,2024-06,3.2
+PO-202405-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-05-03,2024-06-02,2024-05-31,10000,10000.0,0,1,1,1,On time and in full,2024-06,1.63
+PO-202405-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-05-03,2024-06-02,2024-05-31,22000,22000.0,0,1,1,1,On time and in full,2024-06,1.58
+PO-202405-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2024-05-03,2024-06-02,2024-05-31,5000,5000.0,0,1,1,1,On time and in full,2024-06,2.68
+PO-202405-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-05-03,2024-06-02,2024-05-31,13000,13000.0,0,1,1,1,On time and in full,2024-06,2.69
+PO-202405-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-05-10,2024-06-09,2024-06-06,6000,6000.0,0,1,1,1,On time and in full,2024-06,1.25
+PO-202405-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2024-05-10,2024-06-09,2024-06-06,6000,6000.0,0,1,1,1,On time and in full,2024-06,1.09
+PO-202405-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-05-10,2024-06-09,2024-06-06,11000,11000.0,0,1,1,1,On time and in full,2024-06,1.17
+PO-202405-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2024-05-10,2024-06-09,2024-06-06,8000,8000.0,0,1,1,1,On time and in full,2024-06,0.73
+PO-202405-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-05-10,2024-06-09,2024-06-06,10000,10000.0,0,1,1,1,On time and in full,2024-06,0.98
+PO-202405-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-05-05,2024-07-04,2024-07-02,35000,35000.0,0,1,1,1,On time and in full,2024-07,2.58
+PO-202405-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-05-05,2024-07-04,2024-07-02,25000,25000.0,0,1,1,1,On time and in full,2024-07,3.32
+PO-202405-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-05-05,2024-07-04,2024-07-02,18000,18000.0,0,1,1,1,On time and in full,2024-07,2.86
+PO-202405-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-05-05,2024-07-04,2024-07-02,16000,16000.0,0,1,1,1,On time and in full,2024-07,3.42
+PO-202405-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-05-05,2024-07-04,2024-07-02,64000,48853.0,0,1,0,0,Short only,2024-07,2.35
+PO-202405-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-05-07,2024-07-06,2024-07-04,6000,6000.0,0,1,1,1,On time and in full,2024-07,2.56
+PO-202405-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-05-07,2024-07-06,2024-07-04,16000,16000.0,0,1,1,1,On time and in full,2024-07,1.27
+PO-202405-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-05-07,2024-07-06,2024-07-04,8000,6571.0,0,1,0,0,Short only,2024-07,1.37
+PO-202405-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-05-07,2024-07-06,2024-07-04,10000,10000.0,0,1,1,1,On time and in full,2024-07,1.92
+PO-202405-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-05-07,2024-07-06,2024-07-04,4000,4000.0,0,1,1,1,On time and in full,2024-07,1.7
+PO-202405-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-05-04,2024-06-03,2024-06-03,10000,10000.0,0,1,1,1,On time and in full,2024-06,3.23
+PO-202405-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-05-04,2024-06-03,2024-06-03,13000,13000.0,0,1,1,1,On time and in full,2024-06,2.98
+PO-202405-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-05-04,2024-06-03,2024-06-03,5000,5000.0,0,1,1,1,On time and in full,2024-06,1.75
+PO-202405-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-05-04,2024-06-03,2024-06-03,28000,28000.0,0,1,1,1,On time and in full,2024-06,2.02
+PO-202405-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2024-05-04,2024-06-03,2024-06-03,18000,18000.0,0,1,1,1,On time and in full,2024-06,1.53
+PO-202406-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-06-09,2024-07-09,2024-07-06,16000,16000.0,0,1,1,1,On time and in full,2024-07,1.14
+PO-202406-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-06-09,2024-07-09,2024-07-06,16000,16000.0,0,1,1,1,On time and in full,2024-07,0.67
+PO-202406-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2024-06-09,2024-07-09,2024-07-06,8000,8000.0,0,1,1,1,On time and in full,2024-07,0.7
+PO-202406-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-06-09,2024-07-09,2024-07-06,8000,8000.0,0,1,1,1,On time and in full,2024-07,1.26
+PO-202406-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-06-09,2024-07-09,2024-07-06,14000,14000.0,0,1,1,1,On time and in full,2024-07,1.72
+PO-202406-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-06-06,2024-08-05,2024-08-04,20000,20000.0,0,1,1,1,On time and in full,2024-08,3.05
+PO-202406-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-06-06,2024-08-05,2024-08-04,26000,26000.0,0,1,1,1,On time and in full,2024-08,2.97
+PO-202406-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-06-06,2024-08-05,2024-08-04,20000,20000.0,0,1,1,1,On time and in full,2024-08,1.45
+PO-202406-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-06-06,2024-08-05,2024-08-04,25000,25000.0,0,1,1,1,On time and in full,2024-08,3.14
+PO-202406-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-06-06,2024-08-05,2024-08-04,18000,18000.0,0,1,1,1,On time and in full,2024-08,2.17
+PO-202406-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-06-08,2024-08-07,2024-08-04,20000,20000.0,0,1,1,1,On time and in full,2024-08,2.72
+PO-202406-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-06-08,2024-08-07,2024-08-04,10000,10000.0,0,1,1,1,On time and in full,2024-08,2.59
+PO-202406-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2024-06-08,2024-08-07,2024-08-04,5000,3645.0,0,1,0,0,Short only,2024-08,1.34
+PO-202406-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-06-08,2024-08-07,2024-08-04,2000,2000.0,0,1,1,1,On time and in full,2024-08,1.63
+PO-202406-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-06-08,2024-08-07,2024-08-04,10000,10000.0,0,1,1,1,On time and in full,2024-08,2.54
+PO-202406-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-06-03,2024-07-03,2024-07-03,26000,26000.0,0,1,1,1,On time and in full,2024-07,3.2
+PO-202406-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-06-03,2024-07-03,2024-07-03,5000,5000.0,0,1,1,1,On time and in full,2024-07,1.63
+PO-202406-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-06-03,2024-07-03,2024-07-03,24000,20001.0,0,1,0,0,Short only,2024-07,1.58
+PO-202406-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2024-06-03,2024-07-03,2024-07-03,10000,10000.0,0,1,1,1,On time and in full,2024-07,2.68
+PO-202406-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-06-03,2024-07-03,2024-07-03,14000,14000.0,0,1,1,1,On time and in full,2024-07,2.69
+PO-202406-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-06-10,2024-07-10,2024-07-10,8000,8000.0,0,1,1,1,On time and in full,2024-07,1.25
+PO-202406-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2024-06-10,2024-07-10,2024-07-10,7000,7000.0,0,1,1,1,On time and in full,2024-07,1.09
+PO-202406-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-06-10,2024-07-10,2024-07-10,14000,14000.0,0,1,1,1,On time and in full,2024-07,1.17
+PO-202406-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2024-06-10,2024-07-10,2024-07-10,8000,8000.0,0,1,1,1,On time and in full,2024-07,0.73
+PO-202406-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-06-10,2024-07-10,2024-07-10,14000,14000.0,0,1,1,1,On time and in full,2024-07,0.98
+PO-202406-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-06-05,2024-08-04,2024-08-04,40000,40000.0,0,1,1,1,On time and in full,2024-08,2.58
+PO-202406-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-06-05,2024-08-04,2024-08-04,25000,25000.0,0,1,1,1,On time and in full,2024-08,3.32
+PO-202406-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-06-05,2024-08-04,2024-08-04,29000,29000.0,0,1,1,1,On time and in full,2024-08,2.86
+PO-202406-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-06-05,2024-08-04,2024-08-04,14000,14000.0,0,1,1,1,On time and in full,2024-08,3.42
+PO-202406-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-06-05,2024-08-04,2024-08-04,58000,58000.0,0,1,1,1,On time and in full,2024-08,2.35
+PO-202406-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-06-07,2024-08-06,2024-08-04,6000,6000.0,0,1,1,1,On time and in full,2024-08,2.56
+PO-202406-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-06-07,2024-08-06,2024-08-04,14000,14000.0,0,1,1,1,On time and in full,2024-08,1.27
+PO-202406-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-06-07,2024-08-06,2024-08-04,14000,14000.0,0,1,1,1,On time and in full,2024-08,1.37
+PO-202406-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-06-07,2024-08-06,2024-08-04,8000,8000.0,0,1,1,1,On time and in full,2024-08,1.92
+PO-202406-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-06-07,2024-08-06,2024-08-04,5000,5000.0,0,1,1,1,On time and in full,2024-08,1.7
+PO-202406-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-06-04,2024-07-04,2024-07-06,12000,12000.0,2,0,1,0,Late only,2024-07,3.23
+PO-202406-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-06-04,2024-07-04,2024-07-06,12000,12000.0,2,0,1,0,Late only,2024-07,2.98
+PO-202406-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-06-04,2024-07-04,2024-07-06,15000,15000.0,2,0,1,0,Late only,2024-07,1.75
+PO-202406-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-06-04,2024-07-04,2024-07-06,32000,32000.0,2,0,1,0,Late only,2024-07,2.02
+PO-202406-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2024-06-04,2024-07-04,2024-07-06,18000,18000.0,2,0,1,0,Late only,2024-07,1.53
+PO-202407-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-07-09,2024-08-08,2024-08-05,14000,14000.0,0,1,1,1,On time and in full,2024-08,1.14
+PO-202407-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-07-09,2024-08-08,2024-08-05,12000,12000.0,0,1,1,1,On time and in full,2024-08,0.67
+PO-202407-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2024-07-09,2024-08-08,2024-08-05,4000,4000.0,0,1,1,1,On time and in full,2024-08,0.7
+PO-202407-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-07-09,2024-08-08,2024-08-05,8000,8000.0,0,1,1,1,On time and in full,2024-08,1.26
+PO-202407-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-07-09,2024-08-08,2024-08-05,18000,18000.0,0,1,1,1,On time and in full,2024-08,1.72
+PO-202407-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-07-06,2024-09-04,2024-09-03,18000,18000.0,0,1,1,1,On time and in full,2024-09,3.05
+PO-202407-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-07-06,2024-09-04,2024-09-03,26000,19522.0,0,1,0,0,Short only,2024-09,2.97
+PO-202407-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-07-06,2024-09-04,2024-09-03,16000,16000.0,0,1,1,1,On time and in full,2024-09,1.45
+PO-202407-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-07-06,2024-09-04,2024-09-03,24000,24000.0,0,1,1,1,On time and in full,2024-09,3.14
+PO-202407-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-07-06,2024-09-04,2024-09-03,18000,18000.0,0,1,1,1,On time and in full,2024-09,2.17
+PO-202407-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-07-08,2024-09-06,2024-09-03,25000,25000.0,0,1,1,1,On time and in full,2024-09,2.72
+PO-202407-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-07-08,2024-09-06,2024-09-03,10000,10000.0,0,1,1,1,On time and in full,2024-09,2.59
+PO-202407-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2024-07-08,2024-09-06,2024-09-03,5000,4336.0,0,1,0,0,Short only,2024-09,1.34
+PO-202407-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-07-08,2024-09-06,2024-09-03,6000,6000.0,0,1,1,1,On time and in full,2024-09,1.63
+PO-202407-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-07-08,2024-09-06,2024-09-03,10000,10000.0,0,1,1,1,On time and in full,2024-09,2.54
+PO-202407-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-07-03,2024-08-02,2024-07-30,30000,30000.0,0,1,1,1,On time and in full,2024-08,3.2
+PO-202407-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-07-03,2024-08-02,2024-07-30,15000,15000.0,0,1,1,1,On time and in full,2024-08,1.63
+PO-202407-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-07-03,2024-08-02,2024-07-30,26000,26000.0,0,1,1,1,On time and in full,2024-08,1.58
+PO-202407-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2024-07-03,2024-08-02,2024-07-30,10000,10000.0,0,1,1,1,On time and in full,2024-08,2.68
+PO-202407-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-07-03,2024-08-02,2024-07-30,19000,19000.0,0,1,1,1,On time and in full,2024-08,2.69
+PO-202407-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-07-10,2024-08-09,2024-08-06,6000,6000.0,0,1,1,1,On time and in full,2024-08,1.25
+PO-202407-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2024-07-10,2024-08-09,2024-08-06,9000,9000.0,0,1,1,1,On time and in full,2024-08,1.09
+PO-202407-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-07-10,2024-08-09,2024-08-06,10000,10000.0,0,1,1,1,On time and in full,2024-08,1.17
+PO-202407-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2024-07-10,2024-08-09,2024-08-06,8000,8000.0,0,1,1,1,On time and in full,2024-08,0.73
+PO-202407-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-07-10,2024-08-09,2024-08-06,8000,8000.0,0,1,1,1,On time and in full,2024-08,0.98
+PO-202407-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-07-05,2024-09-03,2024-09-03,30000,30000.0,0,1,1,1,On time and in full,2024-09,2.58
+PO-202407-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-07-05,2024-09-03,2024-09-03,30000,30000.0,0,1,1,1,On time and in full,2024-09,3.32
+PO-202407-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-07-05,2024-09-03,2024-09-03,21000,21000.0,0,1,1,1,On time and in full,2024-09,2.86
+PO-202407-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-07-05,2024-09-03,2024-09-03,20000,20000.0,0,1,1,1,On time and in full,2024-09,3.42
+PO-202407-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-07-05,2024-09-03,2024-09-03,48000,48000.0,0,1,1,1,On time and in full,2024-09,2.35
+PO-202407-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-07-07,2024-09-05,2024-09-02,8000,8000.0,0,1,1,1,On time and in full,2024-09,2.56
+PO-202407-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-07-07,2024-09-05,2024-09-02,14000,14000.0,0,1,1,1,On time and in full,2024-09,1.27
+PO-202407-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-07-07,2024-09-05,2024-09-02,12000,12000.0,0,1,1,1,On time and in full,2024-09,1.37
+PO-202407-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-07-07,2024-09-05,2024-09-02,14000,14000.0,0,1,1,1,On time and in full,2024-09,1.92
+PO-202407-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-07-07,2024-09-05,2024-09-02,6000,6000.0,0,1,1,1,On time and in full,2024-09,1.7
+PO-202407-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-07-04,2024-08-03,2024-08-03,10000,10000.0,0,1,1,1,On time and in full,2024-08,3.23
+PO-202407-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-07-04,2024-08-03,2024-08-03,20000,20000.0,0,1,1,1,On time and in full,2024-08,2.98
+PO-202407-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-07-04,2024-08-03,2024-08-03,10000,10000.0,0,1,1,1,On time and in full,2024-08,1.75
+PO-202407-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-07-04,2024-08-03,2024-08-03,22000,22000.0,0,1,1,1,On time and in full,2024-08,2.02
+PO-202407-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2024-07-04,2024-08-03,2024-08-03,14000,10710.0,0,1,0,0,Short only,2024-08,1.53
+PO-202408-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-08-09,2024-09-08,2024-09-08,8000,8000.0,0,1,1,1,On time and in full,2024-09,1.14
+PO-202408-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-08-09,2024-09-08,2024-09-08,10000,10000.0,0,1,1,1,On time and in full,2024-09,0.67
+PO-202408-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2024-08-09,2024-09-08,2024-09-08,6000,6000.0,0,1,1,1,On time and in full,2024-09,0.7
+PO-202408-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-08-09,2024-09-08,2024-09-08,6000,6000.0,0,1,1,1,On time and in full,2024-09,1.26
+PO-202408-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-08-09,2024-09-08,2024-09-08,10000,10000.0,0,1,1,1,On time and in full,2024-09,1.72
+PO-202408-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-08-06,2024-10-05,2024-10-05,12000,12000.0,0,1,1,1,On time and in full,2024-10,3.05
+PO-202408-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-08-06,2024-10-05,2024-10-05,32000,32000.0,0,1,1,1,On time and in full,2024-10,2.97
+PO-202408-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-08-06,2024-10-05,2024-10-05,18000,18000.0,0,1,1,1,On time and in full,2024-10,1.45
+PO-202408-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-08-06,2024-10-05,2024-10-05,22000,22000.0,0,1,1,1,On time and in full,2024-10,3.14
+PO-202408-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-08-06,2024-10-05,2024-10-05,20000,20000.0,0,1,1,1,On time and in full,2024-10,2.17
+PO-202408-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-08-08,2024-10-07,2024-10-05,25000,22038.0,0,1,0,0,Short only,2024-10,2.72
+PO-202408-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-08-08,2024-10-07,2024-10-05,15000,15000.0,0,1,1,1,On time and in full,2024-10,2.59
+PO-202408-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2024-08-08,2024-10-07,2024-10-05,5000,5000.0,0,1,1,1,On time and in full,2024-10,1.34
+PO-202408-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-08-08,2024-10-07,2024-10-05,4000,4000.0,0,1,1,1,On time and in full,2024-10,1.63
+PO-202408-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-08-08,2024-10-07,2024-10-05,15000,15000.0,0,1,1,1,On time and in full,2024-10,2.54
+PO-202408-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-08-03,2024-09-02,2024-09-02,26000,26000.0,0,1,1,1,On time and in full,2024-09,3.2
+PO-202408-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-08-03,2024-09-02,2024-09-02,15000,15000.0,0,1,1,1,On time and in full,2024-09,1.63
+PO-202408-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-08-03,2024-09-02,2024-09-02,24000,24000.0,0,1,1,1,On time and in full,2024-09,1.58
+PO-202408-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2024-08-03,2024-09-02,2024-09-02,10000,10000.0,0,1,1,1,On time and in full,2024-09,2.68
+PO-202408-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-08-03,2024-09-02,2024-09-02,13000,13000.0,0,1,1,1,On time and in full,2024-09,2.69
+PO-202408-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-08-10,2024-09-09,2024-09-08,6000,6000.0,0,1,1,1,On time and in full,2024-09,1.25
+PO-202408-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2024-08-10,2024-09-09,2024-09-08,4000,4000.0,0,1,1,1,On time and in full,2024-09,1.09
+PO-202408-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-08-10,2024-09-09,2024-09-08,12000,12000.0,0,1,1,1,On time and in full,2024-09,1.17
+PO-202408-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2024-08-10,2024-09-09,2024-09-08,8000,6352.0,0,1,0,0,Short only,2024-09,0.73
+PO-202408-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-08-10,2024-09-09,2024-09-08,10000,10000.0,0,1,1,1,On time and in full,2024-09,0.98
+PO-202408-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-08-05,2024-10-04,2024-10-04,40000,40000.0,0,1,1,1,On time and in full,2024-10,2.58
+PO-202408-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-08-05,2024-10-04,2024-10-04,20000,20000.0,0,1,1,1,On time and in full,2024-10,3.32
+PO-202408-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-08-05,2024-10-04,2024-10-04,21000,21000.0,0,1,1,1,On time and in full,2024-10,2.86
+PO-202408-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-08-05,2024-10-04,2024-10-04,16000,16000.0,0,1,1,1,On time and in full,2024-10,3.42
+PO-202408-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-08-05,2024-10-04,2024-10-04,28000,23491.0,0,1,0,0,Short only,2024-10,2.35
+PO-202408-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-08-07,2024-10-06,2024-10-06,8000,8000.0,0,1,1,1,On time and in full,2024-10,2.56
+PO-202408-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-08-07,2024-10-06,2024-10-06,18000,18000.0,0,1,1,1,On time and in full,2024-10,1.27
+PO-202408-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-08-07,2024-10-06,2024-10-06,16000,16000.0,0,1,1,1,On time and in full,2024-10,1.37
+PO-202408-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-08-07,2024-10-06,2024-10-06,12000,12000.0,0,1,1,1,On time and in full,2024-10,1.92
+PO-202408-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-08-07,2024-10-06,2024-10-06,7000,7000.0,0,1,1,1,On time and in full,2024-10,1.7
+PO-202408-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-08-04,2024-09-03,2024-09-03,12000,12000.0,0,1,1,1,On time and in full,2024-09,3.23
+PO-202408-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-08-04,2024-09-03,2024-09-03,19000,19000.0,0,1,1,1,On time and in full,2024-09,2.98
+PO-202408-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-08-04,2024-09-03,2024-09-03,15000,15000.0,0,1,1,1,On time and in full,2024-09,1.75
+PO-202408-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-08-04,2024-09-03,2024-09-03,24000,24000.0,0,1,1,1,On time and in full,2024-09,2.02
+PO-202408-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2024-08-04,2024-09-03,2024-09-03,26000,26000.0,0,1,1,1,On time and in full,2024-09,1.53
+PO-202409-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-09-09,2024-10-09,2024-10-07,6000,6000.0,0,1,1,1,On time and in full,2024-10,1.14
+PO-202409-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-09-09,2024-10-09,2024-10-07,10000,10000.0,0,1,1,1,On time and in full,2024-10,0.67
+PO-202409-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2024-09-09,2024-10-09,2024-10-07,4000,4000.0,0,1,1,1,On time and in full,2024-10,0.7
+PO-202409-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-09-09,2024-10-09,2024-10-07,8000,8000.0,0,1,1,1,On time and in full,2024-10,1.26
+PO-202409-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-09-09,2024-10-09,2024-10-07,8000,8000.0,0,1,1,1,On time and in full,2024-10,1.72
+PO-202409-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-09-06,2024-11-05,2024-11-05,16000,16000.0,0,1,1,1,On time and in full,2024-11,3.05
+PO-202409-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-09-06,2024-11-05,2024-11-05,32000,32000.0,0,1,1,1,On time and in full,2024-11,2.97
+PO-202409-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-09-06,2024-11-05,2024-11-05,12000,12000.0,0,1,1,1,On time and in full,2024-11,1.45
+PO-202409-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-09-06,2024-11-05,2024-11-05,26000,26000.0,0,1,1,1,On time and in full,2024-11,3.14
+PO-202409-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-09-06,2024-11-05,2024-11-05,18000,18000.0,0,1,1,1,On time and in full,2024-11,2.17
+PO-202409-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-09-08,2024-11-07,2024-11-06,25000,25000.0,0,1,1,1,On time and in full,2024-11,2.72
+PO-202409-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-09-08,2024-11-07,2024-11-06,10000,10000.0,0,1,1,1,On time and in full,2024-11,2.59
+PO-202409-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2024-09-08,2024-11-07,2024-11-06,5000,5000.0,0,1,1,1,On time and in full,2024-11,1.34
+PO-202409-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-09-08,2024-11-07,2024-11-06,6000,6000.0,0,1,1,1,On time and in full,2024-11,1.63
+PO-202409-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-09-08,2024-11-07,2024-11-06,15000,13686.0,0,1,0,0,Short only,2024-11,2.54
+PO-202409-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-09-03,2024-10-03,2024-10-03,34000,34000.0,0,1,1,1,On time and in full,2024-10,3.2
+PO-202409-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-09-03,2024-10-03,2024-10-03,10000,10000.0,0,1,1,1,On time and in full,2024-10,1.63
+PO-202409-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-09-03,2024-10-03,2024-10-03,22000,22000.0,0,1,1,1,On time and in full,2024-10,1.58
+PO-202409-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2024-09-03,2024-10-03,2024-10-03,10000,8498.0,0,1,0,0,Short only,2024-10,2.68
+PO-202409-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-09-03,2024-10-03,2024-10-03,10000,10000.0,0,1,1,1,On time and in full,2024-10,2.69
+PO-202409-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-09-10,2024-10-10,2024-10-10,4000,4000.0,0,1,1,1,On time and in full,2024-10,1.25
+PO-202409-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2024-09-10,2024-10-10,2024-10-10,3000,3000.0,0,1,1,1,On time and in full,2024-10,1.09
+PO-202409-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-09-10,2024-10-10,2024-10-10,10000,10000.0,0,1,1,1,On time and in full,2024-10,1.17
+PO-202409-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2024-09-10,2024-10-10,2024-10-10,6000,6000.0,0,1,1,1,On time and in full,2024-10,0.73
+PO-202409-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-09-10,2024-10-10,2024-10-10,8000,8000.0,0,1,1,1,On time and in full,2024-10,0.98
+PO-202409-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-09-05,2024-11-04,2024-11-03,30000,30000.0,0,1,1,1,On time and in full,2024-11,2.58
+PO-202409-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-09-05,2024-11-04,2024-11-03,20000,20000.0,0,1,1,1,On time and in full,2024-11,3.32
+PO-202409-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-09-05,2024-11-04,2024-11-03,20000,20000.0,0,1,1,1,On time and in full,2024-11,2.86
+PO-202409-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-09-05,2024-11-04,2024-11-03,16000,16000.0,0,1,1,1,On time and in full,2024-11,3.42
+PO-202409-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-09-05,2024-11-04,2024-11-03,44000,44000.0,0,1,1,1,On time and in full,2024-11,2.35
+PO-202409-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-09-07,2024-11-06,2024-11-06,10000,10000.0,0,1,1,1,On time and in full,2024-11,2.56
+PO-202409-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-09-07,2024-11-06,2024-11-06,19000,19000.0,0,1,1,1,On time and in full,2024-11,1.27
+PO-202409-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-09-07,2024-11-06,2024-11-06,20000,20000.0,0,1,1,1,On time and in full,2024-11,1.37
+PO-202409-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-09-07,2024-11-06,2024-11-06,12000,12000.0,0,1,1,1,On time and in full,2024-11,1.92
+PO-202409-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-09-07,2024-11-06,2024-11-06,6000,6000.0,0,1,1,1,On time and in full,2024-11,1.7
+PO-202409-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-09-04,2024-10-04,2024-10-04,14000,14000.0,0,1,1,1,On time and in full,2024-10,3.23
+PO-202409-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-09-04,2024-10-04,2024-10-04,23000,23000.0,0,1,1,1,On time and in full,2024-10,2.98
+PO-202409-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-09-04,2024-10-04,2024-10-04,10000,10000.0,0,1,1,1,On time and in full,2024-10,1.75
+PO-202409-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-09-04,2024-10-04,2024-10-04,24000,24000.0,0,1,1,1,On time and in full,2024-10,2.02
+PO-202410-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-10-09,2024-11-08,2024-11-06,6000,6000.0,0,1,1,1,On time and in full,2024-11,1.14
+PO-202410-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-10-09,2024-11-08,2024-11-06,4000,4000.0,0,1,1,1,On time and in full,2024-11,0.67
+PO-202410-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2024-10-09,2024-11-08,2024-11-06,4000,4000.0,0,1,1,1,On time and in full,2024-11,0.7
+PO-202410-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-10-09,2024-11-08,2024-11-06,4000,4000.0,0,1,1,1,On time and in full,2024-11,1.26
+PO-202410-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-10-09,2024-11-08,2024-11-06,4000,4000.0,0,1,1,1,On time and in full,2024-11,1.72
+PO-202410-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-10-06,2024-12-05,2024-12-05,12000,12000.0,0,1,1,1,On time and in full,2024-12,3.05
+PO-202410-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-10-06,2024-12-05,2024-12-05,40000,40000.0,0,1,1,1,On time and in full,2024-12,2.97
+PO-202410-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-10-06,2024-12-05,2024-12-05,20000,20000.0,0,1,1,1,On time and in full,2024-12,1.45
+PO-202410-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-10-06,2024-12-05,2024-12-05,21000,21000.0,0,1,1,1,On time and in full,2024-12,3.14
+PO-202410-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-10-06,2024-12-05,2024-12-05,30000,30000.0,0,1,1,1,On time and in full,2024-12,2.17
+PO-202410-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-10-08,2024-12-07,2024-12-07,25000,25000.0,0,1,1,1,On time and in full,2024-12,2.72
+PO-202410-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-10-08,2024-12-07,2024-12-07,15000,10504.0,0,1,0,0,Short only,2024-12,2.59
+PO-202410-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2024-10-08,2024-12-07,2024-12-07,5000,5000.0,0,1,1,1,On time and in full,2024-12,1.34
+PO-202410-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-10-08,2024-12-07,2024-12-07,6000,6000.0,0,1,1,1,On time and in full,2024-12,1.63
+PO-202410-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-10-08,2024-12-07,2024-12-07,20000,20000.0,0,1,1,1,On time and in full,2024-12,2.54
+PO-202410-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-10-03,2024-11-02,2024-11-01,38000,38000.0,0,1,1,1,On time and in full,2024-11,3.2
+PO-202410-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-10-03,2024-11-02,2024-11-01,15000,15000.0,0,1,1,1,On time and in full,2024-11,1.63
+PO-202410-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-10-03,2024-11-02,2024-11-01,30000,30000.0,0,1,1,1,On time and in full,2024-11,1.58
+PO-202410-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-10-03,2024-11-02,2024-11-01,12000,12000.0,0,1,1,1,On time and in full,2024-11,2.69
+PO-202410-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-10-10,2024-11-09,2024-11-09,2000,2000.0,0,1,1,1,On time and in full,2024-11,1.25
+PO-202410-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2024-10-10,2024-11-09,2024-11-09,2000,1487.0,0,1,0,0,Short only,2024-11,1.09
+PO-202410-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-10-10,2024-11-09,2024-11-09,7000,7000.0,0,1,1,1,On time and in full,2024-11,1.17
+PO-202410-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2024-10-10,2024-11-09,2024-11-09,2000,1614.0,0,1,0,0,Short only,2024-11,0.73
+PO-202410-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-10-10,2024-11-09,2024-11-09,8000,8000.0,0,1,1,1,On time and in full,2024-11,0.98
+PO-202410-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-10-05,2024-12-04,2024-12-02,35000,35000.0,0,1,1,1,On time and in full,2024-12,2.58
+PO-202410-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-10-05,2024-12-04,2024-12-02,25000,25000.0,0,1,1,1,On time and in full,2024-12,3.32
+PO-202410-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-10-05,2024-12-04,2024-12-02,18000,18000.0,0,1,1,1,On time and in full,2024-12,2.86
+PO-202410-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-10-05,2024-12-04,2024-12-02,20000,20000.0,0,1,1,1,On time and in full,2024-12,3.42
+PO-202410-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-10-05,2024-12-04,2024-12-02,52000,42035.0,0,1,0,0,Short only,2024-12,2.35
+PO-202410-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-10-07,2024-12-06,2024-12-10,6000,6000.0,4,0,1,0,Late only,2024-12,2.56
+PO-202410-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-10-07,2024-12-06,2024-12-10,20000,20000.0,4,0,1,0,Late only,2024-12,1.27
+PO-202410-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-10-07,2024-12-06,2024-12-10,16000,16000.0,4,0,1,0,Late only,2024-12,1.37
+PO-202410-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-10-07,2024-12-06,2024-12-10,12000,12000.0,4,0,1,0,Late only,2024-12,1.92
+PO-202410-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-10-07,2024-12-06,2024-12-10,6000,6000.0,4,0,1,0,Late only,2024-12,1.7
+PO-202410-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-10-04,2024-11-03,2024-11-03,12000,12000.0,0,1,1,1,On time and in full,2024-11,3.23
+PO-202410-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-10-04,2024-11-03,2024-11-03,17000,17000.0,0,1,1,1,On time and in full,2024-11,2.98
+PO-202410-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-10-04,2024-11-03,2024-11-03,15000,15000.0,0,1,1,1,On time and in full,2024-11,1.75
+PO-202410-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-10-04,2024-11-03,2024-11-03,26000,26000.0,0,1,1,1,On time and in full,2024-11,2.02
+PO-202410-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2024-10-04,2024-11-03,2024-11-03,20000,20000.0,0,1,1,1,On time and in full,2024-11,1.53
+PO-202411-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-11-09,2024-12-09,2024-12-13,4000,4000.0,4,0,1,0,Late only,2024-12,1.14
+PO-202411-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-11-09,2024-12-09,2024-12-13,6000,6000.0,4,0,1,0,Late only,2024-12,0.67
+PO-202411-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2024-11-09,2024-12-09,2024-12-13,4000,4000.0,4,0,1,0,Late only,2024-12,0.7
+PO-202411-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-11-09,2024-12-09,2024-12-13,4000,4000.0,4,0,1,0,Late only,2024-12,1.26
+PO-202411-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-11-09,2024-12-09,2024-12-13,6000,6000.0,4,0,1,0,Late only,2024-12,1.72
+PO-202411-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-11-06,2025-01-05,2025-01-04,14000,14000.0,0,1,1,1,On time and in full,2025-01,3.05
+PO-202411-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-11-06,2025-01-05,2025-01-04,40000,40000.0,0,1,1,1,On time and in full,2025-01,2.97
+PO-202411-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-11-06,2025-01-05,2025-01-04,20000,20000.0,0,1,1,1,On time and in full,2025-01,1.45
+PO-202411-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-11-06,2025-01-05,2025-01-04,27000,24703.0,0,1,0,0,Short only,2025-01,3.14
+PO-202411-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-11-06,2025-01-05,2025-01-04,30000,30000.0,0,1,1,1,On time and in full,2025-01,2.17
+PO-202411-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-11-08,2025-01-07,2025-01-18,30000,30000.0,11,0,1,0,Late only,2025-01,2.72
+PO-202411-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-11-08,2025-01-07,2025-01-18,15000,15000.0,11,0,1,0,Late only,2025-01,2.59
+PO-202411-KES,3,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-11-08,2025-01-07,2025-01-18,6000,6000.0,11,0,1,0,Late only,2025-01,1.63
+PO-202411-KES,4,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-11-08,2025-01-07,2025-01-18,15000,15000.0,11,0,1,0,Late only,2025-01,2.54
+PO-202411-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-11-03,2024-12-03,2024-12-02,36000,26700.0,0,1,0,0,Short only,2024-12,3.2
+PO-202411-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-11-03,2024-12-03,2024-12-02,10000,10000.0,0,1,1,1,On time and in full,2024-12,1.63
+PO-202411-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-11-03,2024-12-03,2024-12-02,30000,30000.0,0,1,1,1,On time and in full,2024-12,1.58
+PO-202411-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2024-11-03,2024-12-03,2024-12-02,10000,10000.0,0,1,1,1,On time and in full,2024-12,2.68
+PO-202411-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-11-03,2024-12-03,2024-12-02,14000,14000.0,0,1,1,1,On time and in full,2024-12,2.69
+PO-202411-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-11-10,2024-12-10,2024-12-19,2000,2000.0,9,0,1,0,Late only,2024-12,1.25
+PO-202411-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2024-11-10,2024-12-10,2024-12-19,3000,3000.0,9,0,1,0,Late only,2024-12,1.09
+PO-202411-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-11-10,2024-12-10,2024-12-19,7000,7000.0,9,0,1,0,Late only,2024-12,1.17
+PO-202411-NOR,4,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-11-10,2024-12-10,2024-12-19,4000,4000.0,9,0,1,0,Late only,2024-12,0.98
+PO-202411-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-11-05,2025-01-04,2025-01-02,35000,35000.0,0,1,1,1,On time and in full,2025-01,2.58
+PO-202411-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-11-05,2025-01-04,2025-01-02,35000,35000.0,0,1,1,1,On time and in full,2025-01,3.32
+PO-202411-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-11-05,2025-01-04,2025-01-02,27000,27000.0,0,1,1,1,On time and in full,2025-01,2.86
+PO-202411-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-11-05,2025-01-04,2025-01-02,22000,22000.0,0,1,1,1,On time and in full,2025-01,3.42
+PO-202411-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-11-05,2025-01-04,2025-01-02,58000,58000.0,0,1,1,1,On time and in full,2025-01,2.35
+PO-202411-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-11-07,2025-01-06,2025-01-05,10000,10000.0,0,1,1,1,On time and in full,2025-01,2.56
+PO-202411-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-11-07,2025-01-06,2025-01-05,22000,22000.0,0,1,1,1,On time and in full,2025-01,1.27
+PO-202411-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-11-07,2025-01-06,2025-01-05,18000,18000.0,0,1,1,1,On time and in full,2025-01,1.37
+PO-202411-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-11-07,2025-01-06,2025-01-05,14000,14000.0,0,1,1,1,On time and in full,2025-01,1.92
+PO-202411-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-11-07,2025-01-06,2025-01-05,6000,6000.0,0,1,1,1,On time and in full,2025-01,1.7
+PO-202411-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-11-04,2024-12-04,2024-12-03,18000,18000.0,0,1,1,1,On time and in full,2024-12,3.23
+PO-202411-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-11-04,2024-12-04,2024-12-03,22000,22000.0,0,1,1,1,On time and in full,2024-12,2.98
+PO-202411-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-11-04,2024-12-04,2024-12-03,10000,10000.0,0,1,1,1,On time and in full,2024-12,1.75
+PO-202411-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-11-04,2024-12-04,2024-12-03,32000,32000.0,0,1,1,1,On time and in full,2024-12,2.02
+PO-202411-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2024-11-04,2024-12-04,2024-12-03,22000,22000.0,0,1,1,1,On time and in full,2024-12,1.53
+PO-202412-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2024-12-09,2025-01-08,2025-01-08,4000,4000.0,0,1,1,1,On time and in full,2025-01,1.14
+PO-202412-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2024-12-09,2025-01-08,2025-01-08,4000,4000.0,0,1,1,1,On time and in full,2025-01,0.67
+PO-202412-AQU,3,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2024-12-09,2025-01-08,2025-01-08,4000,4000.0,0,1,1,1,On time and in full,2025-01,1.26
+PO-202412-AQU,4,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2024-12-09,2025-01-08,2025-01-08,6000,6000.0,0,1,1,1,On time and in full,2025-01,1.72
+PO-202412-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2024-12-06,2025-02-04,2025-02-03,12000,12000.0,0,1,1,1,On time and in full,2025-02,3.05
+PO-202412-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2024-12-06,2025-02-04,2025-02-03,28000,28000.0,0,1,1,1,On time and in full,2025-02,2.97
+PO-202412-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2024-12-06,2025-02-04,2025-02-03,20000,20000.0,0,1,1,1,On time and in full,2025-02,1.45
+PO-202412-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2024-12-06,2025-02-04,2025-02-03,21000,21000.0,0,1,1,1,On time and in full,2025-02,3.14
+PO-202412-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2024-12-06,2025-02-04,2025-02-03,28000,28000.0,0,1,1,1,On time and in full,2025-02,2.17
+PO-202412-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2024-12-08,2025-02-06,2025-02-06,30000,30000.0,0,1,1,1,On time and in full,2025-02,2.72
+PO-202412-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2024-12-08,2025-02-06,2025-02-06,10000,10000.0,0,1,1,1,On time and in full,2025-02,2.59
+PO-202412-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2024-12-08,2025-02-06,2025-02-06,5000,5000.0,0,1,1,1,On time and in full,2025-02,1.34
+PO-202412-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2024-12-08,2025-02-06,2025-02-06,6000,6000.0,0,1,1,1,On time and in full,2025-02,1.63
+PO-202412-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2024-12-08,2025-02-06,2025-02-06,10000,10000.0,0,1,1,1,On time and in full,2025-02,2.54
+PO-202412-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2024-12-03,2025-01-02,2025-01-02,26000,26000.0,0,1,1,1,On time and in full,2025-01,3.2
+PO-202412-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2024-12-03,2025-01-02,2025-01-02,15000,15000.0,0,1,1,1,On time and in full,2025-01,1.63
+PO-202412-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2024-12-03,2025-01-02,2025-01-02,34000,34000.0,0,1,1,1,On time and in full,2025-01,1.58
+PO-202412-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2024-12-03,2025-01-02,2025-01-02,15000,15000.0,0,1,1,1,On time and in full,2025-01,2.68
+PO-202412-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2024-12-03,2025-01-02,2025-01-02,16000,16000.0,0,1,1,1,On time and in full,2025-01,2.69
+PO-202412-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2024-12-10,2025-01-09,2025-01-06,2000,2000.0,0,1,1,1,On time and in full,2025-01,1.25
+PO-202412-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2024-12-10,2025-01-09,2025-01-06,1000,1000.0,0,1,1,1,On time and in full,2025-01,1.09
+PO-202412-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2024-12-10,2025-01-09,2025-01-06,4000,4000.0,0,1,1,1,On time and in full,2025-01,1.17
+PO-202412-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2024-12-10,2025-01-09,2025-01-06,2000,2000.0,0,1,1,1,On time and in full,2025-01,0.73
+PO-202412-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2024-12-10,2025-01-09,2025-01-06,6000,5804.0,0,1,0,0,Short only,2025-01,0.98
+PO-202412-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2024-12-05,2025-02-03,2025-02-05,45000,45000.0,2,0,1,0,Late only,2025-02,2.58
+PO-202412-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2024-12-05,2025-02-03,2025-02-05,25000,25000.0,2,0,1,0,Late only,2025-02,3.32
+PO-202412-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2024-12-05,2025-02-03,2025-02-05,29000,29000.0,2,0,1,0,Late only,2025-02,2.86
+PO-202412-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2024-12-05,2025-02-03,2025-02-05,16000,16000.0,2,0,1,0,Late only,2025-02,3.42
+PO-202412-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2024-12-05,2025-02-03,2025-02-05,60000,60000.0,2,0,1,0,Late only,2025-02,2.35
+PO-202412-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2024-12-07,2025-02-05,2025-02-05,8000,8000.0,0,1,1,1,On time and in full,2025-02,2.56
+PO-202412-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2024-12-07,2025-02-05,2025-02-05,16000,16000.0,0,1,1,1,On time and in full,2025-02,1.27
+PO-202412-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2024-12-07,2025-02-05,2025-02-05,14000,14000.0,0,1,1,1,On time and in full,2025-02,1.37
+PO-202412-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2024-12-07,2025-02-05,2025-02-05,12000,12000.0,0,1,1,1,On time and in full,2025-02,1.92
+PO-202412-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2024-12-07,2025-02-05,2025-02-05,6000,6000.0,0,1,1,1,On time and in full,2025-02,1.7
+PO-202412-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2024-12-04,2025-01-03,2025-01-01,12000,12000.0,0,1,1,1,On time and in full,2025-01,3.23
+PO-202412-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2024-12-04,2025-01-03,2025-01-01,20000,20000.0,0,1,1,1,On time and in full,2025-01,2.98
+PO-202412-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2024-12-04,2025-01-03,2025-01-01,15000,15000.0,0,1,1,1,On time and in full,2025-01,1.75
+PO-202412-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2024-12-04,2025-01-03,2025-01-01,36000,36000.0,0,1,1,1,On time and in full,2025-01,2.02
+PO-202412-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2024-12-04,2025-01-03,2025-01-01,18000,18000.0,0,1,1,1,On time and in full,2025-01,1.53
+PO-202501-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-01-09,2025-02-08,2025-02-07,6000,6000.0,0,1,1,1,On time and in full,2025-02,1.14
+PO-202501-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-01-09,2025-02-08,2025-02-07,6000,6000.0,0,1,1,1,On time and in full,2025-02,0.67
+PO-202501-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-01-09,2025-02-08,2025-02-07,2000,2000.0,0,1,1,1,On time and in full,2025-02,0.7
+PO-202501-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-01-09,2025-02-08,2025-02-07,2000,2000.0,0,1,1,1,On time and in full,2025-02,1.26
+PO-202501-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2025-01-09,2025-02-08,2025-02-07,4000,4000.0,0,1,1,1,On time and in full,2025-02,1.72
+PO-202501-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2025-01-06,2025-03-07,2025-03-05,14000,14000.0,0,1,1,1,On time and in full,2025-03,3.05
+PO-202501-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-01-06,2025-03-07,2025-03-05,40000,40000.0,0,1,1,1,On time and in full,2025-03,2.97
+PO-202501-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-01-06,2025-03-07,2025-03-05,22000,22000.0,0,1,1,1,On time and in full,2025-03,1.45
+PO-202501-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-01-06,2025-03-07,2025-03-05,25000,25000.0,0,1,1,1,On time and in full,2025-03,3.14
+PO-202501-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-01-06,2025-03-07,2025-03-05,34000,34000.0,0,1,1,1,On time and in full,2025-03,2.17
+PO-202501-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2025-01-08,2025-03-09,2025-03-30,35000,25951.0,21,0,0,0,Late and short,2025-03,2.72
+PO-202501-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-01-08,2025-03-09,2025-03-30,15000,15000.0,21,0,1,0,Late only,2025-03,2.59
+PO-202501-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2025-01-08,2025-03-09,2025-03-30,5000,5000.0,21,0,1,0,Late only,2025-03,1.34
+PO-202501-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-01-08,2025-03-09,2025-03-30,2000,2000.0,21,0,1,0,Late only,2025-03,1.63
+PO-202501-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-01-08,2025-03-09,2025-03-30,10000,10000.0,21,0,1,0,Late only,2025-03,2.54
+PO-202501-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-01-03,2025-02-02,2025-02-01,24000,24000.0,0,1,1,1,On time and in full,2025-02,3.2
+PO-202501-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-01-03,2025-02-02,2025-02-01,15000,15000.0,0,1,1,1,On time and in full,2025-02,1.63
+PO-202501-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2025-01-03,2025-02-02,2025-02-01,26000,26000.0,0,1,1,1,On time and in full,2025-02,1.58
+PO-202501-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-01-03,2025-02-02,2025-02-01,10000,10000.0,0,1,1,1,On time and in full,2025-02,2.68
+PO-202501-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2025-01-03,2025-02-02,2025-02-01,15000,15000.0,0,1,1,1,On time and in full,2025-02,2.69
+PO-202501-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2025-01-10,2025-02-09,2025-02-09,4000,4000.0,0,1,1,1,On time and in full,2025-02,1.25
+PO-202501-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-01-10,2025-02-09,2025-02-09,3000,3000.0,0,1,1,1,On time and in full,2025-02,1.09
+PO-202501-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-01-10,2025-02-09,2025-02-09,4000,4000.0,0,1,1,1,On time and in full,2025-02,1.17
+PO-202501-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-01-10,2025-02-09,2025-02-09,6000,5415.0,0,1,0,0,Short only,2025-02,0.73
+PO-202501-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-01-10,2025-02-09,2025-02-09,4000,4000.0,0,1,1,1,On time and in full,2025-02,0.98
+PO-202501-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-01-05,2025-03-06,2025-03-06,35000,35000.0,0,1,1,1,On time and in full,2025-03,2.58
+PO-202501-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-01-05,2025-03-06,2025-03-06,20000,20000.0,0,1,1,1,On time and in full,2025-03,3.32
+PO-202501-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-01-05,2025-03-06,2025-03-06,29000,29000.0,0,1,1,1,On time and in full,2025-03,2.86
+PO-202501-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-01-05,2025-03-06,2025-03-06,16000,16000.0,0,1,1,1,On time and in full,2025-03,3.42
+PO-202501-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-01-05,2025-03-06,2025-03-06,56000,56000.0,0,1,1,1,On time and in full,2025-03,2.35
+PO-202501-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-01-07,2025-03-08,2025-03-06,8000,8000.0,0,1,1,1,On time and in full,2025-03,2.56
+PO-202501-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-01-07,2025-03-08,2025-03-06,10000,10000.0,0,1,1,1,On time and in full,2025-03,1.27
+PO-202501-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2025-01-07,2025-03-08,2025-03-06,12000,12000.0,0,1,1,1,On time and in full,2025-03,1.37
+PO-202501-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2025-01-07,2025-03-08,2025-03-06,10000,10000.0,0,1,1,1,On time and in full,2025-03,1.92
+PO-202501-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-01-07,2025-03-08,2025-03-06,7000,7000.0,0,1,1,1,On time and in full,2025-03,1.7
+PO-202501-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-01-04,2025-02-03,2025-02-01,12000,12000.0,0,1,1,1,On time and in full,2025-02,3.23
+PO-202501-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-01-04,2025-02-03,2025-02-01,13000,13000.0,0,1,1,1,On time and in full,2025-02,2.98
+PO-202501-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-01-04,2025-02-03,2025-02-01,15000,15000.0,0,1,1,1,On time and in full,2025-02,1.75
+PO-202501-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-01-04,2025-02-03,2025-02-01,24000,24000.0,0,1,1,1,On time and in full,2025-02,2.02
+PO-202501-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-01-04,2025-02-03,2025-02-01,22000,22000.0,0,1,1,1,On time and in full,2025-02,1.53
+PO-202502-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-02-09,2025-03-11,2025-03-08,8000,8000.0,0,1,1,1,On time and in full,2025-03,1.14
+PO-202502-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-02-09,2025-03-11,2025-03-08,8000,8000.0,0,1,1,1,On time and in full,2025-03,0.67
+PO-202502-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-02-09,2025-03-11,2025-03-08,6000,6000.0,0,1,1,1,On time and in full,2025-03,0.7
+PO-202502-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-02-09,2025-03-11,2025-03-08,6000,6000.0,0,1,1,1,On time and in full,2025-03,1.26
+PO-202502-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2025-02-09,2025-03-11,2025-03-08,14000,14000.0,0,1,1,1,On time and in full,2025-03,1.72
+PO-202502-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2025-02-06,2025-04-07,2025-04-07,16000,16000.0,0,1,1,1,On time and in full,2025-04,3.05
+PO-202502-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-02-06,2025-04-07,2025-04-07,26000,26000.0,0,1,1,1,On time and in full,2025-04,2.97
+PO-202502-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-02-06,2025-04-07,2025-04-07,24000,24000.0,0,1,1,1,On time and in full,2025-04,1.45
+PO-202502-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-02-06,2025-04-07,2025-04-07,38000,38000.0,0,1,1,1,On time and in full,2025-04,3.14
+PO-202502-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-02-06,2025-04-07,2025-04-07,24000,24000.0,0,1,1,1,On time and in full,2025-04,2.17
+PO-202502-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2025-02-08,2025-04-09,2025-04-07,20000,14003.0,0,1,0,0,Short only,2025-04,2.72
+PO-202502-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-02-08,2025-04-09,2025-04-07,5000,5000.0,0,1,1,1,On time and in full,2025-04,2.59
+PO-202502-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2025-02-08,2025-04-09,2025-04-07,5000,5000.0,0,1,1,1,On time and in full,2025-04,1.34
+PO-202502-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-02-08,2025-04-09,2025-04-07,6000,6000.0,0,1,1,1,On time and in full,2025-04,1.63
+PO-202502-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-02-08,2025-04-09,2025-04-07,10000,10000.0,0,1,1,1,On time and in full,2025-04,2.54
+PO-202502-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-02-03,2025-03-05,2025-03-04,28000,28000.0,0,1,1,1,On time and in full,2025-03,3.2
+PO-202502-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-02-03,2025-03-05,2025-03-04,15000,15000.0,0,1,1,1,On time and in full,2025-03,1.63
+PO-202502-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2025-02-03,2025-03-05,2025-03-04,20000,20000.0,0,1,1,1,On time and in full,2025-03,1.58
+PO-202502-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-02-03,2025-03-05,2025-03-04,10000,10000.0,0,1,1,1,On time and in full,2025-03,2.68
+PO-202502-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2025-02-03,2025-03-05,2025-03-04,12000,12000.0,0,1,1,1,On time and in full,2025-03,2.69
+PO-202502-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2025-02-10,2025-03-12,2025-03-12,2000,2000.0,0,1,1,1,On time and in full,2025-03,1.25
+PO-202502-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-02-10,2025-03-12,2025-03-12,6000,6000.0,0,1,1,1,On time and in full,2025-03,1.09
+PO-202502-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-02-10,2025-03-12,2025-03-12,7000,7000.0,0,1,1,1,On time and in full,2025-03,1.17
+PO-202502-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-02-10,2025-03-12,2025-03-12,6000,6000.0,0,1,1,1,On time and in full,2025-03,0.73
+PO-202502-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-02-10,2025-03-12,2025-03-12,8000,8000.0,0,1,1,1,On time and in full,2025-03,0.98
+PO-202502-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-02-05,2025-04-06,2025-04-05,40000,40000.0,0,1,1,1,On time and in full,2025-04,2.58
+PO-202502-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-02-05,2025-04-06,2025-04-05,30000,30000.0,0,1,1,1,On time and in full,2025-04,3.32
+PO-202502-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-02-05,2025-04-06,2025-04-05,24000,24000.0,0,1,1,1,On time and in full,2025-04,2.86
+PO-202502-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-02-05,2025-04-06,2025-04-05,18000,18000.0,0,1,1,1,On time and in full,2025-04,3.42
+PO-202502-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-02-05,2025-04-06,2025-04-05,58000,58000.0,0,1,1,1,On time and in full,2025-04,2.35
+PO-202502-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-02-07,2025-04-08,2025-04-08,6000,6000.0,0,1,1,1,On time and in full,2025-04,2.56
+PO-202502-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-02-07,2025-04-08,2025-04-08,12000,12000.0,0,1,1,1,On time and in full,2025-04,1.27
+PO-202502-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2025-02-07,2025-04-08,2025-04-08,8000,8000.0,0,1,1,1,On time and in full,2025-04,1.37
+PO-202502-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2025-02-07,2025-04-08,2025-04-08,10000,10000.0,0,1,1,1,On time and in full,2025-04,1.92
+PO-202502-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-02-07,2025-04-08,2025-04-08,4000,4000.0,0,1,1,1,On time and in full,2025-04,1.7
+PO-202502-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-02-04,2025-03-06,2025-03-06,8000,8000.0,0,1,1,1,On time and in full,2025-03,3.23
+PO-202502-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-02-04,2025-03-06,2025-03-06,12000,12000.0,0,1,1,1,On time and in full,2025-03,2.98
+PO-202502-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-02-04,2025-03-06,2025-03-06,10000,10000.0,0,1,1,1,On time and in full,2025-03,1.75
+PO-202502-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-02-04,2025-03-06,2025-03-06,32000,32000.0,0,1,1,1,On time and in full,2025-03,2.02
+PO-202502-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-02-04,2025-03-06,2025-03-06,14000,9995.0,0,1,0,0,Short only,2025-03,1.53
+PO-202503-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-03-09,2025-04-08,2025-04-13,8000,8000.0,5,0,1,0,Late only,2025-04,1.14
+PO-202503-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-03-09,2025-04-08,2025-04-13,10000,10000.0,5,0,1,0,Late only,2025-04,0.67
+PO-202503-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-03-09,2025-04-08,2025-04-13,4000,4000.0,5,0,1,0,Late only,2025-04,0.7
+PO-202503-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-03-09,2025-04-08,2025-04-13,4000,4000.0,5,0,1,0,Late only,2025-04,1.26
+PO-202503-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2025-03-09,2025-04-08,2025-04-13,16000,16000.0,5,0,1,0,Late only,2025-04,1.72
+PO-202503-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2025-03-06,2025-05-05,2025-05-05,16000,16000.0,0,1,1,1,On time and in full,2025-05,3.05
+PO-202503-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-03-06,2025-05-05,2025-05-05,38000,35356.0,0,1,0,0,Short only,2025-05,2.97
+PO-202503-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-03-06,2025-05-05,2025-05-05,22000,22000.0,0,1,1,1,On time and in full,2025-05,1.45
+PO-202503-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-03-06,2025-05-05,2025-05-05,26000,26000.0,0,1,1,1,On time and in full,2025-05,3.14
+PO-202503-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-03-06,2025-05-05,2025-05-05,24000,24000.0,0,1,1,1,On time and in full,2025-05,2.17
+PO-202503-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2025-03-08,2025-05-07,2025-05-04,20000,20000.0,0,1,1,1,On time and in full,2025-05,2.72
+PO-202503-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-03-08,2025-05-07,2025-05-04,15000,15000.0,0,1,1,1,On time and in full,2025-05,2.59
+PO-202503-KES,3,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-03-08,2025-05-07,2025-05-04,2000,2000.0,0,1,1,1,On time and in full,2025-05,1.63
+PO-202503-KES,4,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-03-08,2025-05-07,2025-05-04,10000,10000.0,0,1,1,1,On time and in full,2025-05,2.54
+PO-202503-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-03-03,2025-04-02,2025-04-02,24000,24000.0,0,1,1,1,On time and in full,2025-04,3.2
+PO-202503-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-03-03,2025-04-02,2025-04-02,10000,10000.0,0,1,1,1,On time and in full,2025-04,1.63
+PO-202503-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2025-03-03,2025-04-02,2025-04-02,24000,24000.0,0,1,1,1,On time and in full,2025-04,1.58
+PO-202503-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-03-03,2025-04-02,2025-04-02,10000,10000.0,0,1,1,1,On time and in full,2025-04,2.68
+PO-202503-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2025-03-03,2025-04-02,2025-04-02,13000,9906.0,0,1,0,0,Short only,2025-04,2.69
+PO-202503-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2025-03-10,2025-04-09,2025-04-09,6000,6000.0,0,1,1,1,On time and in full,2025-04,1.25
+PO-202503-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-03-10,2025-04-09,2025-04-09,5000,5000.0,0,1,1,1,On time and in full,2025-04,1.09
+PO-202503-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-03-10,2025-04-09,2025-04-09,9000,9000.0,0,1,1,1,On time and in full,2025-04,1.17
+PO-202503-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-03-10,2025-04-09,2025-04-09,4000,4000.0,0,1,1,1,On time and in full,2025-04,0.73
+PO-202503-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-03-10,2025-04-09,2025-04-09,10000,10000.0,0,1,1,1,On time and in full,2025-04,0.98
+PO-202503-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-03-05,2025-05-04,2025-05-04,45000,45000.0,0,1,1,1,On time and in full,2025-05,2.58
+PO-202503-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-03-05,2025-05-04,2025-05-04,25000,25000.0,0,1,1,1,On time and in full,2025-05,3.32
+PO-202503-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-03-05,2025-05-04,2025-05-04,29000,29000.0,0,1,1,1,On time and in full,2025-05,2.86
+PO-202503-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-03-05,2025-05-04,2025-05-04,20000,20000.0,0,1,1,1,On time and in full,2025-05,3.42
+PO-202503-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-03-05,2025-05-04,2025-05-04,58000,58000.0,0,1,1,1,On time and in full,2025-05,2.35
+PO-202503-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-03-07,2025-05-06,2025-05-05,8000,8000.0,0,1,1,1,On time and in full,2025-05,2.56
+PO-202503-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-03-07,2025-05-06,2025-05-05,12000,12000.0,0,1,1,1,On time and in full,2025-05,1.27
+PO-202503-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2025-03-07,2025-05-06,2025-05-05,14000,14000.0,0,1,1,1,On time and in full,2025-05,1.37
+PO-202503-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2025-03-07,2025-05-06,2025-05-05,8000,8000.0,0,1,1,1,On time and in full,2025-05,1.92
+PO-202503-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-03-07,2025-05-06,2025-05-05,3000,3000.0,0,1,1,1,On time and in full,2025-05,1.7
+PO-202503-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-03-04,2025-04-03,2025-04-03,10000,10000.0,0,1,1,1,On time and in full,2025-04,3.23
+PO-202503-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-03-04,2025-04-03,2025-04-03,18000,18000.0,0,1,1,1,On time and in full,2025-04,2.98
+PO-202503-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-03-04,2025-04-03,2025-04-03,15000,15000.0,0,1,1,1,On time and in full,2025-04,1.75
+PO-202503-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-03-04,2025-04-03,2025-04-03,28000,28000.0,0,1,1,1,On time and in full,2025-04,2.02
+PO-202503-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-03-04,2025-04-03,2025-04-03,16000,16000.0,0,1,1,1,On time and in full,2025-04,1.53
+PO-202504-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-04-09,2025-05-09,2025-05-08,14000,14000.0,0,1,1,1,On time and in full,2025-05,1.14
+PO-202504-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-04-09,2025-05-09,2025-05-08,12000,12000.0,0,1,1,1,On time and in full,2025-05,0.67
+PO-202504-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-04-09,2025-05-09,2025-05-08,4000,4000.0,0,1,1,1,On time and in full,2025-05,0.7
+PO-202504-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-04-09,2025-05-09,2025-05-08,8000,8000.0,0,1,1,1,On time and in full,2025-05,1.26
+PO-202504-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2025-04-09,2025-05-09,2025-05-08,20000,20000.0,0,1,1,1,On time and in full,2025-05,1.72
+PO-202504-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-04-06,2025-06-05,2025-06-05,38000,38000.0,0,1,1,1,On time and in full,2025-06,2.97
+PO-202504-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-04-06,2025-06-05,2025-06-05,18000,12681.0,0,1,0,0,Short only,2025-06,1.45
+PO-202504-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-04-06,2025-06-05,2025-06-05,29000,29000.0,0,1,1,1,On time and in full,2025-06,3.14
+PO-202504-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-04-06,2025-06-05,2025-06-05,24000,24000.0,0,1,1,1,On time and in full,2025-06,2.17
+PO-202504-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2025-04-08,2025-06-07,2025-06-14,15000,15000.0,7,0,1,0,Late only,2025-06,2.72
+PO-202504-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-04-08,2025-06-07,2025-06-14,5000,5000.0,7,0,1,0,Late only,2025-06,2.59
+PO-202504-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2025-04-08,2025-06-07,2025-06-14,5000,4042.0,7,0,0,0,Late and short,2025-06,1.34
+PO-202504-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-04-08,2025-06-07,2025-06-14,4000,4000.0,7,0,1,0,Late only,2025-06,1.63
+PO-202504-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-04-08,2025-06-07,2025-06-14,15000,15000.0,7,0,1,0,Late only,2025-06,2.54
+PO-202504-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-04-03,2025-05-03,2025-05-03,40000,40000.0,0,1,1,1,On time and in full,2025-05,3.2
+PO-202504-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-04-03,2025-05-03,2025-05-03,10000,10000.0,0,1,1,1,On time and in full,2025-05,1.63
+PO-202504-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2025-04-03,2025-05-03,2025-05-03,24000,23011.0,0,1,0,0,Short only,2025-05,1.58
+PO-202504-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-04-03,2025-05-03,2025-05-03,5000,5000.0,0,1,1,1,On time and in full,2025-05,2.68
+PO-202504-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2025-04-03,2025-05-03,2025-05-03,16000,16000.0,0,1,1,1,On time and in full,2025-05,2.69
+PO-202504-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2025-04-10,2025-05-10,2025-05-10,6000,6000.0,0,1,1,1,On time and in full,2025-05,1.25
+PO-202504-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-04-10,2025-05-10,2025-05-10,6000,6000.0,0,1,1,1,On time and in full,2025-05,1.09
+PO-202504-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-04-10,2025-05-10,2025-05-10,14000,14000.0,0,1,1,1,On time and in full,2025-05,1.17
+PO-202504-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-04-10,2025-05-10,2025-05-10,6000,6000.0,0,1,1,1,On time and in full,2025-05,0.73
+PO-202504-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-04-10,2025-05-10,2025-05-10,10000,10000.0,0,1,1,1,On time and in full,2025-05,0.98
+PO-202504-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-04-05,2025-06-04,2025-06-02,45000,36584.0,0,1,0,0,Short only,2025-06,2.58
+PO-202504-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-04-05,2025-06-04,2025-06-02,30000,30000.0,0,1,1,1,On time and in full,2025-06,3.32
+PO-202504-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-04-05,2025-06-04,2025-06-02,25000,25000.0,0,1,1,1,On time and in full,2025-06,2.86
+PO-202504-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-04-05,2025-06-04,2025-06-02,20000,20000.0,0,1,1,1,On time and in full,2025-06,3.42
+PO-202504-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-04-05,2025-06-04,2025-06-02,70000,70000.0,0,1,1,1,On time and in full,2025-06,2.35
+PO-202504-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-04-07,2025-06-06,2025-06-06,6000,6000.0,0,1,1,1,On time and in full,2025-06,2.56
+PO-202504-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-04-07,2025-06-06,2025-06-06,15000,15000.0,0,1,1,1,On time and in full,2025-06,1.27
+PO-202504-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2025-04-07,2025-06-06,2025-06-06,14000,14000.0,0,1,1,1,On time and in full,2025-06,1.37
+PO-202504-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2025-04-07,2025-06-06,2025-06-06,12000,12000.0,0,1,1,1,On time and in full,2025-06,1.92
+PO-202504-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-04-07,2025-06-06,2025-06-06,5000,5000.0,0,1,1,1,On time and in full,2025-06,1.7
+PO-202504-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-04-04,2025-05-04,2025-05-04,14000,14000.0,0,1,1,1,On time and in full,2025-05,3.23
+PO-202504-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-04-04,2025-05-04,2025-05-04,21000,21000.0,0,1,1,1,On time and in full,2025-05,2.98
+PO-202504-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-04-04,2025-05-04,2025-05-04,10000,10000.0,0,1,1,1,On time and in full,2025-05,1.75
+PO-202504-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-04-04,2025-05-04,2025-05-04,28000,28000.0,0,1,1,1,On time and in full,2025-05,2.02
+PO-202504-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-04-04,2025-05-04,2025-05-04,18000,18000.0,0,1,1,1,On time and in full,2025-05,1.53
+PO-202505-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-05-09,2025-06-08,2025-06-05,12000,12000.0,0,1,1,1,On time and in full,2025-06,1.14
+PO-202505-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-05-09,2025-06-08,2025-06-05,12000,12000.0,0,1,1,1,On time and in full,2025-06,0.67
+PO-202505-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-05-09,2025-06-08,2025-06-05,10000,10000.0,0,1,1,1,On time and in full,2025-06,0.7
+PO-202505-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-05-09,2025-06-08,2025-06-05,6000,6000.0,0,1,1,1,On time and in full,2025-06,1.26
+PO-202505-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2025-05-09,2025-06-08,2025-06-05,18000,18000.0,0,1,1,1,On time and in full,2025-06,1.72
+PO-202505-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2025-05-06,2025-07-05,2025-07-03,16000,16000.0,0,1,1,1,On time and in full,2025-07,3.05
+PO-202505-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-05-06,2025-07-05,2025-07-03,34000,34000.0,0,1,1,1,On time and in full,2025-07,2.97
+PO-202505-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-05-06,2025-07-05,2025-07-03,16000,16000.0,0,1,1,1,On time and in full,2025-07,1.45
+PO-202505-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-05-06,2025-07-05,2025-07-03,17000,17000.0,0,1,1,1,On time and in full,2025-07,3.14
+PO-202505-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-05-06,2025-07-05,2025-07-03,22000,22000.0,0,1,1,1,On time and in full,2025-07,2.17
+PO-202505-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2025-05-08,2025-07-07,2025-07-11,25000,25000.0,4,0,1,0,Late only,2025-07,2.72
+PO-202505-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-05-08,2025-07-07,2025-07-11,15000,15000.0,4,0,1,0,Late only,2025-07,2.59
+PO-202505-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2025-05-08,2025-07-07,2025-07-11,5000,5000.0,4,0,1,0,Late only,2025-07,1.34
+PO-202505-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-05-08,2025-07-07,2025-07-11,4000,4000.0,4,0,1,0,Late only,2025-07,1.63
+PO-202505-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-05-08,2025-07-07,2025-07-11,10000,10000.0,4,0,1,0,Late only,2025-07,2.54
+PO-202505-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-05-03,2025-06-02,2025-06-02,32000,32000.0,0,1,1,1,On time and in full,2025-06,3.2
+PO-202505-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-05-03,2025-06-02,2025-06-02,15000,15000.0,0,1,1,1,On time and in full,2025-06,1.63
+PO-202505-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2025-05-03,2025-06-02,2025-06-02,24000,24000.0,0,1,1,1,On time and in full,2025-06,1.58
+PO-202505-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-05-03,2025-06-02,2025-06-02,10000,10000.0,0,1,1,1,On time and in full,2025-06,2.68
+PO-202505-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2025-05-03,2025-06-02,2025-06-02,17000,17000.0,0,1,1,1,On time and in full,2025-06,2.69
+PO-202505-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2025-05-10,2025-06-09,2025-06-07,8000,8000.0,0,1,1,1,On time and in full,2025-06,1.25
+PO-202505-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-05-10,2025-06-09,2025-06-07,7000,7000.0,0,1,1,1,On time and in full,2025-06,1.09
+PO-202505-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-05-10,2025-06-09,2025-06-07,11000,11000.0,0,1,1,1,On time and in full,2025-06,1.17
+PO-202505-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-05-10,2025-06-09,2025-06-07,10000,10000.0,0,1,1,1,On time and in full,2025-06,0.73
+PO-202505-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-05-10,2025-06-09,2025-06-07,10000,10000.0,0,1,1,1,On time and in full,2025-06,0.98
+PO-202505-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-05-05,2025-07-04,2025-07-02,45000,45000.0,0,1,1,1,On time and in full,2025-07,2.58
+PO-202505-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-05-05,2025-07-04,2025-07-02,25000,25000.0,0,1,1,1,On time and in full,2025-07,3.32
+PO-202505-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-05-05,2025-07-04,2025-07-02,27000,27000.0,0,1,1,1,On time and in full,2025-07,2.86
+PO-202505-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-05-05,2025-07-04,2025-07-02,22000,22000.0,0,1,1,1,On time and in full,2025-07,3.42
+PO-202505-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-05-05,2025-07-04,2025-07-02,40000,40000.0,0,1,1,1,On time and in full,2025-07,2.35
+PO-202505-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-05-07,2025-07-06,2025-07-06,6000,6000.0,0,1,1,1,On time and in full,2025-07,2.56
+PO-202505-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-05-07,2025-07-06,2025-07-06,14000,14000.0,0,1,1,1,On time and in full,2025-07,1.27
+PO-202505-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2025-05-07,2025-07-06,2025-07-06,14000,14000.0,0,1,1,1,On time and in full,2025-07,1.37
+PO-202505-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2025-05-07,2025-07-06,2025-07-06,8000,8000.0,0,1,1,1,On time and in full,2025-07,1.92
+PO-202505-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-05-07,2025-07-06,2025-07-06,5000,5000.0,0,1,1,1,On time and in full,2025-07,1.7
+PO-202505-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-05-04,2025-06-03,2025-06-03,10000,10000.0,0,1,1,1,On time and in full,2025-06,3.23
+PO-202505-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-05-04,2025-06-03,2025-06-03,17000,17000.0,0,1,1,1,On time and in full,2025-06,2.98
+PO-202505-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-05-04,2025-06-03,2025-06-03,10000,10000.0,0,1,1,1,On time and in full,2025-06,1.75
+PO-202505-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-05-04,2025-06-03,2025-06-03,20000,20000.0,0,1,1,1,On time and in full,2025-06,2.02
+PO-202505-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-05-04,2025-06-03,2025-06-03,18000,18000.0,0,1,1,1,On time and in full,2025-06,1.53
+PO-202506-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-06-09,2025-07-09,2025-07-06,12000,12000.0,0,1,1,1,On time and in full,2025-07,1.14
+PO-202506-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-06-09,2025-07-09,2025-07-06,10000,10000.0,0,1,1,1,On time and in full,2025-07,0.67
+PO-202506-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-06-09,2025-07-09,2025-07-06,6000,6000.0,0,1,1,1,On time and in full,2025-07,0.7
+PO-202506-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-06-09,2025-07-09,2025-07-06,8000,8000.0,0,1,1,1,On time and in full,2025-07,1.26
+PO-202506-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2025-06-09,2025-07-09,2025-07-06,14000,14000.0,0,1,1,1,On time and in full,2025-07,1.72
+PO-202506-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2025-06-06,2025-08-05,2025-08-05,16000,16000.0,0,1,1,1,On time and in full,2025-08,3.05
+PO-202506-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-06-06,2025-08-05,2025-08-05,34000,34000.0,0,1,1,1,On time and in full,2025-08,2.97
+PO-202506-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-06-06,2025-08-05,2025-08-05,12000,12000.0,0,1,1,1,On time and in full,2025-08,1.45
+PO-202506-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-06-06,2025-08-05,2025-08-05,26000,26000.0,0,1,1,1,On time and in full,2025-08,3.14
+PO-202506-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-06-06,2025-08-05,2025-08-05,20000,20000.0,0,1,1,1,On time and in full,2025-08,2.17
+PO-202506-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2025-06-08,2025-08-07,2025-08-07,25000,25000.0,0,1,1,1,On time and in full,2025-08,2.72
+PO-202506-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-06-08,2025-08-07,2025-08-07,10000,10000.0,0,1,1,1,On time and in full,2025-08,2.59
+PO-202506-KES,3,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-06-08,2025-08-07,2025-08-07,4000,4000.0,0,1,1,1,On time and in full,2025-08,1.63
+PO-202506-KES,4,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-06-08,2025-08-07,2025-08-07,15000,15000.0,0,1,1,1,On time and in full,2025-08,2.54
+PO-202506-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-06-03,2025-07-03,2025-07-03,22000,22000.0,0,1,1,1,On time and in full,2025-07,3.2
+PO-202506-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-06-03,2025-07-03,2025-07-03,10000,10000.0,0,1,1,1,On time and in full,2025-07,1.63
+PO-202506-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2025-06-03,2025-07-03,2025-07-03,16000,16000.0,0,1,1,1,On time and in full,2025-07,1.58
+PO-202506-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-06-03,2025-07-03,2025-07-03,10000,10000.0,0,1,1,1,On time and in full,2025-07,2.68
+PO-202506-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2025-06-03,2025-07-03,2025-07-03,12000,12000.0,0,1,1,1,On time and in full,2025-07,2.69
+PO-202506-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2025-06-10,2025-07-10,2025-07-10,8000,8000.0,0,1,1,1,On time and in full,2025-07,1.25
+PO-202506-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-06-10,2025-07-10,2025-07-10,6000,5605.0,0,1,0,0,Short only,2025-07,1.09
+PO-202506-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-06-10,2025-07-10,2025-07-10,12000,12000.0,0,1,1,1,On time and in full,2025-07,1.17
+PO-202506-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-06-10,2025-07-10,2025-07-10,8000,8000.0,0,1,1,1,On time and in full,2025-07,0.73
+PO-202506-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-06-10,2025-07-10,2025-07-10,10000,10000.0,0,1,1,1,On time and in full,2025-07,0.98
+PO-202506-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-06-05,2025-08-04,2025-08-02,30000,30000.0,0,1,1,1,On time and in full,2025-08,2.58
+PO-202506-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-06-05,2025-08-04,2025-08-02,20000,20000.0,0,1,1,1,On time and in full,2025-08,3.32
+PO-202506-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-06-05,2025-08-04,2025-08-02,31000,31000.0,0,1,1,1,On time and in full,2025-08,2.86
+PO-202506-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-06-05,2025-08-04,2025-08-02,18000,16378.0,0,1,0,0,Short only,2025-08,3.42
+PO-202506-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-06-05,2025-08-04,2025-08-02,48000,48000.0,0,1,1,1,On time and in full,2025-08,2.35
+PO-202506-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-06-07,2025-08-06,2025-08-04,8000,8000.0,0,1,1,1,On time and in full,2025-08,2.56
+PO-202506-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-06-07,2025-08-06,2025-08-04,13000,12587.0,0,1,0,0,Short only,2025-08,1.27
+PO-202506-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2025-06-07,2025-08-06,2025-08-04,12000,12000.0,0,1,1,1,On time and in full,2025-08,1.37
+PO-202506-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2025-06-07,2025-08-06,2025-08-04,10000,10000.0,0,1,1,1,On time and in full,2025-08,1.92
+PO-202506-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-06-07,2025-08-06,2025-08-04,5000,3954.0,0,1,0,0,Short only,2025-08,1.7
+PO-202506-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-06-04,2025-07-04,2025-07-04,10000,10000.0,0,1,1,1,On time and in full,2025-07,3.23
+PO-202506-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-06-04,2025-07-04,2025-07-04,18000,18000.0,0,1,1,1,On time and in full,2025-07,2.98
+PO-202506-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-06-04,2025-07-04,2025-07-04,15000,15000.0,0,1,1,1,On time and in full,2025-07,1.75
+PO-202506-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-06-04,2025-07-04,2025-07-04,28000,28000.0,0,1,1,1,On time and in full,2025-07,2.02
+PO-202506-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-06-04,2025-07-04,2025-07-04,26000,26000.0,0,1,1,1,On time and in full,2025-07,1.53
+PO-202507-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-07-09,2025-08-08,2025-08-08,16000,16000.0,0,1,1,1,On time and in full,2025-08,1.14
+PO-202507-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-07-09,2025-08-08,2025-08-08,16000,16000.0,0,1,1,1,On time and in full,2025-08,0.67
+PO-202507-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-07-09,2025-08-08,2025-08-08,8000,8000.0,0,1,1,1,On time and in full,2025-08,0.7
+PO-202507-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-07-09,2025-08-08,2025-08-08,10000,10000.0,0,1,1,1,On time and in full,2025-08,1.26
+PO-202507-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2025-07-06,2025-09-04,2025-09-04,10000,10000.0,0,1,1,1,On time and in full,2025-09,3.05
+PO-202507-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-07-06,2025-09-04,2025-09-04,42000,42000.0,0,1,1,1,On time and in full,2025-09,2.97
+PO-202507-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-07-06,2025-09-04,2025-09-04,20000,20000.0,0,1,1,1,On time and in full,2025-09,1.45
+PO-202507-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-07-06,2025-09-04,2025-09-04,20000,20000.0,0,1,1,1,On time and in full,2025-09,3.14
+PO-202507-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-07-06,2025-09-04,2025-09-04,30000,30000.0,0,1,1,1,On time and in full,2025-09,2.17
+PO-202507-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2025-07-08,2025-09-06,2025-09-18,25000,25000.0,12,0,1,0,Late only,2025-09,2.72
+PO-202507-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-07-08,2025-09-06,2025-09-18,15000,11371.0,12,0,0,0,Late and short,2025-09,2.59
+PO-202507-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2025-07-08,2025-09-06,2025-09-18,5000,5000.0,12,0,1,0,Late only,2025-09,1.34
+PO-202507-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-07-08,2025-09-06,2025-09-18,6000,6000.0,12,0,1,0,Late only,2025-09,1.63
+PO-202507-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-07-08,2025-09-06,2025-09-18,10000,10000.0,12,0,1,0,Late only,2025-09,2.54
+PO-202507-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-07-03,2025-08-02,2025-08-02,26000,26000.0,0,1,1,1,On time and in full,2025-08,3.2
+PO-202507-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-07-03,2025-08-02,2025-08-02,10000,10000.0,0,1,1,1,On time and in full,2025-08,1.63
+PO-202507-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2025-07-03,2025-08-02,2025-08-02,24000,24000.0,0,1,1,1,On time and in full,2025-08,1.58
+PO-202507-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-07-03,2025-08-02,2025-08-02,10000,10000.0,0,1,1,1,On time and in full,2025-08,2.68
+PO-202507-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2025-07-03,2025-08-02,2025-08-02,13000,13000.0,0,1,1,1,On time and in full,2025-08,2.69
+PO-202507-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2025-07-10,2025-08-09,2025-08-07,6000,6000.0,0,1,1,1,On time and in full,2025-08,1.25
+PO-202507-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-07-10,2025-08-09,2025-08-07,6000,6000.0,0,1,1,1,On time and in full,2025-08,1.09
+PO-202507-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-07-10,2025-08-09,2025-08-07,13000,13000.0,0,1,1,1,On time and in full,2025-08,1.17
+PO-202507-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-07-10,2025-08-09,2025-08-07,6000,6000.0,0,1,1,1,On time and in full,2025-08,0.73
+PO-202507-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-07-10,2025-08-09,2025-08-07,14000,14000.0,0,1,1,1,On time and in full,2025-08,0.98
+PO-202507-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-07-05,2025-09-03,2025-09-03,35000,35000.0,0,1,1,1,On time and in full,2025-09,2.58
+PO-202507-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-07-05,2025-09-03,2025-09-03,15000,15000.0,0,1,1,1,On time and in full,2025-09,3.32
+PO-202507-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-07-05,2025-09-03,2025-09-03,21000,21000.0,0,1,1,1,On time and in full,2025-09,2.86
+PO-202507-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-07-05,2025-09-03,2025-09-03,22000,22000.0,0,1,1,1,On time and in full,2025-09,3.42
+PO-202507-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-07-05,2025-09-03,2025-09-03,44000,44000.0,0,1,1,1,On time and in full,2025-09,2.35
+PO-202507-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-07-07,2025-09-05,2025-09-05,8000,8000.0,0,1,1,1,On time and in full,2025-09,2.56
+PO-202507-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-07-07,2025-09-05,2025-09-05,18000,18000.0,0,1,1,1,On time and in full,2025-09,1.27
+PO-202507-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2025-07-07,2025-09-05,2025-09-05,14000,14000.0,0,1,1,1,On time and in full,2025-09,1.37
+PO-202507-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-07-07,2025-09-05,2025-09-05,6000,6000.0,0,1,1,1,On time and in full,2025-09,1.7
+PO-202507-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-07-04,2025-08-03,2025-07-31,12000,12000.0,0,1,1,1,On time and in full,2025-08,3.23
+PO-202507-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-07-04,2025-08-03,2025-07-31,13000,13000.0,0,1,1,1,On time and in full,2025-08,2.98
+PO-202507-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-07-04,2025-08-03,2025-07-31,10000,10000.0,0,1,1,1,On time and in full,2025-08,1.75
+PO-202507-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-07-04,2025-08-03,2025-07-31,36000,36000.0,0,1,1,1,On time and in full,2025-08,2.02
+PO-202507-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-07-04,2025-08-03,2025-07-31,18000,18000.0,0,1,1,1,On time and in full,2025-08,1.53
+PO-202508-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-08-09,2025-09-08,2025-09-08,10000,10000.0,0,1,1,1,On time and in full,2025-09,1.14
+PO-202508-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-08-09,2025-09-08,2025-09-08,12000,12000.0,0,1,1,1,On time and in full,2025-09,0.67
+PO-202508-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-08-09,2025-09-08,2025-09-08,4000,4000.0,0,1,1,1,On time and in full,2025-09,0.7
+PO-202508-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-08-09,2025-09-08,2025-09-08,8000,8000.0,0,1,1,1,On time and in full,2025-09,1.26
+PO-202508-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2025-08-09,2025-09-08,2025-09-08,12000,12000.0,0,1,1,1,On time and in full,2025-09,1.72
+PO-202508-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2025-08-06,2025-10-05,2025-10-05,14000,14000.0,0,1,1,1,On time and in full,2025-10,3.05
+PO-202508-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-08-06,2025-10-05,2025-10-05,38000,38000.0,0,1,1,1,On time and in full,2025-10,2.97
+PO-202508-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-08-06,2025-10-05,2025-10-05,18000,18000.0,0,1,1,1,On time and in full,2025-10,1.45
+PO-202508-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-08-06,2025-10-05,2025-10-05,25000,25000.0,0,1,1,1,On time and in full,2025-10,3.14
+PO-202508-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-08-06,2025-10-05,2025-10-05,24000,24000.0,0,1,1,1,On time and in full,2025-10,2.17
+PO-202508-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2025-08-08,2025-10-07,2025-10-11,35000,35000.0,4,0,1,0,Late only,2025-10,2.72
+PO-202508-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-08-08,2025-10-07,2025-10-11,15000,15000.0,4,0,1,0,Late only,2025-10,2.59
+PO-202508-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2025-08-08,2025-10-07,2025-10-11,5000,5000.0,4,0,1,0,Late only,2025-10,1.34
+PO-202508-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-08-08,2025-10-07,2025-10-11,6000,4469.0,4,0,0,0,Late and short,2025-10,1.63
+PO-202508-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-08-08,2025-10-07,2025-10-11,20000,20000.0,4,0,1,0,Late only,2025-10,2.54
+PO-202508-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-08-03,2025-09-02,2025-09-01,36000,36000.0,0,1,1,1,On time and in full,2025-09,3.2
+PO-202508-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-08-03,2025-09-02,2025-09-01,10000,10000.0,0,1,1,1,On time and in full,2025-09,1.63
+PO-202508-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2025-08-03,2025-09-02,2025-09-01,32000,32000.0,0,1,1,1,On time and in full,2025-09,1.58
+PO-202508-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-08-03,2025-09-02,2025-09-01,10000,8175.0,0,1,0,0,Short only,2025-09,2.68
+PO-202508-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2025-08-10,2025-09-09,2025-09-09,6000,5125.0,0,1,0,0,Short only,2025-09,1.25
+PO-202508-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-08-10,2025-09-09,2025-09-09,7000,7000.0,0,1,1,1,On time and in full,2025-09,1.09
+PO-202508-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-08-10,2025-09-09,2025-09-09,8000,8000.0,0,1,1,1,On time and in full,2025-09,1.17
+PO-202508-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-08-10,2025-09-09,2025-09-09,6000,6000.0,0,1,1,1,On time and in full,2025-09,0.73
+PO-202508-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-08-10,2025-09-09,2025-09-09,10000,10000.0,0,1,1,1,On time and in full,2025-09,0.98
+PO-202508-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-08-05,2025-10-04,2025-10-04,45000,45000.0,0,1,1,1,On time and in full,2025-10,2.58
+PO-202508-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-08-05,2025-10-04,2025-10-04,30000,30000.0,0,1,1,1,On time and in full,2025-10,3.32
+PO-202508-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-08-05,2025-10-04,2025-10-04,27000,27000.0,0,1,1,1,On time and in full,2025-10,2.86
+PO-202508-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-08-05,2025-10-04,2025-10-04,20000,20000.0,0,1,1,1,On time and in full,2025-10,3.42
+PO-202508-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-08-05,2025-10-04,2025-10-04,50000,50000.0,0,1,1,1,On time and in full,2025-10,2.35
+PO-202508-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-08-07,2025-10-06,2025-10-06,8000,8000.0,0,1,1,1,On time and in full,2025-10,2.56
+PO-202508-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-08-07,2025-10-06,2025-10-06,21000,21000.0,0,1,1,1,On time and in full,2025-10,1.27
+PO-202508-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2025-08-07,2025-10-06,2025-10-06,12000,9696.0,0,1,0,0,Short only,2025-10,1.92
+PO-202508-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-08-07,2025-10-06,2025-10-06,7000,7000.0,0,1,1,1,On time and in full,2025-10,1.7
+PO-202508-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-08-04,2025-09-03,2025-09-03,12000,12000.0,0,1,1,1,On time and in full,2025-09,3.23
+PO-202508-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-08-04,2025-09-03,2025-09-03,20000,20000.0,0,1,1,1,On time and in full,2025-09,2.98
+PO-202508-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-08-04,2025-09-03,2025-09-03,10000,10000.0,0,1,1,1,On time and in full,2025-09,1.75
+PO-202508-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-08-04,2025-09-03,2025-09-03,24000,24000.0,0,1,1,1,On time and in full,2025-09,2.02
+PO-202508-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-08-04,2025-09-03,2025-09-03,18000,18000.0,0,1,1,1,On time and in full,2025-09,1.53
+PO-202509-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-09-09,2025-10-09,2025-10-08,10000,10000.0,0,1,1,1,On time and in full,2025-10,1.14
+PO-202509-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-09-09,2025-10-09,2025-10-08,8000,8000.0,0,1,1,1,On time and in full,2025-10,0.67
+PO-202509-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-09-09,2025-10-09,2025-10-08,6000,6000.0,0,1,1,1,On time and in full,2025-10,0.7
+PO-202509-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-09-09,2025-10-09,2025-10-08,6000,6000.0,0,1,1,1,On time and in full,2025-10,1.26
+PO-202509-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2025-09-09,2025-10-09,2025-10-08,16000,16000.0,0,1,1,1,On time and in full,2025-10,1.72
+PO-202509-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2025-09-06,2025-11-05,2025-11-02,12000,12000.0,0,1,1,1,On time and in full,2025-11,3.05
+PO-202509-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-09-06,2025-11-05,2025-11-02,30000,30000.0,0,1,1,1,On time and in full,2025-11,2.97
+PO-202509-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-09-06,2025-11-05,2025-11-02,18000,18000.0,0,1,1,1,On time and in full,2025-11,1.45
+PO-202509-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-09-06,2025-11-05,2025-11-02,18000,18000.0,0,1,1,1,On time and in full,2025-11,3.14
+PO-202509-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-09-06,2025-11-05,2025-11-02,28000,28000.0,0,1,1,1,On time and in full,2025-11,2.17
+PO-202509-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2025-09-08,2025-11-07,2025-11-07,30000,30000.0,0,1,1,1,On time and in full,2025-11,2.72
+PO-202509-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-09-08,2025-11-07,2025-11-07,15000,15000.0,0,1,1,1,On time and in full,2025-11,2.59
+PO-202509-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2025-09-08,2025-11-07,2025-11-07,5000,5000.0,0,1,1,1,On time and in full,2025-11,1.34
+PO-202509-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-09-08,2025-11-07,2025-11-07,6000,6000.0,0,1,1,1,On time and in full,2025-11,1.63
+PO-202509-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-09-08,2025-11-07,2025-11-07,15000,15000.0,0,1,1,1,On time and in full,2025-11,2.54
+PO-202509-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-09-03,2025-10-03,2025-10-08,42000,42000.0,5,0,1,0,Late only,2025-10,3.2
+PO-202509-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-09-03,2025-10-03,2025-10-08,15000,15000.0,5,0,1,0,Late only,2025-10,1.63
+PO-202509-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-09-03,2025-10-03,2025-10-08,10000,10000.0,5,0,1,0,Late only,2025-10,2.68
+PO-202509-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2025-09-03,2025-10-03,2025-10-08,18000,18000.0,5,0,1,0,Late only,2025-10,2.69
+PO-202509-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-09-10,2025-10-10,2025-10-08,3000,3000.0,0,1,1,1,On time and in full,2025-10,1.09
+PO-202509-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-09-10,2025-10-10,2025-10-08,10000,10000.0,0,1,1,1,On time and in full,2025-10,1.17
+PO-202509-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-09-10,2025-10-10,2025-10-08,2000,2000.0,0,1,1,1,On time and in full,2025-10,0.73
+PO-202509-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-09-10,2025-10-10,2025-10-08,8000,8000.0,0,1,1,1,On time and in full,2025-10,0.98
+PO-202509-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-09-05,2025-11-04,2025-11-04,40000,40000.0,0,1,1,1,On time and in full,2025-11,2.58
+PO-202509-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-09-05,2025-11-04,2025-11-04,15000,15000.0,0,1,1,1,On time and in full,2025-11,3.32
+PO-202509-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-09-05,2025-11-04,2025-11-04,21000,21000.0,0,1,1,1,On time and in full,2025-11,2.86
+PO-202509-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-09-05,2025-11-04,2025-11-04,14000,14000.0,0,1,1,1,On time and in full,2025-11,3.42
+PO-202509-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-09-05,2025-11-04,2025-11-04,46000,46000.0,0,1,1,1,On time and in full,2025-11,2.35
+PO-202509-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-09-07,2025-11-06,2025-11-06,10000,10000.0,0,1,1,1,On time and in full,2025-11,2.56
+PO-202509-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-09-07,2025-11-06,2025-11-06,20000,20000.0,0,1,1,1,On time and in full,2025-11,1.27
+PO-202509-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2025-09-07,2025-11-06,2025-11-06,18000,18000.0,0,1,1,1,On time and in full,2025-11,1.37
+PO-202509-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2025-09-07,2025-11-06,2025-11-06,14000,14000.0,0,1,1,1,On time and in full,2025-11,1.92
+PO-202509-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-09-07,2025-11-06,2025-11-06,9000,9000.0,0,1,1,1,On time and in full,2025-11,1.7
+PO-202509-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-09-04,2025-10-04,2025-10-04,18000,18000.0,0,1,1,1,On time and in full,2025-10,3.23
+PO-202509-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-09-04,2025-10-04,2025-10-04,22000,22000.0,0,1,1,1,On time and in full,2025-10,2.98
+PO-202509-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-09-04,2025-10-04,2025-10-04,15000,15000.0,0,1,1,1,On time and in full,2025-10,1.75
+PO-202509-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-09-04,2025-10-04,2025-10-04,26000,21389.0,0,1,0,0,Short only,2025-10,2.02
+PO-202509-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-09-04,2025-10-04,2025-10-04,22000,22000.0,0,1,1,1,On time and in full,2025-10,1.53
+PO-202510-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-10-09,2025-11-08,2025-11-08,4000,4000.0,0,1,1,1,On time and in full,2025-11,1.14
+PO-202510-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-10-09,2025-11-08,2025-11-08,6000,6000.0,0,1,1,1,On time and in full,2025-11,0.67
+PO-202510-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-10-09,2025-11-08,2025-11-08,4000,4000.0,0,1,1,1,On time and in full,2025-11,0.7
+PO-202510-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-10-09,2025-11-08,2025-11-08,4000,4000.0,0,1,1,1,On time and in full,2025-11,1.26
+PO-202510-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2025-10-09,2025-11-08,2025-11-08,8000,8000.0,0,1,1,1,On time and in full,2025-11,1.72
+PO-202510-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2025-10-06,2025-12-05,2025-12-03,12000,12000.0,0,1,1,1,On time and in full,2025-12,3.05
+PO-202510-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-10-06,2025-12-05,2025-12-03,30000,30000.0,0,1,1,1,On time and in full,2025-12,2.97
+PO-202510-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-10-06,2025-12-05,2025-12-03,16000,16000.0,0,1,1,1,On time and in full,2025-12,1.45
+PO-202510-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-10-06,2025-12-05,2025-12-03,21000,21000.0,0,1,1,1,On time and in full,2025-12,3.14
+PO-202510-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-10-06,2025-12-05,2025-12-03,22000,22000.0,0,1,1,1,On time and in full,2025-12,2.17
+PO-202510-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2025-10-08,2025-12-07,2025-12-10,35000,35000.0,3,0,1,0,Late only,2025-12,2.72
+PO-202510-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-10-08,2025-12-07,2025-12-10,10000,10000.0,3,0,1,0,Late only,2025-12,2.59
+PO-202510-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2025-10-08,2025-12-07,2025-12-10,5000,5000.0,3,0,1,0,Late only,2025-12,1.34
+PO-202510-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-10-08,2025-12-07,2025-12-10,8000,8000.0,3,0,1,0,Late only,2025-12,1.63
+PO-202510-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-10-08,2025-12-07,2025-12-10,10000,10000.0,3,0,1,0,Late only,2025-12,2.54
+PO-202510-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-10-03,2025-11-02,2025-10-31,32000,32000.0,0,1,1,1,On time and in full,2025-11,3.2
+PO-202510-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-10-03,2025-11-02,2025-10-31,10000,10000.0,0,1,1,1,On time and in full,2025-11,1.63
+PO-202510-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2025-10-03,2025-11-02,2025-10-31,22000,22000.0,0,1,1,1,On time and in full,2025-11,1.58
+PO-202510-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-10-03,2025-11-02,2025-10-31,15000,15000.0,0,1,1,1,On time and in full,2025-11,2.68
+PO-202510-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2025-10-03,2025-11-02,2025-10-31,13000,13000.0,0,1,1,1,On time and in full,2025-11,2.69
+PO-202510-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2025-10-10,2025-11-09,2025-11-09,6000,6000.0,0,1,1,1,On time and in full,2025-11,1.25
+PO-202510-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-10-10,2025-11-09,2025-11-09,3000,3000.0,0,1,1,1,On time and in full,2025-11,1.09
+PO-202510-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-10-10,2025-11-09,2025-11-09,5000,5000.0,0,1,1,1,On time and in full,2025-11,1.17
+PO-202510-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-10-10,2025-11-09,2025-11-09,2000,2000.0,0,1,1,1,On time and in full,2025-11,0.73
+PO-202510-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-10-10,2025-11-09,2025-11-09,6000,6000.0,0,1,1,1,On time and in full,2025-11,0.98
+PO-202510-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-10-05,2025-12-04,2025-12-04,45000,45000.0,0,1,1,1,On time and in full,2025-12,2.58
+PO-202510-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-10-05,2025-12-04,2025-12-04,25000,25000.0,0,1,1,1,On time and in full,2025-12,3.32
+PO-202510-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-10-05,2025-12-04,2025-12-04,28000,28000.0,0,1,1,1,On time and in full,2025-12,2.86
+PO-202510-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-10-05,2025-12-04,2025-12-04,18000,18000.0,0,1,1,1,On time and in full,2025-12,3.42
+PO-202510-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-10-05,2025-12-04,2025-12-04,42000,42000.0,0,1,1,1,On time and in full,2025-12,2.35
+PO-202510-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-10-07,2025-12-06,2025-12-06,10000,10000.0,0,1,1,1,On time and in full,2025-12,2.56
+PO-202510-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-10-07,2025-12-06,2025-12-06,18000,18000.0,0,1,1,1,On time and in full,2025-12,1.27
+PO-202510-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2025-10-07,2025-12-06,2025-12-06,20000,20000.0,0,1,1,1,On time and in full,2025-12,1.37
+PO-202510-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2025-10-07,2025-12-06,2025-12-06,10000,10000.0,0,1,1,1,On time and in full,2025-12,1.92
+PO-202510-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-10-07,2025-12-06,2025-12-06,8000,8000.0,0,1,1,1,On time and in full,2025-12,1.7
+PO-202510-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-10-04,2025-11-03,2025-11-03,12000,12000.0,0,1,1,1,On time and in full,2025-11,3.23
+PO-202510-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-10-04,2025-11-03,2025-11-03,23000,23000.0,0,1,1,1,On time and in full,2025-11,2.98
+PO-202510-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-10-04,2025-11-03,2025-11-03,15000,15000.0,0,1,1,1,On time and in full,2025-11,1.75
+PO-202510-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-10-04,2025-11-03,2025-11-03,36000,36000.0,0,1,1,1,On time and in full,2025-11,2.02
+PO-202510-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-10-04,2025-11-03,2025-11-03,18000,18000.0,0,1,1,1,On time and in full,2025-11,1.53
+PO-202511-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-11-09,2025-12-09,2025-12-07,6000,6000.0,0,1,1,1,On time and in full,2025-12,1.14
+PO-202511-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-11-09,2025-12-09,2025-12-07,4000,4000.0,0,1,1,1,On time and in full,2025-12,0.67
+PO-202511-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-11-09,2025-12-09,2025-12-07,2000,2000.0,0,1,1,1,On time and in full,2025-12,0.7
+PO-202511-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-11-09,2025-12-09,2025-12-07,4000,4000.0,0,1,1,1,On time and in full,2025-12,1.26
+PO-202511-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2025-11-09,2025-12-09,2025-12-07,2000,2000.0,0,1,1,1,On time and in full,2025-12,1.72
+PO-202511-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2025-11-06,2026-01-05,2026-01-02,18000,18000.0,0,1,1,1,On time and in full,2026-01,3.05
+PO-202511-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-11-06,2026-01-05,2026-01-02,42000,42000.0,0,1,1,1,On time and in full,2026-01,2.97
+PO-202511-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-11-06,2026-01-05,2026-01-02,18000,18000.0,0,1,1,1,On time and in full,2026-01,1.45
+PO-202511-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-11-06,2026-01-05,2026-01-02,29000,29000.0,0,1,1,1,On time and in full,2026-01,3.14
+PO-202511-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-11-06,2026-01-05,2026-01-02,20000,20000.0,0,1,1,1,On time and in full,2026-01,2.17
+PO-202511-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2025-11-08,2026-01-07,2026-01-07,35000,26166.0,0,1,0,0,Short only,2026-01,2.72
+PO-202511-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-11-08,2026-01-07,2026-01-07,15000,15000.0,0,1,1,1,On time and in full,2026-01,2.59
+PO-202511-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2025-11-08,2026-01-07,2026-01-07,10000,10000.0,0,1,1,1,On time and in full,2026-01,1.34
+PO-202511-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-11-08,2026-01-07,2026-01-07,8000,8000.0,0,1,1,1,On time and in full,2026-01,1.63
+PO-202511-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-11-08,2026-01-07,2026-01-07,20000,20000.0,0,1,1,1,On time and in full,2026-01,2.54
+PO-202511-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-11-03,2025-12-03,2025-12-03,26000,26000.0,0,1,1,1,On time and in full,2025-12,3.2
+PO-202511-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-11-03,2025-12-03,2025-12-03,20000,20000.0,0,1,1,1,On time and in full,2025-12,1.63
+PO-202511-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2025-11-03,2025-12-03,2025-12-03,26000,26000.0,0,1,1,1,On time and in full,2025-12,1.58
+PO-202511-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-11-03,2025-12-03,2025-12-03,10000,10000.0,0,1,1,1,On time and in full,2025-12,2.68
+PO-202511-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2025-11-03,2025-12-03,2025-12-03,12000,12000.0,0,1,1,1,On time and in full,2025-12,2.69
+PO-202511-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2025-11-10,2025-12-10,2025-12-10,4000,4000.0,0,1,1,1,On time and in full,2025-12,1.25
+PO-202511-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-11-10,2025-12-10,2025-12-10,1000,1000.0,0,1,1,1,On time and in full,2025-12,1.09
+PO-202511-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-11-10,2025-12-10,2025-12-10,5000,5000.0,0,1,1,1,On time and in full,2025-12,1.17
+PO-202511-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-11-10,2025-12-10,2025-12-10,4000,3835.0,0,1,0,0,Short only,2025-12,0.73
+PO-202511-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-11-10,2025-12-10,2025-12-10,4000,4000.0,0,1,1,1,On time and in full,2025-12,0.98
+PO-202511-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-11-05,2026-01-04,2026-01-01,60000,60000.0,0,1,1,1,On time and in full,2026-01,2.58
+PO-202511-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-11-05,2026-01-04,2026-01-01,20000,15257.0,0,1,0,0,Short only,2026-01,3.32
+PO-202511-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-11-05,2026-01-04,2026-01-01,24000,22810.0,0,1,0,0,Short only,2026-01,2.86
+PO-202511-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-11-05,2026-01-04,2026-01-01,16000,16000.0,0,1,1,1,On time and in full,2026-01,3.42
+PO-202511-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-11-05,2026-01-04,2026-01-01,42000,33277.0,0,1,0,0,Short only,2026-01,2.35
+PO-202511-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-11-07,2026-01-06,2026-01-04,12000,12000.0,0,1,1,1,On time and in full,2026-01,2.56
+PO-202511-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-11-07,2026-01-06,2026-01-04,16000,16000.0,0,1,1,1,On time and in full,2026-01,1.27
+PO-202511-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2025-11-07,2026-01-06,2026-01-04,20000,20000.0,0,1,1,1,On time and in full,2026-01,1.37
+PO-202511-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2025-11-07,2026-01-06,2026-01-04,12000,12000.0,0,1,1,1,On time and in full,2026-01,1.92
+PO-202511-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-11-07,2026-01-06,2026-01-04,8000,8000.0,0,1,1,1,On time and in full,2026-01,1.7
+PO-202511-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-11-04,2025-12-04,2025-12-04,16000,16000.0,0,1,1,1,On time and in full,2025-12,3.23
+PO-202511-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-11-04,2025-12-04,2025-12-04,16000,16000.0,0,1,1,1,On time and in full,2025-12,2.98
+PO-202511-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-11-04,2025-12-04,2025-12-04,20000,20000.0,0,1,1,1,On time and in full,2025-12,1.75
+PO-202511-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-11-04,2025-12-04,2025-12-04,36000,36000.0,0,1,1,1,On time and in full,2025-12,2.02
+PO-202511-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-11-04,2025-12-04,2025-12-04,18000,18000.0,0,1,1,1,On time and in full,2025-12,1.53
+PO-202512-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2025-12-09,2026-01-08,2026-01-05,4000,4000.0,0,1,1,1,On time and in full,2026-01,1.14
+PO-202512-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2025-12-09,2026-01-08,2026-01-05,6000,6000.0,0,1,1,1,On time and in full,2026-01,0.67
+PO-202512-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2025-12-09,2026-01-08,2026-01-05,2000,2000.0,0,1,1,1,On time and in full,2026-01,0.7
+PO-202512-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2025-12-09,2026-01-08,2026-01-05,2000,2000.0,0,1,1,1,On time and in full,2026-01,1.26
+PO-202512-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2025-12-09,2026-01-08,2026-01-05,6000,6000.0,0,1,1,1,On time and in full,2026-01,1.72
+PO-202512-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2025-12-06,2026-02-04,2026-02-01,18000,18000.0,0,1,1,1,On time and in full,2026-02,3.05
+PO-202512-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2025-12-06,2026-02-04,2026-02-01,38000,38000.0,0,1,1,1,On time and in full,2026-02,2.97
+PO-202512-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2025-12-06,2026-02-04,2026-02-01,18000,18000.0,0,1,1,1,On time and in full,2026-02,1.45
+PO-202512-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2025-12-06,2026-02-04,2026-02-01,25000,25000.0,0,1,1,1,On time and in full,2026-02,3.14
+PO-202512-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2025-12-06,2026-02-04,2026-02-01,28000,28000.0,0,1,1,1,On time and in full,2026-02,2.17
+PO-202512-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2025-12-08,2026-02-06,2026-02-10,15000,11338.0,4,0,0,0,Late and short,2026-02,2.59
+PO-202512-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2025-12-08,2026-02-06,2026-02-10,5000,5000.0,4,0,1,0,Late only,2026-02,1.34
+PO-202512-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2025-12-08,2026-02-06,2026-02-10,6000,6000.0,4,0,1,0,Late only,2026-02,1.63
+PO-202512-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2025-12-08,2026-02-06,2026-02-10,15000,15000.0,4,0,1,0,Late only,2026-02,2.54
+PO-202512-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2025-12-03,2026-01-02,2026-01-02,38000,38000.0,0,1,1,1,On time and in full,2026-01,3.2
+PO-202512-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2025-12-03,2026-01-02,2026-01-02,20000,20000.0,0,1,1,1,On time and in full,2026-01,1.63
+PO-202512-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2025-12-03,2026-01-02,2026-01-02,28000,28000.0,0,1,1,1,On time and in full,2026-01,1.58
+PO-202512-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2025-12-03,2026-01-02,2026-01-02,10000,10000.0,0,1,1,1,On time and in full,2026-01,2.68
+PO-202512-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2025-12-03,2026-01-02,2026-01-02,13000,13000.0,0,1,1,1,On time and in full,2026-01,2.69
+PO-202512-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2025-12-10,2026-01-09,2026-01-07,2000,2000.0,0,1,1,1,On time and in full,2026-01,1.25
+PO-202512-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2025-12-10,2026-01-09,2026-01-07,1000,1000.0,0,1,1,1,On time and in full,2026-01,1.09
+PO-202512-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2025-12-10,2026-01-09,2026-01-07,4000,4000.0,0,1,1,1,On time and in full,2026-01,1.17
+PO-202512-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2025-12-10,2026-01-09,2026-01-07,4000,4000.0,0,1,1,1,On time and in full,2026-01,0.73
+PO-202512-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2025-12-10,2026-01-09,2026-01-07,2000,2000.0,0,1,1,1,On time and in full,2026-01,0.98
+PO-202512-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2025-12-05,2026-02-03,2026-02-03,45000,45000.0,0,1,1,1,On time and in full,2026-02,2.58
+PO-202512-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2025-12-05,2026-02-03,2026-02-03,25000,25000.0,0,1,1,1,On time and in full,2026-02,3.32
+PO-202512-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2025-12-05,2026-02-03,2026-02-03,25000,25000.0,0,1,1,1,On time and in full,2026-02,2.86
+PO-202512-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2025-12-05,2026-02-03,2026-02-03,18000,18000.0,0,1,1,1,On time and in full,2026-02,3.42
+PO-202512-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2025-12-05,2026-02-03,2026-02-03,58000,58000.0,0,1,1,1,On time and in full,2026-02,2.35
+PO-202512-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2025-12-07,2026-02-05,2026-02-02,8000,8000.0,0,1,1,1,On time and in full,2026-02,2.56
+PO-202512-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2025-12-07,2026-02-05,2026-02-02,21000,21000.0,0,1,1,1,On time and in full,2026-02,1.27
+PO-202512-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2025-12-07,2026-02-05,2026-02-02,18000,18000.0,0,1,1,1,On time and in full,2026-02,1.37
+PO-202512-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2025-12-07,2026-02-05,2026-02-02,10000,10000.0,0,1,1,1,On time and in full,2026-02,1.92
+PO-202512-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2025-12-07,2026-02-05,2026-02-02,6000,6000.0,0,1,1,1,On time and in full,2026-02,1.7
+PO-202512-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2025-12-04,2026-01-03,2026-01-03,12000,12000.0,0,1,1,1,On time and in full,2026-01,3.23
+PO-202512-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2025-12-04,2026-01-03,2026-01-03,15000,15000.0,0,1,1,1,On time and in full,2026-01,2.98
+PO-202512-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2025-12-04,2026-01-03,2026-01-03,15000,15000.0,0,1,1,1,On time and in full,2026-01,1.75
+PO-202512-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2025-12-04,2026-01-03,2026-01-03,22000,22000.0,0,1,1,1,On time and in full,2026-01,2.02
+PO-202512-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2025-12-04,2026-01-03,2026-01-03,20000,20000.0,0,1,1,1,On time and in full,2026-01,1.53
+PO-202601-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2026-01-09,2026-02-08,2026-02-08,8000,8000.0,0,1,1,1,On time and in full,2026-02,1.14
+PO-202601-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2026-01-09,2026-02-08,2026-02-08,4000,4000.0,0,1,1,1,On time and in full,2026-02,0.67
+PO-202601-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2026-01-09,2026-02-08,2026-02-08,2000,2000.0,0,1,1,1,On time and in full,2026-02,0.7
+PO-202601-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2026-01-09,2026-02-08,2026-02-08,4000,4000.0,0,1,1,1,On time and in full,2026-02,1.26
+PO-202601-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2026-01-09,2026-02-08,2026-02-08,6000,6000.0,0,1,1,1,On time and in full,2026-02,1.72
+PO-202601-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2026-01-06,2026-03-07,2026-03-07,22000,22000.0,0,1,1,1,On time and in full,2026-03,3.05
+PO-202601-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2026-01-06,2026-03-07,2026-03-07,38000,38000.0,0,1,1,1,On time and in full,2026-03,2.97
+PO-202601-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2026-01-06,2026-03-07,2026-03-07,24000,24000.0,0,1,1,1,On time and in full,2026-03,1.45
+PO-202601-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2026-01-06,2026-03-07,2026-03-07,27000,27000.0,0,1,1,1,On time and in full,2026-03,3.14
+PO-202601-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2026-01-06,2026-03-07,2026-03-07,22000,22000.0,0,1,1,1,On time and in full,2026-03,2.17
+PO-202601-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2026-01-08,2026-03-09,2026-03-06,25000,25000.0,0,1,1,1,On time and in full,2026-03,2.72
+PO-202601-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2026-01-08,2026-03-09,2026-03-06,10000,10000.0,0,1,1,1,On time and in full,2026-03,2.59
+PO-202601-KES,3,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2026-01-08,2026-03-09,2026-03-06,6000,6000.0,0,1,1,1,On time and in full,2026-03,1.63
+PO-202601-KES,4,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2026-01-08,2026-03-09,2026-03-06,15000,15000.0,0,1,1,1,On time and in full,2026-03,2.54
+PO-202601-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2026-01-03,2026-02-02,2026-02-02,40000,40000.0,0,1,1,1,On time and in full,2026-02,3.2
+PO-202601-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2026-01-03,2026-02-02,2026-02-02,5000,5000.0,0,1,1,1,On time and in full,2026-02,1.63
+PO-202601-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2026-01-03,2026-02-02,2026-02-02,26000,26000.0,0,1,1,1,On time and in full,2026-02,1.58
+PO-202601-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2026-01-03,2026-02-02,2026-02-02,15000,15000.0,0,1,1,1,On time and in full,2026-02,2.68
+PO-202601-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2026-01-03,2026-02-02,2026-02-02,17000,17000.0,0,1,1,1,On time and in full,2026-02,2.69
+PO-202601-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2026-01-10,2026-02-09,2026-02-07,4000,4000.0,0,1,1,1,On time and in full,2026-02,1.25
+PO-202601-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2026-01-10,2026-02-09,2026-02-07,5000,5000.0,0,1,1,1,On time and in full,2026-02,1.17
+PO-202601-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2026-01-10,2026-02-09,2026-02-07,4000,4000.0,0,1,1,1,On time and in full,2026-02,0.73
+PO-202601-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2026-01-10,2026-02-09,2026-02-07,8000,8000.0,0,1,1,1,On time and in full,2026-02,0.98
+PO-202601-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2026-01-05,2026-03-06,2026-03-06,45000,45000.0,0,1,1,1,On time and in full,2026-03,2.58
+PO-202601-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2026-01-05,2026-03-06,2026-03-06,35000,35000.0,0,1,1,1,On time and in full,2026-03,3.32
+PO-202601-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2026-01-05,2026-03-06,2026-03-06,20000,20000.0,0,1,1,1,On time and in full,2026-03,2.86
+PO-202601-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2026-01-05,2026-03-06,2026-03-06,20000,20000.0,0,1,1,1,On time and in full,2026-03,3.42
+PO-202601-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2026-01-05,2026-03-06,2026-03-06,62000,62000.0,0,1,1,1,On time and in full,2026-03,2.35
+PO-202601-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2026-01-07,2026-03-08,2026-03-08,8000,8000.0,0,1,1,1,On time and in full,2026-03,2.56
+PO-202601-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2026-01-07,2026-03-08,2026-03-08,20000,20000.0,0,1,1,1,On time and in full,2026-03,1.27
+PO-202601-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2026-01-07,2026-03-08,2026-03-08,16000,16000.0,0,1,1,1,On time and in full,2026-03,1.37
+PO-202601-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2026-01-07,2026-03-08,2026-03-08,10000,10000.0,0,1,1,1,On time and in full,2026-03,1.92
+PO-202601-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2026-01-07,2026-03-08,2026-03-08,5000,5000.0,0,1,1,1,On time and in full,2026-03,1.7
+PO-202601-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2026-01-04,2026-02-03,2026-02-03,12000,12000.0,0,1,1,1,On time and in full,2026-02,3.23
+PO-202601-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2026-01-04,2026-02-03,2026-02-03,22000,22000.0,0,1,1,1,On time and in full,2026-02,2.98
+PO-202601-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2026-01-04,2026-02-03,2026-02-03,10000,10000.0,0,1,1,1,On time and in full,2026-02,1.75
+PO-202601-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2026-01-04,2026-02-03,2026-02-03,28000,28000.0,0,1,1,1,On time and in full,2026-02,2.02
+PO-202601-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2026-01-04,2026-02-03,2026-02-03,18000,18000.0,0,1,1,1,On time and in full,2026-02,1.53
+PO-202602-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2026-02-09,2026-03-11,2026-03-11,8000,8000.0,0,1,1,1,On time and in full,2026-03,1.14
+PO-202602-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2026-02-09,2026-03-11,2026-03-11,10000,10000.0,0,1,1,1,On time and in full,2026-03,0.67
+PO-202602-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2026-02-09,2026-03-11,2026-03-11,4000,4000.0,0,1,1,1,On time and in full,2026-03,0.7
+PO-202602-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2026-02-09,2026-03-11,2026-03-11,4000,4000.0,0,1,1,1,On time and in full,2026-03,1.26
+PO-202602-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2026-02-09,2026-03-11,2026-03-11,12000,12000.0,0,1,1,1,On time and in full,2026-03,1.72
+PO-202602-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2026-02-06,2026-04-07,2026-04-05,18000,18000.0,0,1,1,1,On time and in full,2026-04,3.05
+PO-202602-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2026-02-06,2026-04-07,2026-04-05,42000,42000.0,0,1,1,1,On time and in full,2026-04,2.97
+PO-202602-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2026-02-06,2026-04-07,2026-04-05,22000,22000.0,0,1,1,1,On time and in full,2026-04,1.45
+PO-202602-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2026-02-06,2026-04-07,2026-04-05,27000,27000.0,0,1,1,1,On time and in full,2026-04,3.14
+PO-202602-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2026-02-06,2026-04-07,2026-04-05,26000,26000.0,0,1,1,1,On time and in full,2026-04,2.17
+PO-202602-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2026-02-08,2026-04-09,2026-04-07,20000,20000.0,0,1,1,1,On time and in full,2026-04,2.72
+PO-202602-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2026-02-08,2026-04-09,2026-04-07,15000,15000.0,0,1,1,1,On time and in full,2026-04,2.59
+PO-202602-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2026-02-08,2026-04-09,2026-04-07,5000,5000.0,0,1,1,1,On time and in full,2026-04,1.34
+PO-202602-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2026-02-08,2026-04-09,2026-04-07,4000,4000.0,0,1,1,1,On time and in full,2026-04,1.63
+PO-202602-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2026-02-08,2026-04-09,2026-04-07,10000,9190.0,0,1,0,0,Short only,2026-04,2.54
+PO-202602-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2026-02-03,2026-03-05,2026-03-05,36000,36000.0,0,1,1,1,On time and in full,2026-03,3.2
+PO-202602-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2026-02-03,2026-03-05,2026-03-05,15000,15000.0,0,1,1,1,On time and in full,2026-03,1.63
+PO-202602-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2026-02-03,2026-03-05,2026-03-05,24000,24000.0,0,1,1,1,On time and in full,2026-03,1.58
+PO-202602-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2026-02-03,2026-03-05,2026-03-05,5000,5000.0,0,1,1,1,On time and in full,2026-03,2.68
+PO-202602-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2026-02-03,2026-03-05,2026-03-05,17000,17000.0,0,1,1,1,On time and in full,2026-03,2.69
+PO-202602-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2026-02-10,2026-03-12,2026-03-12,4000,4000.0,0,1,1,1,On time and in full,2026-03,1.25
+PO-202602-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2026-02-10,2026-03-12,2026-03-12,4000,4000.0,0,1,1,1,On time and in full,2026-03,1.09
+PO-202602-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2026-02-10,2026-03-12,2026-03-12,7000,7000.0,0,1,1,1,On time and in full,2026-03,1.17
+PO-202602-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2026-02-10,2026-03-12,2026-03-12,4000,4000.0,0,1,1,1,On time and in full,2026-03,0.73
+PO-202602-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2026-02-10,2026-03-12,2026-03-12,6000,6000.0,0,1,1,1,On time and in full,2026-03,0.98
+PO-202602-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2026-02-05,2026-04-06,2026-04-06,45000,41730.0,0,1,0,0,Short only,2026-04,2.58
+PO-202602-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2026-02-05,2026-04-06,2026-04-06,30000,30000.0,0,1,1,1,On time and in full,2026-04,3.32
+PO-202602-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2026-02-05,2026-04-06,2026-04-06,31000,31000.0,0,1,1,1,On time and in full,2026-04,2.86
+PO-202602-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2026-02-05,2026-04-06,2026-04-06,22000,22000.0,0,1,1,1,On time and in full,2026-04,3.42
+PO-202602-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2026-02-05,2026-04-06,2026-04-06,58000,58000.0,0,1,1,1,On time and in full,2026-04,2.35
+PO-202602-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2026-02-07,2026-04-08,2026-04-08,8000,8000.0,0,1,1,1,On time and in full,2026-04,2.56
+PO-202602-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2026-02-07,2026-04-08,2026-04-08,14000,14000.0,0,1,1,1,On time and in full,2026-04,1.37
+PO-202602-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2026-02-07,2026-04-08,2026-04-08,10000,10000.0,0,1,1,1,On time and in full,2026-04,1.92
+PO-202602-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2026-02-07,2026-04-08,2026-04-08,7000,7000.0,0,1,1,1,On time and in full,2026-04,1.7
+PO-202602-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2026-02-04,2026-03-06,2026-03-06,14000,14000.0,0,1,1,1,On time and in full,2026-03,3.23
+PO-202602-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2026-02-04,2026-03-06,2026-03-06,19000,19000.0,0,1,1,1,On time and in full,2026-03,2.98
+PO-202602-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2026-02-04,2026-03-06,2026-03-06,15000,15000.0,0,1,1,1,On time and in full,2026-03,1.75
+PO-202602-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2026-02-04,2026-03-06,2026-03-06,32000,32000.0,0,1,1,1,On time and in full,2026-03,2.02
+PO-202602-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2026-02-04,2026-03-06,2026-03-06,26000,26000.0,0,1,1,1,On time and in full,2026-03,1.53
+PO-202603-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2026-03-09,2026-04-08,2026-04-05,10000,10000.0,0,1,1,1,On time and in full,2026-04,1.14
+PO-202603-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2026-03-09,2026-04-08,2026-04-05,8000,8000.0,0,1,1,1,On time and in full,2026-04,0.67
+PO-202603-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2026-03-09,2026-04-08,2026-04-05,8000,8000.0,0,1,1,1,On time and in full,2026-04,0.7
+PO-202603-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2026-03-09,2026-04-08,2026-04-05,6000,6000.0,0,1,1,1,On time and in full,2026-04,1.26
+PO-202603-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2026-03-09,2026-04-08,2026-04-05,10000,10000.0,0,1,1,1,On time and in full,2026-04,1.72
+PO-202603-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2026-03-06,2026-05-05,2026-05-07,18000,18000.0,2,0,1,0,Late only,2026-05,3.05
+PO-202603-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2026-03-06,2026-05-05,2026-05-07,38000,38000.0,2,0,1,0,Late only,2026-05,2.97
+PO-202603-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2026-03-06,2026-05-05,2026-05-07,26000,26000.0,2,0,1,0,Late only,2026-05,1.45
+PO-202603-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2026-03-06,2026-05-05,2026-05-07,33000,33000.0,2,0,1,0,Late only,2026-05,3.14
+PO-202603-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2026-03-06,2026-05-05,2026-05-07,22000,22000.0,2,0,1,0,Late only,2026-05,2.17
+PO-202603-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2026-03-08,2026-05-07,2026-05-07,25000,25000.0,0,1,1,1,On time and in full,2026-05,2.72
+PO-202603-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2026-03-08,2026-05-07,2026-05-07,10000,10000.0,0,1,1,1,On time and in full,2026-05,2.59
+PO-202603-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2026-03-08,2026-05-07,2026-05-07,5000,5000.0,0,1,1,1,On time and in full,2026-05,1.34
+PO-202603-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2026-03-08,2026-05-07,2026-05-07,4000,4000.0,0,1,1,1,On time and in full,2026-05,1.63
+PO-202603-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2026-03-08,2026-05-07,2026-05-07,10000,10000.0,0,1,1,1,On time and in full,2026-05,2.54
+PO-202603-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2026-03-03,2026-04-02,2026-04-02,32000,26173.0,0,1,0,0,Short only,2026-04,3.2
+PO-202603-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2026-03-03,2026-04-02,2026-04-02,15000,15000.0,0,1,1,1,On time and in full,2026-04,1.63
+PO-202603-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2026-03-03,2026-04-02,2026-04-02,34000,34000.0,0,1,1,1,On time and in full,2026-04,1.58
+PO-202603-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2026-03-03,2026-04-02,2026-04-02,10000,10000.0,0,1,1,1,On time and in full,2026-04,2.68
+PO-202603-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2026-03-03,2026-04-02,2026-04-02,16000,16000.0,0,1,1,1,On time and in full,2026-04,2.69
+PO-202603-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2026-03-10,2026-04-09,2026-04-09,4000,4000.0,0,1,1,1,On time and in full,2026-04,1.25
+PO-202603-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2026-03-10,2026-04-09,2026-04-09,5000,5000.0,0,1,1,1,On time and in full,2026-04,1.09
+PO-202603-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2026-03-10,2026-04-09,2026-04-09,10000,10000.0,0,1,1,1,On time and in full,2026-04,1.17
+PO-202603-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2026-03-10,2026-04-09,2026-04-09,6000,6000.0,0,1,1,1,On time and in full,2026-04,0.73
+PO-202603-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2026-03-10,2026-04-09,2026-04-09,8000,8000.0,0,1,1,1,On time and in full,2026-04,0.98
+PO-202603-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2026-03-05,2026-05-04,2026-05-06,55000,55000.0,2,0,1,0,Late only,2026-05,2.58
+PO-202603-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2026-03-05,2026-05-04,2026-05-06,30000,30000.0,2,0,1,0,Late only,2026-05,3.32
+PO-202603-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2026-03-05,2026-05-04,2026-05-06,33000,25577.0,2,0,0,0,Late and short,2026-05,2.86
+PO-202603-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2026-03-05,2026-05-04,2026-05-06,22000,22000.0,2,0,1,0,Late only,2026-05,3.42
+PO-202603-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2026-03-05,2026-05-04,2026-05-06,68000,68000.0,2,0,1,0,Late only,2026-05,2.35
+PO-202603-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2026-03-07,2026-05-06,2026-05-06,8000,8000.0,0,1,1,1,On time and in full,2026-05,2.56
+PO-202603-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2026-03-07,2026-05-06,2026-05-06,11000,11000.0,0,1,1,1,On time and in full,2026-05,1.27
+PO-202603-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2026-03-07,2026-05-06,2026-05-06,14000,14000.0,0,1,1,1,On time and in full,2026-05,1.37
+PO-202603-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2026-03-07,2026-05-06,2026-05-06,10000,10000.0,0,1,1,1,On time and in full,2026-05,1.92
+PO-202603-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2026-03-07,2026-05-06,2026-05-06,6000,6000.0,0,1,1,1,On time and in full,2026-05,1.7
+PO-202603-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2026-03-04,2026-04-03,2026-03-31,10000,10000.0,0,1,1,1,On time and in full,2026-04,3.23
+PO-202603-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2026-03-04,2026-04-03,2026-03-31,12000,12000.0,0,1,1,1,On time and in full,2026-04,2.98
+PO-202603-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2026-03-04,2026-04-03,2026-03-31,10000,10000.0,0,1,1,1,On time and in full,2026-04,1.75
+PO-202603-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2026-03-04,2026-04-03,2026-03-31,28000,28000.0,0,1,1,1,On time and in full,2026-04,2.02
+PO-202603-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2026-03-04,2026-04-03,2026-03-31,20000,20000.0,0,1,1,1,On time and in full,2026-04,1.53
+PO-202604-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2026-04-09,2026-05-09,2026-05-07,12000,12000.0,0,1,1,1,On time and in full,2026-05,1.14
+PO-202604-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2026-04-09,2026-05-09,2026-05-07,12000,12000.0,0,1,1,1,On time and in full,2026-05,0.67
+PO-202604-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2026-04-09,2026-05-09,2026-05-07,6000,6000.0,0,1,1,1,On time and in full,2026-05,0.7
+PO-202604-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2026-04-09,2026-05-09,2026-05-07,6000,6000.0,0,1,1,1,On time and in full,2026-05,1.26
+PO-202604-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2026-04-09,2026-05-09,2026-05-07,10000,10000.0,0,1,1,1,On time and in full,2026-05,1.72
+PO-202604-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2026-04-06,2026-06-05,2026-06-08,14000,14000.0,3,0,1,0,Late only,2026-06,3.05
+PO-202604-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2026-04-06,2026-06-05,2026-06-08,38000,38000.0,3,0,1,0,Late only,2026-06,2.97
+PO-202604-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2026-04-06,2026-06-05,2026-06-08,24000,24000.0,3,0,1,0,Late only,2026-06,1.45
+PO-202604-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2026-04-06,2026-06-05,2026-06-08,28000,28000.0,3,0,1,0,Late only,2026-06,3.14
+PO-202604-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2026-04-06,2026-06-05,2026-06-08,28000,28000.0,3,0,1,0,Late only,2026-06,2.17
+PO-202604-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2026-04-08,2026-06-07,2026-06-07,20000,20000.0,0,1,1,1,On time and in full,2026-06,2.72
+PO-202604-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2026-04-08,2026-06-07,2026-06-07,10000,10000.0,0,1,1,1,On time and in full,2026-06,2.59
+PO-202604-KES,3,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2026-04-08,2026-06-07,2026-06-07,4000,4000.0,0,1,1,1,On time and in full,2026-06,1.63
+PO-202604-KES,4,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2026-04-08,2026-06-07,2026-06-07,15000,15000.0,0,1,1,1,On time and in full,2026-06,2.54
+PO-202604-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2026-04-03,2026-05-03,2026-05-01,32000,32000.0,0,1,1,1,On time and in full,2026-05,3.2
+PO-202604-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2026-04-03,2026-05-03,2026-05-01,5000,5000.0,0,1,1,1,On time and in full,2026-05,1.63
+PO-202604-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2026-04-03,2026-05-03,2026-05-01,26000,26000.0,0,1,1,1,On time and in full,2026-05,1.58
+PO-202604-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2026-04-03,2026-05-03,2026-05-01,10000,10000.0,0,1,1,1,On time and in full,2026-05,2.68
+PO-202604-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2026-04-03,2026-05-03,2026-05-01,15000,15000.0,0,1,1,1,On time and in full,2026-05,2.69
+PO-202604-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2026-04-10,2026-05-10,2026-05-08,8000,8000.0,0,1,1,1,On time and in full,2026-05,1.25
+PO-202604-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2026-04-10,2026-05-10,2026-05-08,5000,5000.0,0,1,1,1,On time and in full,2026-05,1.09
+PO-202604-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2026-04-10,2026-05-10,2026-05-08,11000,11000.0,0,1,1,1,On time and in full,2026-05,1.17
+PO-202604-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2026-04-10,2026-05-10,2026-05-08,8000,8000.0,0,1,1,1,On time and in full,2026-05,0.73
+PO-202604-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2026-04-10,2026-05-10,2026-05-08,10000,10000.0,0,1,1,1,On time and in full,2026-05,0.98
+PO-202604-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2026-04-05,2026-06-04,2026-06-04,50000,50000.0,0,1,1,1,On time and in full,2026-06,2.58
+PO-202604-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2026-04-05,2026-06-04,2026-06-04,30000,30000.0,0,1,1,1,On time and in full,2026-06,3.32
+PO-202604-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2026-04-05,2026-06-04,2026-06-04,27000,27000.0,0,1,1,1,On time and in full,2026-06,2.86
+PO-202604-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2026-04-05,2026-06-04,2026-06-04,22000,22000.0,0,1,1,1,On time and in full,2026-06,3.42
+PO-202604-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2026-04-05,2026-06-04,2026-06-04,64000,64000.0,0,1,1,1,On time and in full,2026-06,2.35
+PO-202604-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2026-04-07,2026-06-06,2026-06-06,8000,8000.0,0,1,1,1,On time and in full,2026-06,2.56
+PO-202604-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2026-04-07,2026-06-06,2026-06-06,14000,14000.0,0,1,1,1,On time and in full,2026-06,1.27
+PO-202604-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2026-04-07,2026-06-06,2026-06-06,14000,14000.0,0,1,1,1,On time and in full,2026-06,1.37
+PO-202604-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2026-04-07,2026-06-06,2026-06-06,8000,8000.0,0,1,1,1,On time and in full,2026-06,1.92
+PO-202604-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2026-04-07,2026-06-06,2026-06-06,4000,4000.0,0,1,1,1,On time and in full,2026-06,1.7
+PO-202604-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2026-04-04,2026-05-04,2026-05-04,12000,12000.0,0,1,1,1,On time and in full,2026-05,3.23
+PO-202604-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2026-04-04,2026-05-04,2026-05-04,16000,16000.0,0,1,1,1,On time and in full,2026-05,2.98
+PO-202604-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2026-04-04,2026-05-04,2026-05-04,15000,15000.0,0,1,1,1,On time and in full,2026-05,1.75
+PO-202604-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2026-04-04,2026-05-04,2026-05-04,22000,22000.0,0,1,1,1,On time and in full,2026-05,2.02
+PO-202604-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2026-04-04,2026-05-04,2026-05-04,26000,26000.0,0,1,1,1,On time and in full,2026-05,1.53
+PO-202605-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2026-05-09,2026-06-08,2026-06-08,18000,18000.0,0,1,1,1,On time and in full,2026-06,1.14
+PO-202605-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2026-05-09,2026-06-08,2026-06-08,16000,16000.0,0,1,1,1,On time and in full,2026-06,0.67
+PO-202605-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2026-05-09,2026-06-08,2026-06-08,8000,8000.0,0,1,1,1,On time and in full,2026-06,0.7
+PO-202605-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2026-05-09,2026-06-08,2026-06-08,10000,10000.0,0,1,1,1,On time and in full,2026-06,1.26
+PO-202605-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2026-05-09,2026-06-08,2026-06-08,16000,16000.0,0,1,1,1,On time and in full,2026-06,1.72
+PO-202605-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2026-05-06,2026-07-05,2026-07-04,14000,14000.0,0,1,1,1,On time and in full,2026-07,3.05
+PO-202605-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2026-05-06,2026-07-05,2026-07-04,40000,40000.0,0,1,1,1,On time and in full,2026-07,2.97
+PO-202605-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2026-05-06,2026-07-05,2026-07-04,18000,18000.0,0,1,1,1,On time and in full,2026-07,1.45
+PO-202605-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2026-05-06,2026-07-05,2026-07-04,24000,24000.0,0,1,1,1,On time and in full,2026-07,3.14
+PO-202605-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2026-05-06,2026-07-05,2026-07-04,32000,32000.0,0,1,1,1,On time and in full,2026-07,2.17
+PO-202605-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2026-05-08,2026-07-07,2026-07-05,25000,25000.0,0,1,1,1,On time and in full,2026-07,2.72
+PO-202605-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2026-05-08,2026-07-07,2026-07-05,15000,15000.0,0,1,1,1,On time and in full,2026-07,2.59
+PO-202605-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2026-05-08,2026-07-07,2026-07-05,5000,5000.0,0,1,1,1,On time and in full,2026-07,1.34
+PO-202605-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2026-05-08,2026-07-07,2026-07-05,4000,4000.0,0,1,1,1,On time and in full,2026-07,1.63
+PO-202605-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2026-05-08,2026-07-07,2026-07-05,5000,5000.0,0,1,1,1,On time and in full,2026-07,2.54
+PO-202605-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2026-05-03,2026-06-02,2026-06-01,28000,28000.0,0,1,1,1,On time and in full,2026-06,3.2
+PO-202605-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2026-05-03,2026-06-02,2026-06-01,15000,15000.0,0,1,1,1,On time and in full,2026-06,1.63
+PO-202605-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2026-05-03,2026-06-02,2026-06-01,26000,24001.0,0,1,0,0,Short only,2026-06,1.58
+PO-202605-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2026-05-03,2026-06-02,2026-06-01,5000,5000.0,0,1,1,1,On time and in full,2026-06,2.68
+PO-202605-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2026-05-03,2026-06-02,2026-06-01,13000,13000.0,0,1,1,1,On time and in full,2026-06,2.69
+PO-202605-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2026-05-10,2026-06-09,2026-06-09,10000,10000.0,0,1,1,1,On time and in full,2026-06,1.25
+PO-202605-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2026-05-10,2026-06-09,2026-06-09,8000,8000.0,0,1,1,1,On time and in full,2026-06,1.09
+PO-202605-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2026-05-10,2026-06-09,2026-06-09,12000,12000.0,0,1,1,1,On time and in full,2026-06,1.17
+PO-202605-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2026-05-10,2026-06-09,2026-06-09,10000,10000.0,0,1,1,1,On time and in full,2026-06,0.73
+PO-202605-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2026-05-10,2026-06-09,2026-06-09,16000,16000.0,0,1,1,1,On time and in full,2026-06,0.98
+PO-202605-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2026-05-05,2026-07-04,2026-07-15,55000,55000.0,11,0,1,0,Late only,2026-07,2.58
+PO-202605-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2026-05-05,2026-07-04,2026-07-15,25000,25000.0,11,0,1,0,Late only,2026-07,3.32
+PO-202605-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2026-05-05,2026-07-04,2026-07-15,30000,30000.0,11,0,1,0,Late only,2026-07,2.86
+PO-202605-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2026-05-05,2026-07-04,2026-07-15,18000,18000.0,11,0,1,0,Late only,2026-07,3.42
+PO-202605-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2026-05-05,2026-07-04,2026-07-15,56000,56000.0,11,0,1,0,Late only,2026-07,2.35
+PO-202605-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2026-05-07,2026-07-06,2026-07-06,10000,10000.0,0,1,1,1,On time and in full,2026-07,2.56
+PO-202605-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2026-05-07,2026-07-06,2026-07-06,14000,14000.0,0,1,1,1,On time and in full,2026-07,1.27
+PO-202605-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2026-05-07,2026-07-06,2026-07-06,14000,14000.0,0,1,1,1,On time and in full,2026-07,1.37
+PO-202605-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2026-05-07,2026-07-06,2026-07-06,6000,6000.0,0,1,1,1,On time and in full,2026-07,1.92
+PO-202605-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2026-05-07,2026-07-06,2026-07-06,4000,4000.0,0,1,1,1,On time and in full,2026-07,1.7
+PO-202605-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2026-05-04,2026-06-03,2026-06-03,10000,10000.0,0,1,1,1,On time and in full,2026-06,3.23
+PO-202605-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2026-05-04,2026-06-03,2026-06-03,14000,14000.0,0,1,1,1,On time and in full,2026-06,2.98
+PO-202605-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2026-05-04,2026-06-03,2026-06-03,15000,15000.0,0,1,1,1,On time and in full,2026-06,1.75
+PO-202605-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2026-05-04,2026-06-03,2026-06-03,32000,32000.0,0,1,1,1,On time and in full,2026-06,2.02
+PO-202605-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2026-05-04,2026-06-03,2026-06-03,16000,16000.0,0,1,1,1,On time and in full,2026-06,1.53
+PO-202606-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2026-06-09,2026-07-09,2026-07-07,16000,16000.0,0,1,1,1,On time and in full,2026-07,1.14
+PO-202606-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2026-06-09,2026-07-09,2026-07-07,16000,16000.0,0,1,1,1,On time and in full,2026-07,0.67
+PO-202606-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2026-06-09,2026-07-09,2026-07-07,8000,8000.0,0,1,1,1,On time and in full,2026-07,0.7
+PO-202606-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2026-06-09,2026-07-09,2026-07-07,10000,10000.0,0,1,1,1,On time and in full,2026-07,1.26
+PO-202606-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2026-06-09,2026-07-09,2026-07-07,16000,16000.0,0,1,1,1,On time and in full,2026-07,1.72
+PO-202606-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2026-06-06,2026-08-05,2026-08-05,10000,10000.0,0,1,1,1,On time and in full,2026-08,3.05
+PO-202606-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2026-06-06,2026-08-05,2026-08-05,32000,32000.0,0,1,1,1,On time and in full,2026-08,2.97
+PO-202606-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2026-06-06,2026-08-05,2026-08-05,22000,18939.0,0,1,0,0,Short only,2026-08,1.45
+PO-202606-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2026-06-06,2026-08-05,2026-08-05,17000,17000.0,0,1,1,1,On time and in full,2026-08,3.14
+PO-202606-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2026-06-06,2026-08-05,2026-08-05,22000,22000.0,0,1,1,1,On time and in full,2026-08,2.17
+PO-202606-KES,1,SKU026,Nuvia Cereal,Food,Kestrel Ingredients,2026-06-08,2026-08-07,2026-08-04,25000,25000.0,0,1,1,1,On time and in full,2026-08,2.72
+PO-202606-KES,2,SKU027,Aquaro Biscuits,Food,Kestrel Ingredients,2026-06-08,2026-08-07,2026-08-04,15000,15000.0,0,1,1,1,On time and in full,2026-08,2.59
+PO-202606-KES,3,SKU028,Nuvia Peanut Butter,Food,Kestrel Ingredients,2026-06-08,2026-08-07,2026-08-04,5000,5000.0,0,1,1,1,On time and in full,2026-08,1.34
+PO-202606-KES,4,SKU029,Zenta Cooking Oil,Food,Kestrel Ingredients,2026-06-08,2026-08-07,2026-08-04,6000,6000.0,0,1,1,1,On time and in full,2026-08,1.63
+PO-202606-KES,5,SKU030,Nuvia Spice Mix,Food,Kestrel Ingredients,2026-06-08,2026-08-07,2026-08-04,10000,10000.0,0,1,1,1,On time and in full,2026-08,2.54
+PO-202606-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2026-06-03,2026-07-03,2026-07-03,42000,42000.0,0,1,1,1,On time and in full,2026-07,3.2
+PO-202606-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2026-06-03,2026-07-03,2026-07-03,15000,15000.0,0,1,1,1,On time and in full,2026-07,1.63
+PO-202606-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2026-06-03,2026-07-03,2026-07-03,28000,28000.0,0,1,1,1,On time and in full,2026-07,1.58
+PO-202606-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2026-06-03,2026-07-03,2026-07-03,15000,15000.0,0,1,1,1,On time and in full,2026-07,2.68
+PO-202606-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2026-06-03,2026-07-03,2026-07-03,14000,14000.0,0,1,1,1,On time and in full,2026-07,2.69
+PO-202606-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2026-06-10,2026-07-10,2026-07-09,8000,8000.0,0,1,1,1,On time and in full,2026-07,1.25
+PO-202606-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2026-06-10,2026-07-10,2026-07-09,8000,8000.0,0,1,1,1,On time and in full,2026-07,1.09
+PO-202606-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2026-06-10,2026-07-10,2026-07-09,14000,14000.0,0,1,1,1,On time and in full,2026-07,1.17
+PO-202606-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2026-06-10,2026-07-10,2026-07-09,6000,6000.0,0,1,1,1,On time and in full,2026-07,0.73
+PO-202606-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2026-06-10,2026-07-10,2026-07-09,12000,12000.0,0,1,1,1,On time and in full,2026-07,0.98
+PO-202606-PUR,1,SKU011,Verda Laundry Liquid,Home Care,Purelon Chemicals,2026-06-05,2026-08-04,2026-08-03,50000,50000.0,0,1,1,1,On time and in full,2026-08,2.58
+PO-202606-PUR,2,SKU012,Nuvia Dish Soap,Home Care,Purelon Chemicals,2026-06-05,2026-08-04,2026-08-03,40000,40000.0,0,1,1,1,On time and in full,2026-08,3.32
+PO-202606-PUR,3,SKU013,Fresco Surface Cleaner,Home Care,Purelon Chemicals,2026-06-05,2026-08-04,2026-08-03,17000,17000.0,0,1,1,1,On time and in full,2026-08,2.86
+PO-202606-PUR,4,SKU014,Zenta Fabric Softener,Home Care,Purelon Chemicals,2026-06-05,2026-08-04,2026-08-03,18000,14411.0,0,1,0,0,Short only,2026-08,3.42
+PO-202606-PUR,5,SKU015,Casa Pura Toilet Cleaner,Home Care,Purelon Chemicals,2026-06-05,2026-08-04,2026-08-03,34000,34000.0,0,1,1,1,On time and in full,2026-08,2.35
+PO-202606-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2026-06-07,2026-08-06,2026-08-06,8000,8000.0,0,1,1,1,On time and in full,2026-08,2.56
+PO-202606-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2026-06-07,2026-08-06,2026-08-06,17000,17000.0,0,1,1,1,On time and in full,2026-08,1.27
+PO-202606-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2026-06-07,2026-08-06,2026-08-06,18000,14187.0,0,1,0,0,Short only,2026-08,1.37
+PO-202606-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2026-06-07,2026-08-06,2026-08-06,8000,8000.0,0,1,1,1,On time and in full,2026-08,1.92
+PO-202606-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2026-06-07,2026-08-06,2026-08-06,5000,5000.0,0,1,1,1,On time and in full,2026-08,1.7
+PO-202606-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2026-06-04,2026-07-04,2026-07-04,10000,10000.0,0,1,1,1,On time and in full,2026-07,3.23
+PO-202606-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2026-06-04,2026-07-04,2026-07-04,15000,15000.0,0,1,1,1,On time and in full,2026-07,2.98
+PO-202606-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2026-06-04,2026-07-04,2026-07-04,10000,10000.0,0,1,1,1,On time and in full,2026-07,1.75
+PO-202606-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2026-06-04,2026-07-04,2026-07-04,28000,28000.0,0,1,1,1,On time and in full,2026-07,2.02
+PO-202606-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2026-06-04,2026-07-04,2026-07-04,12000,12000.0,0,1,1,1,On time and in full,2026-07,1.53
+PO-202607-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2026-07-09,2026-08-08,2026-08-07,14000,14000.0,0,1,1,1,On time and in full,2026-08,1.14
+PO-202607-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2026-07-09,2026-08-08,2026-08-07,10000,10000.0,0,1,1,1,On time and in full,2026-08,0.67
+PO-202607-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2026-07-09,2026-08-08,2026-08-07,8000,8000.0,0,1,1,1,On time and in full,2026-08,0.7
+PO-202607-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2026-07-09,2026-08-08,2026-08-07,8000,8000.0,0,1,1,1,On time and in full,2026-08,1.26
+PO-202607-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2026-07-09,2026-08-08,2026-08-07,16000,16000.0,0,1,1,1,On time and in full,2026-08,1.72
+PO-202607-BRI,1,SKU016,Fresco Glass Cleaner,Home Care,Brightmoor Home,2026-07-06,2026-09-04,2026-09-04,12000,12000.0,0,1,1,1,On time and in full,2026-09,3.05
+PO-202607-BRI,2,SKU017,Casa Pura Laundry Pods,Home Care,Brightmoor Home,2026-07-06,2026-09-04,2026-09-04,28000,28000.0,0,1,1,1,On time and in full,2026-09,2.97
+PO-202607-BRI,3,SKU018,Aquaro Bleach,Home Care,Brightmoor Home,2026-07-06,2026-09-04,2026-09-04,16000,16000.0,0,1,1,1,On time and in full,2026-09,1.45
+PO-202607-BRI,4,SKU019,Lumio Floor Cleaner,Home Care,Brightmoor Home,2026-07-06,2026-09-04,2026-09-04,20000,20000.0,0,1,1,1,On time and in full,2026-09,3.14
+PO-202607-BRI,5,SKU020,Nuvia Air Freshener,Home Care,Brightmoor Home,2026-07-06,2026-09-04,2026-09-04,18000,18000.0,0,1,1,1,On time and in full,2026-09,2.17
+PO-202607-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2026-07-03,2026-08-02,2026-08-01,44000,44000.0,0,1,1,1,On time and in full,2026-08,3.2
+PO-202607-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2026-07-03,2026-08-02,2026-08-01,15000,15000.0,0,1,1,1,On time and in full,2026-08,1.63
+PO-202607-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2026-07-03,2026-08-02,2026-08-01,22000,22000.0,0,1,1,1,On time and in full,2026-08,1.58
+PO-202607-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2026-07-03,2026-08-02,2026-08-01,10000,10000.0,0,1,1,1,On time and in full,2026-08,2.68
+PO-202607-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2026-07-03,2026-08-02,2026-08-01,14000,14000.0,0,1,1,1,On time and in full,2026-08,2.69
+PO-202607-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2026-07-10,2026-08-09,2026-08-09,8000,8000.0,0,1,1,1,On time and in full,2026-08,1.25
+PO-202607-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2026-07-10,2026-08-09,2026-08-09,5000,5000.0,0,1,1,1,On time and in full,2026-08,1.09
+PO-202607-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2026-07-10,2026-08-09,2026-08-09,13000,13000.0,0,1,1,1,On time and in full,2026-08,1.17
+PO-202607-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2026-07-10,2026-08-09,2026-08-09,10000,10000.0,0,1,1,1,On time and in full,2026-08,0.73
+PO-202607-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2026-07-10,2026-08-09,2026-08-09,12000,12000.0,0,1,1,1,On time and in full,2026-08,0.98
+PO-202607-TER,1,SKU021,Nuvia Pasta Sauce,Food,Terravale Foods,2026-07-07,2026-09-05,2026-09-02,10000,10000.0,0,1,1,1,On time and in full,2026-09,2.56
+PO-202607-TER,2,SKU022,Lumio Instant Noodles,Food,Terravale Foods,2026-07-07,2026-09-05,2026-09-02,19000,19000.0,0,1,1,1,On time and in full,2026-09,1.27
+PO-202607-TER,3,SKU023,Oro Soup Pack,Food,Terravale Foods,2026-07-07,2026-09-05,2026-09-02,18000,18000.0,0,1,1,1,On time and in full,2026-09,1.37
+PO-202607-TER,4,SKU024,Verda Ketchup,Food,Terravale Foods,2026-07-07,2026-09-05,2026-09-02,12000,12000.0,0,1,1,1,On time and in full,2026-09,1.92
+PO-202607-TER,5,SKU025,Oro Mayonnaise,Food,Terravale Foods,2026-07-07,2026-09-05,2026-09-02,9000,9000.0,0,1,1,1,On time and in full,2026-09,1.7
+PO-202607-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2026-07-04,2026-08-03,2026-08-03,16000,16000.0,0,1,1,1,On time and in full,2026-08,3.23
+PO-202607-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2026-07-04,2026-08-03,2026-08-03,19000,19000.0,0,1,1,1,On time and in full,2026-08,2.98
+PO-202607-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2026-07-04,2026-08-03,2026-08-03,20000,20000.0,0,1,1,1,On time and in full,2026-08,1.75
+PO-202607-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2026-07-04,2026-08-03,2026-08-03,22000,22000.0,0,1,1,1,On time and in full,2026-08,2.02
+PO-202607-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2026-07-04,2026-08-03,2026-08-03,18000,18000.0,0,1,1,1,On time and in full,2026-08,1.53
+PO-202608-AQU,1,SKU031,Lumio Iced Tea,Beverages,Aqualia Bottling,2026-08-09,2026-09-08,2026-09-08,6000,6000.0,0,1,1,1,On time and in full,2026-09,1.14
+PO-202608-AQU,2,SKU032,Verda Sparkling Water,Beverages,Aqualia Bottling,2026-08-09,2026-09-08,2026-09-08,8000,8000.0,0,1,1,1,On time and in full,2026-09,0.67
+PO-202608-AQU,3,SKU033,Verda Orange Juice,Beverages,Aqualia Bottling,2026-08-09,2026-09-08,2026-09-08,6000,6000.0,0,1,1,1,On time and in full,2026-09,0.7
+PO-202608-AQU,4,SKU034,Nuvia Energy Drink,Beverages,Aqualia Bottling,2026-08-09,2026-09-08,2026-09-08,6000,6000.0,0,1,1,1,On time and in full,2026-09,1.26
+PO-202608-AQU,5,SKU035,Nuvia Cola,Beverages,Aqualia Bottling,2026-08-09,2026-09-08,2026-09-08,12000,12000.0,0,1,1,1,On time and in full,2026-09,1.72
+PO-202608-LUM,1,SKU001,Fresco Shampoo,Personal Care,Lumera Cosmetics,2026-08-03,2026-09-02,2026-09-01,42000,42000.0,0,1,1,1,On time and in full,2026-09,3.2
+PO-202608-LUM,2,SKU002,Casa Pura Body Wash,Personal Care,Lumera Cosmetics,2026-08-03,2026-09-02,2026-09-01,10000,10000.0,0,1,1,1,On time and in full,2026-09,1.63
+PO-202608-LUM,3,SKU003,Zenta Deodorant,Personal Care,Lumera Cosmetics,2026-08-03,2026-09-02,2026-09-01,22000,22000.0,0,1,1,1,On time and in full,2026-09,1.58
+PO-202608-LUM,4,SKU004,Nuvia Toothpaste,Personal Care,Lumera Cosmetics,2026-08-03,2026-09-02,2026-09-01,10000,10000.0,0,1,1,1,On time and in full,2026-09,2.68
+PO-202608-LUM,5,SKU005,Oro Hand Cream,Personal Care,Lumera Cosmetics,2026-08-03,2026-09-02,2026-09-01,16000,16000.0,0,1,1,1,On time and in full,2026-09,2.69
+PO-202608-NOR,1,SKU036,Fresco Ginger Ale,Beverages,Nordvik Drinks,2026-08-10,2026-09-09,2026-09-07,6000,6000.0,0,1,1,1,On time and in full,2026-09,1.25
+PO-202608-NOR,2,SKU037,Zenta Cold Coffee,Beverages,Nordvik Drinks,2026-08-10,2026-09-09,2026-09-07,3000,3000.0,0,1,1,1,On time and in full,2026-09,1.09
+PO-202608-NOR,3,SKU038,Aquaro Sports Drink,Beverages,Nordvik Drinks,2026-08-10,2026-09-09,2026-09-07,8000,8000.0,0,1,1,1,On time and in full,2026-09,1.17
+PO-202608-NOR,4,SKU039,Aquaro Lemonade,Beverages,Nordvik Drinks,2026-08-10,2026-09-09,2026-09-07,4000,4000.0,0,1,1,1,On time and in full,2026-09,0.73
+PO-202608-NOR,5,SKU040,Verda Tonic Water,Beverages,Nordvik Drinks,2026-08-10,2026-09-09,2026-09-07,6000,6000.0,0,1,1,1,On time and in full,2026-09,0.98
+PO-202608-VED,1,SKU006,Fresco Face Wash,Personal Care,Vedara Labs,2026-08-04,2026-09-03,2026-09-03,14000,14000.0,0,1,1,1,On time and in full,2026-09,3.23
+PO-202608-VED,2,SKU007,Zenta Shower Gel,Personal Care,Vedara Labs,2026-08-04,2026-09-03,2026-09-03,19000,19000.0,0,1,1,1,On time and in full,2026-09,2.98
+PO-202608-VED,3,SKU008,Fresco Mouthwash,Personal Care,Vedara Labs,2026-08-04,2026-09-03,2026-09-03,15000,15000.0,0,1,1,1,On time and in full,2026-09,1.75
+PO-202608-VED,4,SKU009,Oro Conditioner,Personal Care,Vedara Labs,2026-08-04,2026-09-03,2026-09-03,30000,30000.0,0,1,1,1,On time and in full,2026-09,2.02
+PO-202608-VED,5,SKU010,Fresco Soap Bar,Personal Care,Vedara Labs,2026-08-04,2026-09-03,2026-09-03,22000,22000.0,0,1,1,1,On time and in full,2026-09,1.53
