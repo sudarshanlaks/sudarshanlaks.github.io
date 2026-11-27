@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inventory health - Sudarshan Lakshmi Narayanan</title>
+<meta name="description" content="Inventory health for an FMCG portfolio: stock value, days of cover, safety stock and excess stock across 40 SKUs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="../">Sudarshan Lakshmi Narayanan</a>
+    <nav aria-label="Main">
+      <a href="../#projects">Projects</a>
+      <a href="../#about">About</a>
+      <a href="../#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <p class="crumb"><a href="../#projects">All projects</a></p>
+
+    <div class="page-head">
+      <h1>Inventory health</h1>
+      <p class="lead">Where is stock tied up, and is the safety stock buffer bigger than it needs to be? An FMCG case study with synthetic data.</p>
+      <dl class="facts" style="margin-top:1.25rem">
+        <dt>Tools</dt><dd>Python (pandas), Excel, interactive dashboard built with Claude</dd>
+        <dt>Data</dt><dd>40 SKUs, monthly stock and demand, 2024 to 2026. Synthetic, fictional brands.</dd>
+      </dl>
+    </div>
+
+    <section id="problem">
+      <h2>Problem statement</h2>
+      <p>A fictional FMCG company holds stock so that shelves never run empty. Stock also ties up cash, and half of it is a safety stock buffer that is only meant for emergencies. Finance asks whether that buffer is the right size, or whether cash is sitting idle.</p>
+      <p>The questions to answer:</p>
+      <ol class="plain">
+        <li>How much stock do we hold, and how many days of demand does it cover?</li>
+        <li>How much of it is safety stock, and has that buffer ever been used?</li>
+        <li>Which products hold more stock than they need?</li>
+      </ol>
+    </section>
+
+    <section id="approach">
+      <h2>Our approach</h2>
+      <ol class="steps">
+        <li>
+          <h3>Load the data</h3>
+          <p>Read <code>inventory_supply_monthly.csv</code> (1,800 rows: one per SKU and month, April 2023 to December 2026) and the product master <code>products.csv</code>, which adds unit cost and ABC class. Each row holds demand, month-end stock and the safety stock level.</p>
+        </li>
+        <li>
+          <h3>Clean and check</h3>
+          <p>Checked for duplicate rows, missing values, negative stock and SKUs missing from the product master: none found. The only lost sales are 31 rows in April and May 2023, when stock was still being built up, so the analysis starts in January 2024. The three projected months, October to December 2026, are kept only for a forward look. That leaves 1,320 actual SKU-months, September 2026 being the latest.</p>
+        </li>
+        <li>
+          <h3>Create the KPIs</h3>
+          <p>Calculated for every SKU and month, in Python:</p>
+          <table>
+            <thead><tr><th>KPI</th><th>How it is calculated</th></tr></thead>
+            <tbody>
+              <tr><td>Inventory value</td><td>Closing units x unit cost</td></tr>
+              <tr><td>Days of cover</td><td>Closing units / monthly demand x 30</td></tr>
+              <tr><td>Safety stock share</td><td>Safety stock value / inventory value</td></tr>
+              <tr><td>Excess stock</td><td>Units above safety stock plus one month of demand</td></tr>
+              <tr><td>Unused buffer</td><td>The lowest stock above safety stock a SKU ever had, x unit cost</td></tr>
+            </tbody>
+          </table>
+        </li>
+        <li>
+          <h3>Test the buffer</h3>
+          <p>Counted every SKU-month where stock fell below safety stock, and found each SKU's lowest stock level as a multiple of its safety stock. A value of 1.0x would mean the buffer was used.</p>
+        </li>
+        <li>
+          <h3>Validate in Excel</h3>
+          <p>Rebuilt the results in an Excel workbook with live formulas on the same data (8,177 formulas, no errors). The Excel results match the Python results exactly.</p>
+        </li>
+        <li>
+          <h3>Build the dashboard</h3>
+          <p>One page with four KPI tiles, stock against safety stock over time, stock by category, the lowest stock level of every SKU and the SKUs with the most unused buffer. Month, category and ABC class filters recalculate every number.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="result">
+      <h2>Result</h2>
+      <dl class="kpis">
+        <div><dt>Inventory value, Sep 2026</dt><dd>EUR 2.90M</dd></div>
+        <div><dt>Safety stock share</dt><dd>47%</dd></div>
+        <div><dt>SKU-months below safety stock</dt><dd>0</dd></div>
+        <div><dt>Unused buffer</dt><dd>EUR 0.89M</dd></div>
+      </dl>
+
+      <div class="dash">
+        <p><a href="inventory_health_dashboard.html">Open the interactive dashboard</a>, with month, category and ABC class filters, or <a href="inventory_health_dashboard.pdf">download it as a PDF</a>.</p>
+        <a href="inventory_health_dashboard.html"><img src="dashboard_preview.png" alt="Inventory health dashboard: four KPI tiles, inventory against safety stock over time, stock by category, a dot plot of each SKU's lowest stock level and the SKUs with the most unused buffer." width="1280" height="1489"></a>
+      </div>
+
+      <div class="prose">
+        <h3>What the data shows</h3>
+        <ul>
+          <li>Stock is worth EUR 2.90M, and 47% of it (EUR 1.36M) is safety stock.</li>
+          <li>No SKU fell below its safety stock in 33 months. The closest any SKU came was 1.13 times its safety stock, and the typical SKU never went below 1.8 times.</li>
+          <li>The unused buffer adds up to EUR 0.89M, mostly in Home Care and Personal Care.</li>
+          <li>19 SKUs hold more than safety stock plus one month of demand, worth EUR 0.10M. 13 of them are C-class, which hold 64 days of cover against 46 for B and 55 for A.</li>
+          <li>No SKU is projected below safety stock in October to December 2026.</li>
+        </ul>
+
+        <table>
+          <caption class="muted" style="text-align:left;caption-side:bottom;padding-top:0.5rem">September 2026, in EUR. Unused buffer is measured over January 2024 to September 2026</caption>
+          <thead><tr><th>Category</th><th class="n">Inventory (EUR)</th><th class="n">Safety stock share</th><th class="n">Days of cover</th><th class="n">Excess (EUR)</th><th class="n">Unused buffer (EUR)</th></tr></thead>
+          <tbody>
+            <tr><td>Home Care</td><td class="n">1.35M</td><td class="n">47%</td><td class="n">53</td><td class="n">12k</td><td class="n">384k</td></tr>
+            <tr><td>Personal Care</td><td class="n">825k</td><td class="n">42%</td><td class="n">52</td><td class="n">58k</td><td class="n">290k</td></tr>
+            <tr><td>Food</td><td class="n">525k</td><td class="n">53%</td><td class="n">59</td><td class="n">10k</td><td class="n">185k</td></tr>
+            <tr><td>Beverages</td><td class="n">197k</td><td class="n">45%</td><td class="n">57</td><td class="n">19k</td><td class="n">29k</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Recommendation</h3>
+        <p>Lower safety stock in steps, starting with Home Care and Personal Care. Releasing half of the unused buffer would free about EUR 0.44M. Then slow replenishment for the 13 C-class SKUs in excess.</p>
+
+        <h3>Limitations</h3>
+        <p>The unused buffer looks backwards over 33 months and does not allow for future demand swings or supplier delays, so the buffer should be reduced in steps and reviewed after each one. Excess is defined as more than safety stock plus one month of demand; a different rule would give a different number.</p>
+      </div>
+    </section>
+
+    <section id="files">
+      <h2>Files</h2>
+      <ul class="links">
+        <li><a href="inventory_health_dashboard.html">Interactive dashboard</a></li>
+        <li><a href="inventory_health_dashboard.pdf">Dashboard (PDF)</a></li>
+        <li><a href="inventory_health_workbook.xlsx">Excel workbook</a></li>
+        <li><a href="inventory_health.py">Python script</a></li>
+        <li><a href="fact_inventory_health.csv">Fact table (CSV)</a></li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">All data in this project is synthetic and uses fictional brands. No employer data is used.</div>
+</footer>
+</body>
+</html>
